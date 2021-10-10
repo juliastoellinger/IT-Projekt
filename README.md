@@ -43,6 +43,16 @@ Wichtige Ressourcen:
 
 <INSERT Screenshots AWS Lambda, DynamoDB + Architekturdiagramm>
 
+*AWS Lambda*
+
+[](./Screenshots/AWS_Lambda)
+
+*AWS DynamoDB*
+
+Als Primary Key wurde das Datum inkl. Uhrzeit gewählt. Als Value werden die abgefragten JSON Elemente als String gespeichert. Für die einzelnen Quellen wurden jeweils verschiedene Datenbanken angelegt.
+
+[](./Screenshots/AWS_DynamoDB_Store)
+
 ##### Flughäfen
 
 FRA, VIE, EHAM
