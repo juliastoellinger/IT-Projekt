@@ -6,7 +6,9 @@ Link: https://www.flightradar24.com/
 
 ## pyflightdata API
 
-API Dokumentation: https://pyflightdata.readthedocs.io/en/latest/pyflightdata.html
+* API Dokumentation: https://pyflightdata.readthedocs.io/en/latest/pyflightdata.html
+
+* Lambda Layer (dependencies): `code/python.zip`
 
 ### Relevante Methoden
 
