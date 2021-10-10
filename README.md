@@ -15,14 +15,14 @@ Daten validieren (Cleaning)
 #### Datequellen identifizieren
 
 | Name | Github Referenz | Website |
-|---|---|---|---|---|
+|---|---|---|
 | Flightradar24 | [/Flightradar24](./Flightradar24) | https://www.flightradar24.com/ |
 | AeroDataBox | [/AeroDataBox](./Aerodatabox_API) | https://www.aerodatabox.com/ |
 
 ##### Schnittstellendefinition
 
-* [Flightradar24](./Flightradar24/README)
-* [AeroDataBox](./Aerodatabox_API/README)
+* [Flightradar24](./Flightradar24/README.md)
+* [AeroDataBox](./Aerodatabox_API/README.md)
 
 #### Daten sammeln
 
