@@ -56,7 +56,7 @@ Als Primary Key wurde das Datum inkl. Uhrzeit gewählt. Als Value werden die abg
 
 **AWS EventBridge**
 
-![](.Screenshots/AWS_EventBridge.png)
+![](./Screenshots/AWS_EventBridge.png)
 
 Der Ausdruck `cron(0/10 9-21 ? * MON-FRI *)` bedeutet, dass das jeweilige Target (in unserem Fall die Lambda Funktion) Montag bis Freitag zwischen 9:00 und 21:00 jeweils alle 10 Minuten ausgeführt wird.
 
