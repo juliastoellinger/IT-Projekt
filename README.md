@@ -5,8 +5,11 @@
 ### Aufgabenbeschreibung
 
 Datenquellen identifizieren
+
 Daten sammeln und herunterladen
+
 Relevante Attribute extrahieren
+
 Daten validieren (Cleaning)
 
 #### Datequellen identifizieren
