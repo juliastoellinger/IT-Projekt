@@ -39,19 +39,26 @@ Wichtige Ressourcen:
 
 * [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/index.html)
 * [AWS DynamoDB Documentation](https://docs.aws.amazon.com/dynamodb/index.html)
+* [AWS Event Bridge](https://docs.aws.amazon.com/eventbridge/)
 * [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 <INSERT Screenshots AWS Lambda, DynamoDB + Architekturdiagramm>
 
-*AWS Lambda*
+**AWS Lambda**
 
 ![](./Screenshots/AWS_Lambda.png)
 
-*AWS DynamoDB*
+**AWS DynamoDB**
 
 Als Primary Key wurde das Datum inkl. Uhrzeit gewählt. Als Value werden die abgefragten JSON Elemente als String gespeichert. Für die einzelnen Quellen wurden jeweils verschiedene Datenbanken angelegt.
 
 ![](./Screenshots/AWS_DynamoDB_Store.png)
+
+**AWS EventBridge**
+
+![](.Screenshots/AWS_EventBridge.png)
+
+Der Ausdruck `cron(0/10 9-21 ? * MON-FRI *)` bedeutet, dass das jeweilige Target (in unserem Fall die Lambda Funktion) Montag bis Freitag zwischen 9:00 und 21:00 jeweils alle 10 Minuten ausgeführt wird.
 
 ##### Flughäfen
 
