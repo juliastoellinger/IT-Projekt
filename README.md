@@ -1,16 +1,13 @@
 # IT-Projekt
 
+Ziel dieses Projekts ist es, die Delay‐Targets für Linienflüge basierend auf der Variabilität der Abflugzeiten abzuschätzen.
+
 ## Aufgabe 1
 
 ### Aufgabenbeschreibung
 
+Im ersten Paket hatten wir die Aufgabe, geeignete Datenquellen zu identifizieren, Daten zu sammeln und die relevaten Attribute zu identifizieren. Desweitern setzten wir uns mit der Validierung der Daten auseinadner.
 Datenquellen identifizieren
-
-Daten sammeln und herunterladen
-
-Relevante Attribute extrahieren
-
-Daten validieren (Cleaning)
 
 #### Datequellen identifizieren
 
@@ -42,9 +39,11 @@ Wichtige Ressourcen:
 * [AWS Event Bridge](https://docs.aws.amazon.com/eventbridge/)
 * [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
-<INSERT Screenshots AWS Lambda, DynamoDB + Architekturdiagramm>
+![](./Screenshots/Architektur.png)
 
 **AWS Lambda**
+
+Die Lambda Funktionen sind für die Datenabfrage und die Befüllung der Datenbank zuständig. Wir verwendeten Python als Sprache.
 
 ![](./Screenshots/AWS_Lambda.png)
 
@@ -62,7 +61,11 @@ Der Ausdruck `cron(0/10 9-21 ? * MON-FRI *)` bedeutet, dass das jeweilige Target
 
 ##### Flughäfen
 
-FRA, VIE, EHAM
+Für die Sammlung der Daten verwendeten wir folgende Flughäfen:
+
+* Frankfurt (FRA)
+* Wien Schwechat (VIE)
+* Amsterdamm Schiphol (AMS)
 
 
 #### Relevante Attribute extrahieren
