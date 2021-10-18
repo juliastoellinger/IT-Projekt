@@ -68,8 +68,9 @@ Für die Sammlung der Daten verwendeten wir folgende Flughäfen:
 * Amsterdamm Schiphol (AMS)
 
 
-#### Relevante Attribute extrahieren
+#### Relevante Attribute extrahieren und Datencleaning
 
-#### Datencleaning
+* [Aerodatabox](./Aerodatabox_API/README.md/## Extraktion der relevanten Daten und Data Cleaning)
+
 
 ## Aufgabe 2

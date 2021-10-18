@@ -24,3 +24,7 @@ Ein Problem dieser Schnittstelle ist folgendes: Man kann hier leider kein Zeitin
 
 1) Abfüge von einem bestimmten Flughafen abfragen. (Achtung: Spezifika dieser Quelle beachten)
 2) Flughistorie eines Flugs abfragen. Nur sinnvoll, wenn kostenpflichtig die Daten für ein Jahr abgefragt werden.
+
+## Relevante Attribute extrahieren und Datacleaning
+
+Es wird mittels 
