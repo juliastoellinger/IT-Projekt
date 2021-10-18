@@ -41,8 +41,8 @@ Wichtiges Detail in der Implementierung ist folgendes: Wenn man die Daten von Dy
 
 Ein weiteres Detail: Es können fehlerhafte Daten enthalten sein, die kein scheduledTimeLocal Element enthalten. Diese werden in weiterer Folge einfach ignoriert und nicht weiter verarbeitet: 
 
-                `try:
-                    data.append(
-                        f"{dep['number']}; {dep['departure']['scheduledTimeLocal']}; {dep['departure']['actualTimeLocal']}; {dep['status']}")
-                except KeyError:
-                    pass`
+`try:
+    data.append(
+       f"{dep['number']}; {dep['departure']['scheduledTimeLocal']}; {dep['departure']['actualTimeLocal']}; {dep['status']}")
+ except KeyError:
+    pass`
