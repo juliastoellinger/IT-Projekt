@@ -38,6 +38,7 @@ if __name__ == '__main__':
     # write all the elements to a .csv file
     outF = open("myOutFile.csv", "w")
     outF.write("number; scheduledTime; actualTime; status")
+    outF.write("\n")
     for d in data:
         outF.write(d)
         outF.write("\n")
