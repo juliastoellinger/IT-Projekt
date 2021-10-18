@@ -6,10 +6,10 @@ Ziel dieses Projekts ist es, die Delay‐Targets für Linienflüge basierend auf
 
 ### Aufgabenbeschreibung
 
-Im ersten Paket hatten wir die Aufgabe, geeignete Datenquellen zu identifizieren, Daten zu sammeln und die relevaten Attribute zu identifizieren. Desweitern setzten wir uns mit der Validierung der Daten auseinadner.
+Im ersten Paket hatten wir die Aufgabe, geeignete Datenquellen zu identifizieren, Daten zu sammeln und die relevaten Attribute zu identifizieren. Desweitern setzten wir uns mit der Validierung der Daten auseinander.
 Datenquellen identifizieren
 
-#### Datequellen identifizieren
+#### Datenquellen identifizieren
 
 | Name | Github Referenz | Website |
 |---|---|---|
