@@ -53,11 +53,11 @@ Von den fast 9000 eingelesenen Flügen bleiben für den Flughafen Frankfurt ca 2
 
 Nicht gefiltert: 
 
-![](../Screenshots/not_filtered_flightradar24)
+![](../Screenshots/not_filtered_flightradar24.png)
 
 Gefiltert:
 
-![](../Screenshots/filtered_flightradar24)
+![](../Screenshots/filtered_flightradar24.png)
 
 
 
