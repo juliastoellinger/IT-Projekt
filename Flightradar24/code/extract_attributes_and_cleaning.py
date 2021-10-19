@@ -32,10 +32,10 @@ if __name__ == '__main__':
                 pass
             else:
                 try:
-                    data.append(f"{flight['flight']['identification']['number']['default']}; {flight['flight']['time']['scheduled']['departure_date']}; {flight['flight']['time']['scheduled']['departure_time']}; {flight['flight']['time']['real']['departure']}; {flight['flight']['time']['estimated']['departure_time']}")
+                    data.append(f"{flight['flight']['identification']['number']['default']};{flight['flight']['time']['scheduled']['departure_date']};{flight['flight']['time']['scheduled']['departure_time']};{flight['flight']['time']['real']['departure']};{flight['flight']['time']['estimated']['departure_time']}")
                 except KeyError:
                     try:
-                        data.append(f"{flight['flight']['identification']['number']['default']}; {flight['flight']['time']['scheduled']['departure_date']}; {flight['flight']['time']['scheduled']['departure_time']}; {flight['flight']['time']['real']['departure_time']}; None")
+                        data.append(f"{flight['flight']['identification']['number']['default']};{flight['flight']['time']['scheduled']['departure_date']};{flight['flight']['time']['scheduled']['departure_time']};{flight['flight']['time']['real']['departure_time']};None")
                     except KeyError:
                         pass
 
@@ -68,11 +68,11 @@ if __name__ == '__main__':
                 else:
                     try:
                         data.append(
-                            f"{flight['flight']['identification']['number']['default']}; {flight['flight']['time']['scheduled']['departure_date']}; {flight['flight']['time']['scheduled']['departure_time']}; {flight['flight']['time']['real']['departure']}; {flight['flight']['time']['estimated']['departure_time']}")
+                            f"{flight['flight']['identification']['number']['default']};{flight['flight']['time']['scheduled']['departure_date']};{flight['flight']['time']['scheduled']['departure_time']};{flight['flight']['time']['real']['departure']};{flight['flight']['time']['estimated']['departure_time']}")
                     except KeyError:
                         try:
                             data.append(
-                                f"{flight['flight']['identification']['number']['default']}; {flight['flight']['time']['scheduled']['departure_date']}; {flight['flight']['time']['scheduled']['departure_time']}; {flight['flight']['time']['real']['departure_time']}; None")
+                                f"{flight['flight']['identification']['number']['default']};{flight['flight']['time']['scheduled']['departure_date']};{flight['flight']['time']['scheduled']['departure_time']};{flight['flight']['time']['real']['departure_time']};None")
                         except KeyError:
                             pass
 

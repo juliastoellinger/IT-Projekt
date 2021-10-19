@@ -16,7 +16,7 @@ if __name__ == '__main__':
             # try catch because there might be elements with no scheduledTimeLocal- element. We need to filter them out.
             try:
                 data.append(
-                    f"{dep['number']}; {dep['departure']['scheduledTimeLocal']}; {dep['departure']['actualTimeLocal']}; {dep['status']}")
+                    f"{dep['number']};{dep['departure']['scheduledTimeLocal']};{dep['departure']['actualTimeLocal']};{dep['status']}")
             except KeyError:
                 pass
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
             for dep in y['departures']:
                 try:
                     data.append(
-                        f"{dep['number']}; {dep['departure']['scheduledTimeLocal']}; {dep['departure']['actualTimeLocal']}; {dep['status']}")
+                        f"{dep['number']};{dep['departure']['scheduledTimeLocal']};{dep['departure']['actualTimeLocal']};{dep['status']}")
                 except KeyError:
                     pass
 
