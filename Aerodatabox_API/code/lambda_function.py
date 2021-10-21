@@ -20,7 +20,7 @@ def get_data(now):
 
     headers = {
         'x-rapidapi-host': "aerodatabox.p.rapidapi.com",
-        'x-rapidapi-key': "81e645acd6msh213095fe1eb2a21p17566ejsn75c5a29c2394"
+        'x-rapidapi-key': "INSERT RAPID API KEY HERE"
     }
     
     d = now - timedelta(hours=2, minutes=00)

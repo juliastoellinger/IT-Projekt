@@ -28,15 +28,19 @@ if __name__ == '__main__':
         for item in response['Items']:
             x = item['data']
             y = json.loads(x)
-            for dep in y['departures']:
-                try:
-                    data.append(
-                        f"{dep['number']};{dep['departure']['scheduledTimeLocal']};{dep['departure']['actualTimeLocal']};{dep['status']}")
-                except KeyError:
-                    pass
+            # try catch because if the key aerodatabox key expired, we have entries with no departures key
+            try:
+                for dep in y['departures']:
+                    try:
+                        data.append(
+                            f"{dep['number']};{dep['departure']['scheduledTimeLocal']};{dep['departure']['actualTimeLocal']};{dep['status']}")
+                    except KeyError:
+                        pass
+            except KeyError:
+                pass
 
     # write all the elements to a .csv file
-    outF = open("myOutFile.csv", "w")
+    outF = open("aerodata_flughafenX.csv", "w")
     outF.write("number; scheduledTime; actualTime; status")
     outF.write("\n")
     for d in data:
