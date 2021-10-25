@@ -6,7 +6,7 @@ if __name__ == '__main__':
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('flights2')
     data = []
-    data.append(f"number; scheduled_departure_date; scheduled_departure_time; real_departure; estimated_departure")
+    data.append(f"number;date;scheduled_departure_time;real_departure;estimated_departure")
     json_decode_error_counter = 0
 
     response = table.scan()
