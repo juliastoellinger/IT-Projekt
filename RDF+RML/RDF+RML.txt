@@ -1,0 +1,38 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml/#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix dbo: <http://src.org/onotolgy/> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex: <http://example.com/ns#> .
+@base <http://src.org/resource/> .
+<Flugnummer> dbo:tatsaechlicheAbflugzeit "11:00:00"^^xsd:time ;
+	dbo:geplanteAbflugzeit "09:00:00"^^xsd:time ;
+	dbo:geplantesAbflugdatum "2021-10-30"^^xsd:date ;
+	dbo:status "Departed" .
+
+<#FlightsMapping>
+	rml:logicalSource[
+   	rml:source "Data.json";
+    	rml:referenceFormulation ql:JSONPath;
+    	rml:iterator "$.[*].Flights" 
+	];
+ 
+rr:subjectMap [
+    rr:template "http://example.com/Flight/{number}_{scheduledTime}_{actualTime}_{status}";
+    rr:class ex:Flight ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:number;
+    rr:objectMap [ rml:reference "number" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:scheduledTime;
+    rr:objectMap [ rml:reference "scheduledTime" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:actualTime;
+    rr:objectMap [ rml:reference "actualTime" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:status;
+    rr:objectMap [ rml:reference "status" ] ] .
