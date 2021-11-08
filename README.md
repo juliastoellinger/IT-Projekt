@@ -70,7 +70,7 @@ Für die Sammlung der Daten verwendeten wir folgende Flughäfen:
 
 #### Relevante Attribute extrahieren und Datencleaning
 
-* [Aerodatabox](./Aerodatabox_API/README.md/## Extraktion der relevanten Daten und Data Cleaning)
+* [Aerodatabox](./Aerodatabox_API/README.md)
 
 
 ## Aufgabe 2
