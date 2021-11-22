@@ -1,0 +1,13 @@
+#Flugziele von Amsterdam Airport Schiphol
+#defaultView:Map
+SELECT ?connectsairport ?connectsairportLabel ?place_served ?place_servedLabel ?coor
+WHERE
+{
+  VALUES ?airport { wd:Q9694 } # Amsterdam Airport Schiphol
+  ?airport wdt:P81 ?connectsairport ;
+           wdt:P625 ?base_airport_coor .
+  ?connectsairport wdt:P931 ?place_served ;
+                   wdt:P625 ?coor .
+ 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
