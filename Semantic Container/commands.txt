@@ -7,11 +7,9 @@ curl -H "Content-Type: application/json" -d "$(< flights.json)" -X POST http://l
 3) Commiten in ein neues Image
 docker commit flights_sparql mynewflightsimage
 
-4) docker run -d mynewflightsimage
 
-
-5) neues Image verwenden
+4) neues Image verwenden
 IMAGE=mynewflightsimage; docker run -d --name flights_sparql1 -e IMAGE_SHA256="$(docker image ls --no-trunc -q $IMAGE | cut -c8-)" -e IMAGE_NAME=$IMAGE -p 4000:3000 -p 4040:3030 $IMAGE /bin/init.sh "$(< init_flights.trig)" 
 
 
-6) --> neuer Container mit bereits eingespielten Daten.
+5) --> neuer Container mit bereits eingespielten Daten.

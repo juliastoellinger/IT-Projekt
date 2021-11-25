@@ -4,21 +4,20 @@
 @prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix ex: <http://example.com/ns#> .
+@prefix carml:  <http://carml.taxonic.com/carml/> .
 @base <http://src.org/resource/> .
-<Flugnummer> dbo:tatsaechlicheAbflugzeit "11:00:00"^^xsd:time ;
-	dbo:geplanteAbflugzeit "09:00:00"^^xsd:time ;
-	dbo:geplantesAbflugdatum "2021-10-30"^^xsd:date ;
-	dbo:status "Departed" .
 
 <#FlightsMapping>
 	rml:logicalSource[
-   	rml:source "Data.json";
+   	rml:source [
+                a carml:Stream;
+            ];
     	rml:referenceFormulation ql:JSONPath;
-    	rml:iterator "$.[*].Flights" 
+    	rml:iterator "$.provision.content.[*]" ;
 	];
  
 rr:subjectMap [
-    rr:template "http://example.com/Flight/{number}_{scheduledTime}_{actualTime}_{status}";
+    rr:template "http://example.com/Flight/{number}";
     rr:class ex:Flight ];
 
 rr:predicateObjectMap [
