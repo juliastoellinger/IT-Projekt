@@ -5,11 +5,13 @@ IMAGE=semcon/sc-sparql:latest; docker run -d --name flights_sparql -e IMAGE_SHA2
 curl -H "Content-Type: application/json" -d "$(< flights.json)" -X POST http://localhost:4000/api/data 
 
 3) Commiten in ein neues Image
-docker commit flights_sparql mynewflightsimage
+docker commit flights_sparql tobiasleitner5/semantic_container_flights
 
 
 4) neues Image verwenden
-IMAGE=mynewflightsimage; docker run -d --name flights_sparql1 -e IMAGE_SHA256="$(docker image ls --no-trunc -q $IMAGE | cut -c8-)" -e IMAGE_NAME=$IMAGE -p 4000:3000 -p 4040:3030 $IMAGE /bin/init.sh "$(< init_flights.trig)" 
+IMAGE=tobiasleitner5/semantic_container_flights; docker run -d --name flights_sparql1 -e IMAGE_SHA256="$(docker image ls --no-trunc -q $IMAGE | cut -c8-)" -e IMAGE_NAME=$IMAGE -p 4000:3000 -p 4040:3030 $IMAGE /bin/init.sh "$(< init_flights2.trig)" 
 
 
-5) --> neuer Container mit bereits eingespielten Daten.
+Pushen eines neuen Images
+
+1) docker push <hub-user>/<repo-name>:<tag>

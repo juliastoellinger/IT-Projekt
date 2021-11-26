@@ -29,16 +29,11 @@
 #    NAMED GRAPH ==> :BaseConfigurations
 #################################################################
 :BaseConfiguration {
-
   :ContainerConfigurationInstance rdf:type :ContainerConfiguration ;
-    dc:title "Flights Data" ;
-    dc:description """""" ;
     :hasDataConfiguration :DataConfigurationInstance .
-
-  :DataConfigurationInstance rdf:type :DataConfiguration ; 
-    :hasTag "flights" ;
+  :DataConfigurationInstance rdf:type :DataConfiguration ;  
     :hasNativeSyntax <http://w3id.org/semcon/ns/ontology#JSON> ;
-    :hasDataLocation <http://localhost:3000/api/data/>;
+    :hasDataLocation <http://localhost:3000/api/data/> .
 }
 
 #################################################################
@@ -109,6 +104,7 @@
 
         rr:subjectMap [
             rr:template "http://example.org/Flight/{number}" ;
+            rr:class ex:Flight ;
         ];
 
         rr:predicateObjectMap [
@@ -118,26 +114,34 @@
 
         rr:predicateObjectMap [
             rr:predicate ex:number;
-            rr:objectMap [ rml:reference "number" ; ];
-            rr:datatype xsd:string ;
+            rr:objectMap [
+                rml:reference "number" ;
+                rr:datatype xsd:string ;
+            ]; 
         ];
 
         rr:predicateObjectMap [
             rr:predicate ex:scheduledTime;
-            rr:objectMap [ rml:reference "scheduledTime" ; ];
-            rr:datatype xsd:string ;
+            rr:objectMap [ 
+                rml:reference "scheduledTime" ;
+                rr:datatype xsd:string ;
+            ]; 
         ];
 
         rr:predicateObjectMap [
             rr:predicate ex:actualTime;
-            rr:objectMap [ rml:reference "actualTime" ; ];
-            rr:datatype xsd:string ;
+            rr:objectMap [
+                rml:reference "actualTime" ;
+                rr:datatype xsd:string ;
+            ];
         ];
 
         rr:predicateObjectMap [
             rr:predicate ex:status;
-            rr:objectMap [ rml:reference "status" ; ];
-            rr:datatype xsd:string ;
+            rr:objectMap [
+                rml:reference "status" ;
+                rr:datatype xsd:string ;
+            ]; 
         ]; 
 
     .
