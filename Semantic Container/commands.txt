@@ -9,7 +9,7 @@ docker commit flights_sparql tobiasleitner5/semantic_container_flights
 
 
 4) neues Image verwenden
-IMAGE=tobiasleitner5/semantic_container_flights; docker run -d --name flights_sparql1 -e IMAGE_SHA256="$(docker image ls --no-trunc -q $IMAGE | cut -c8-)" -e IMAGE_NAME=$IMAGE -p 4000:3000 -p 4040:3030 $IMAGE /bin/init.sh "$(< init_flights2.trig)" 
+IMAGE=tobiasleitner5/semantic_container_flights; docker run -d --name flights_sparql1 -e IMAGE_SHA256="$(docker image ls --no-trunc -q $IMAGE | cut -c8-)" -e IMAGE_NAME=$IMAGE -p 4000:3000 -p 4040:3030 $IMAGE /bin/init.sh "$(< init_flights.trig)" 
 
 
 Pushen eines neuen Images
