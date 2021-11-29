@@ -1,0 +1,1 @@
+[{"airline":"Pegasus","number":"PC 1254","scheduledTime":1636198200.0,"actualTime":1636238400.0,"status":"Departed","arrivalAirport":"LTFJ","aircraft":"Airbus A321 NEO"}, {"airline":"KLM","number":"KL 895","scheduledTime":1636239000.0,"actualTime":1636239000.0,"status":"CanceledUncertain","arrivalAirport":"RKSI","aircraft":"Boeing 777-200"},]
