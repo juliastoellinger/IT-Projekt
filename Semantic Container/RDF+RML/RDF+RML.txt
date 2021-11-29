@@ -1,0 +1,37 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml/#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix dbo: <http://src.org/onotolgy/> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix ex: <http://example.com/ns#> .
+@prefix carml:  <http://carml.taxonic.com/carml/> .
+@base <http://src.org/resource/> .
+
+<#FlightsMapping>
+	rml:logicalSource[
+   	rml:source [
+                a carml:Stream;
+            ];
+    	rml:referenceFormulation ql:JSONPath;
+    	rml:iterator "$.provision.content.[*]" ;
+	];
+ 
+rr:subjectMap [
+    rr:template "http://example.com/Flight/{number}";
+    rr:class ex:Flight ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:number;
+    rr:objectMap [ rml:reference "number" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:scheduledTime;
+    rr:objectMap [ rml:reference "scheduledTime" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:actualTime;
+    rr:objectMap [ rml:reference "actualTime" ] ];
+
+rr:predicateObjectMap [
+    rr:predicate ex:status;
+    rr:objectMap [ rml:reference "status" ] ] .
