@@ -116,6 +116,12 @@
             rr:objectMap [ rr:template "http://example.org/Flight#number" ] ;
         ];
 
+	rr:predicateObjectMap [
+            rr:predicate ex:airline;
+            rr:objectMap [ rml:reference "airline" ; ];
+            rr:datatype xsd:string ;
+        ];
+
         rr:predicateObjectMap [
             rr:predicate ex:number;
             rr:objectMap [ rml:reference "number" ; ];
@@ -137,6 +143,16 @@
         rr:predicateObjectMap [
             rr:predicate ex:status;
             rr:objectMap [ rml:reference "status" ; ];
+            rr:datatype xsd:string ;
+        ]; 
+  	    rr:predicateObjectMap [
+            rr:predicate ex:arrivalAirport;
+            rr:objectMap [ rml:reference "arrivalAirport" ; ];
+            rr:datatype xsd:string ;
+        ]; 
+  	    rr:predicateObjectMap [
+            rr:predicate ex:aircraft;
+            rr:objectMap [ rml:reference "aircraft" ; ];
             rr:datatype xsd:string ;
         ]; 
 
