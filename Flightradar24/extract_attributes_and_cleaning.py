@@ -6,7 +6,7 @@ if __name__ == '__main__':
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('flights2')
     data = []
-    data.append(f"number;scheduledTime;actualTime")
+    data.append(f"airline;number;scheduledTime;actualTime;status;arrivalAirport;aircraft")
     json_decode_error_counter = 0
 
     response = table.scan()
@@ -31,17 +31,25 @@ if __name__ == '__main__':
                 else:
                     try:
                         scheduledTimeUTC = time.mktime(time.strptime(flight['flight']['time']['scheduled']['departure_date']+flight['flight']['time']['scheduled']['departure_time'], "%Y%m%d%H%M"))
-                        actualTimeUTC = time.mktime(time.strptime(flight['flight']['time']['scheduled']['departure_date']+flight['flight']['time']['estimated']['departure_time'], "%Y%m%d%H%M"))
+                        actualTimeUTC = time.mktime(time.strptime(flight['flight']['time']['estimated']['departure_date']+flight['flight']['time']['estimated']['departure_time'], "%Y%m%d%H%M"))
                         airline = ""
                         if (flight['flight']['airline']=='None'):
                             airline = 'None'
                         else:
                             airline = flight['flight']['airline']['name']
-                        data.append(f"{airline}+{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC}")
+
+                        aircraft=""
+                        if (flight['flight']['aircraft']=='None'):
+                            aircraft = "None"
+                        else:
+                            aircraft = flight['flight']['aircraft']['model']['text']
+
+                        #print(flight['flight']['airport']['destination']['code']['icao'])
+                        data.append(f"{airline};{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC};{'Live: ' + flight['flight']['status']['live']};{flight['flight']['airport']['destination']['code']['icao']};{aircraft}")
 
                     except KeyError:
                         try:
-                            data.append(f"{airline}+{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC}")
+                            data.append(f"{airline};{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC};{'Live: ' + flight['flight']['status']['live']};{flight['flight']['airport']['destination']['code']['icao']};{aircraft}")
                         except KeyError:
                             pass
         except json.decoder.JSONDecodeError:
@@ -67,29 +75,68 @@ if __name__ == '__main__':
                             flight['flight']['time']['scheduled']['departure_date']
                             flight['flight']['time']['scheduled']['departure_time']
                         except KeyError:
-                            pass
+                           pass
                         if (flight['flight']['time']['real']['departure'] == 'None' and
                             flight['flight']['time']['estimated']['departure'] == 'None') or \
-                                flight['flight']['time']['scheduled']['departure_date'] == 'None':
+                               flight['flight']['time']['scheduled']['departure_date'] == 'None':
                             pass
                         else:
                             try:
+                                #print(flight['flight']['time']['estimated'])
+                                estimatedDepTime = ""
+                                estimatedDepDate = ""
+                                actualTimeUTC = ""
+                                if(flight['flight']['time']['estimated']['departure'] == 'None'):
+                                    estimatedDepTime = "None"
+                                    estimatedDepDate = "None"
+                                else:
+                                    estimatedDepDate = flight['flight']['time']['estimated']['departure_date']
+                                    estimatedDepTime = flight['flight']['time']['estimated']['departure_time']
+                                    actualTimeUTC = time.mktime(time.strptime(
+                                        estimatedDepDate +
+                                        estimatedDepTime, "%Y%m%d%H%M"))
+
                                 scheduledTimeUTC = time.mktime(time.strptime(
                                     flight['flight']['time']['scheduled']['departure_date'] +
                                     flight['flight']['time']['scheduled']['departure_time'], "%Y%m%d%H%M"))
-                                actualTimeUTC = time.mktime(time.strptime(
-                                    flight['flight']['time']['scheduled']['departure_date'] +
-                                    flight['flight']['time']['estimated']['departure_time'], "%Y%m%d%H%M"))
-                                airline = ""
+
+
+                                airline = "none"
                                 if (flight['flight']['airline'] == 'None'):
                                     airline = 'None'
                                 else:
                                     airline = flight['flight']['airline']['name']
-                                data.append(f"{airline}+{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC}")
+
+                                aircraft = ""
+                                if (flight['flight']['aircraft'] == 'None'):
+                                    aircraft = "None"
+                                else:
+                                    aircraft = flight['flight']['aircraft']['model']['text']
+                                # print(flight['flight']['airport']['destination']['code']['icao'])
+                                data.append(
+                                    f"{airline};{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC};{'Live: ' + flight['flight']['status']['live']};{flight['flight']['airport']['destination']['code']['icao']};{aircraft}")
+
                             except KeyError:
                                 try:
-                                    data.append(
-                                        f"{airline}+{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC}")
+                                    scheduledTimeUTC = time.mktime(time.strptime(
+                                        flight['flight']['time']['scheduled']['departure_date'] +
+                                        flight['flight']['time']['scheduled']['departure_time'], "%Y%m%d%H%M"))
+                                    actualTimeUTC = time.mktime(time.strptime(
+                                        flight['flight']['time']['estimated']['departure_date'] +
+                                        flight['flight']['time']['estimated']['departure_time'], "%Y%m%d%H%M"))
+                                    airline = "none"
+                                    if (flight['flight']['airline'] == 'None'):
+                                        airline = 'None'
+                                    else:
+                                        airline = flight['flight']['airline']['name']
+
+                                    aircraft = ""
+                                    if (flight['flight']['aircraft'] == 'None'):
+                                        aircraft = "None"
+                                    else:
+                                        aircraft = flight['flight']['aircraft']['model']['text']
+
+                                    data.append(f"{airline};{flight['flight']['identification']['number']['default']};{scheduledTimeUTC};{actualTimeUTC};{'Live: ' + flight['flight']['status']['live']};{flight['flight']['airport']['destination']['code']['icao']};{aircraft}")
                                 except KeyError:
                                     pass
                 except json.decoder.JSONDecodeError:
