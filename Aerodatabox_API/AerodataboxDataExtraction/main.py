@@ -5,12 +5,15 @@ import time
 if __name__ == '__main__':
 
     ############ SETUP ##############
-    tableName = 'flights'
+    tableName = 'FlightDATA'
     #################################
     filename = ''
     if(tableName == 'flights'):
         filename = "aerodata_flughafen_amsterdam.csv"
-    #TODO andere Fälle
+    if(tableName == 'flights_vie_2'):
+        filename = "aerodata_flughafen_wien.csv"
+    if (tableName == 'FlightDATA'):
+        filename = "aerodata_flughafen_frankfurt.csv"
 
     # Connection to dynamodb database
     dynamodb = boto3.resource('dynamodb')
