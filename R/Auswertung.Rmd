@@ -1,0 +1,192 @@
+---
+title: "Auswertung"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(geosphere)
+
+setwd("/Users/tobiasleitner/Desktop/IT-Projekt/Aerodatabox_API/AerodataboxDataExtraction")
+rm(list = ls())
+
+limit <- 20 #only flights where more than 20 observations are available
+airport <- "EDDF"
+
+if(airport == "EDDF"){
+  input <- "aerodata_flughafen_frankfurt.csv"
+}
+# TODO: else if, else
+
+airport_raw_input <- read.csv2(input)
+airports <- read.csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat", header = F)
+
+
+# change timestamps to utc
+airport_raw_input$scheduledTime <- as.POSIXct(as.numeric(as.character(airport_raw_input$scheduledTime)), origin="1970-01-01", tz="UTC")
+airport_raw_input$actualTime <- as.POSIXct(as.numeric(as.character(airport_raw_input$actualTime)), origin="1970-01-01", tz="UTC")
+
+# difference between scheduled and real departure
+difftime_diff <- difftime(airport_raw_input$scheduledTime, airport_raw_input$actualTime)
+airport_raw_input$diff <- as.numeric(difftime_diff, units = "mins")
+
+# code sharing duplicate handling
+airport_raw_input <- airport_raw_input %>% distinct(scheduledTime, actualTime, arrivalAirport, aircraft, diff, .keep_all = TRUE)
+
+# Group by by number, arrivalAirport and count flights
+airport_group <- group_by(airport_raw_input, number, arrivalAirport)
+airport_group <- summarize(airport_group, count = n())
+
+# Fiter by flight limit set above
+linienfluege <- filter(airport_group, count > limit)
+linienfluege <- as.vector(linienfluege[['number']])
+
+mean_diff <- c()
+median_diff <- c()
+arrival_airport <- c()
+quantile_75 <- c()
+quantile_95 <- c()
+
+# Filter raw input by linienflüge - only the relevant flights are left
+# Calculate mean and median of difference between scheduled and actual departure time for every 
+for (flug in linienfluege){
+  process <- filter(airport_raw_input, number == flug)
+  mean_diff <- c(mean_diff, mean(abs(process$diff)))
+  median_diff <- c(median_diff, median(abs(process$diff)))
+  quantile_75 <- c(quantile_75, quantile(abs(process$diff), probs = 0.75))
+  quantile_95 <- c(quantile_95, quantile(abs(process$diff), probs = 0.95))
+  arrival_airport <- c(arrival_airport, head(process, n = 1)$arrivalAirport)
+}
+
+# create dataframe of linienfluege, mean, median and arrival airport
+flights <- data.frame(linienfluege, mean = mean_diff, median = median_diff, quantile75 = quantile_75, quantile95 = quantile_95, arrival_airport = arrival_airport)
+```
+## Setup
+
+Flughafen: `r airport`
+
+Minimum an Beobachtungen pro Linienflug: `r limit`
+
+
+
+## Linienflüge: wichtige Lagemaße
+
+Zuerst wird eine Tabelle erstellt mit jenen Linienflügen, von denen mehr als `r limit` Beobachtungen verfügbar sind. Die Flüge werden gruppiert und es wird die durchschnittliche Abweichung vom geplanten Abflugszeitpunkt berechnet. Zudem wird der Median und verschiedene Quantile ermittelt.
+
+```{r head, echo=FALSE}
+head(flights)
+```
+## Verteilung der arith. Mittel über alle Linienflüge
+
+Um einen Gesamtüberblick über alle Flüge zu erhalten, werden im folgenden die arith. Mittel der Verspätung von allen Linienflügen dargestellt.
+
+```{r boxplot, echo=TRUE}
+boxplot(flights$mean)
+```
+```{r median, echo=FALSE}
+m <- median(flights$mean)
+```
+Man sieht hier, dass der Median bei `r m` liegt. Das bedeutet, dass 50% der Linienflüge eine maximale durchschnittliche Abweichung von `r m` aufweisen.
+
+## Distanz zum Zielflughafen: Regression
+
+```{r distance, echo=FALSE}
+
+relevant_airports_v <- c(unique(flights$arrival_airport), airport)
+relevant_airports_df <- data.frame(relevant_airports_v)
+names(relevant_airports_df) <- "airports"
+
+airports <- left_join(relevant_airports_df, airports, by = c("airports" = "V6"))
+
+## Calculate matrix of differences in km
+distance.matrix <- distm(x = airports[,c("V8", "V7")],  y = airports[,c("V8", "V7")])/1000
+
+## Rename dimensions to airport codes
+rownames(distance.matrix) <- airports$airports
+colnames(distance.matrix) <- airports$airports
+
+relevant_distances <- as.vector(tail(distance.matrix, n = 1))
+relevant_airports_distances <- data.frame(relevant_airports_v, relevant_distances)
+
+flights <- left_join(flights, relevant_airports_distances, by = c("arrival_airport" = "relevant_airports_v"))
+
+rm(relevant_airports_df, relevant_airports_distances, relevant_airports_v, relevant_distances, distance.matrix)
+
+median <- flights[["median"]]
+mean <- flights[["mean"]]
+distance <- flights[["relevant_distances"]]
+```
+
+```{r regression, echo=TRUE}
+cor.test(distance, mean)
+```
+```{r regression2, echo=FALSE}
+relation <- lm(mean~distance)
+plot(distance, mean)
+abline(relation, col = "red")
+```
+
+## Gruppierung der Linienflüge (1500 km)
+
+Weiters werden die Linienflüge aufgeteilt auf zwei Gruppen (über und unter 1500 km Distanz). Desweiteren wird definiert, dass ein Flug als versptätet gilt, wenn er mehr als `r m` Minuten (Median, der durchschnittlichen Verspätung) verspätet ist.
+```{r grouping, echo=FALSE}
+kurz <- filter(flights, relevant_distances < 1500)
+lang <- filter(flights, relevant_distances > 1500)
+
+kurz_late <- filter(kurz, mean > m)
+kurz_ok <- filter(kurz, mean < m)
+
+lang_late <- filter(lang, mean > m)
+lang_ok <- filter(lang, mean < m)
+
+anteil_kurz_late <- count(kurz_late)/count(kurz)
+anteil_lang_late <- count(lang_late)/count(lang)
+```
+Insgesamt sind auf Basis dieser Annahmen `r round(anteil_kurz_late*100, 2)` Prozent der Kurztreckenflüge verspätet. Von den Langstreckenflügen sind es `r round(anteil_lang_late*100, 2)` Prozent.
+
+## Bewertung der Relevanz eines Flugs
+
+Um nun Bewertungen einzelner Flüge vornehmen zu können, wird der Median sowie das arith. Mittel herangezogen.
+
+```{r important, echo=FALSE}
+flights <- flights[order(flights$median), ]
+unimportant <- tail(flights, n = 3)
+
+flights <- flights[order(flights$mean), ]
+important <- head(flights, n = 3)
+```
+Jene drei Flüge, welche den höchsten Median aufweisen werden deshalb als unwichtig eingestuft. Im Gegensatz dazu werden jene drei Flüge, welche den niedrigsten Mittelwert haben, als wichtige Flüge bezeichnet.
+
+```{r important_flights, echo=TRUE}
+important
+```
+
+```{r important_flights2, echo=TRUE}
+unimportant
+```
+
+## Anhang (wichtige und unwichtige Flüge im Detail)
+
+```{r choose_flights, echo=FALSE}
+f <- important$linienfluege
+variables <- c("scheduledTime", "actualTime", "aircraft")
+for(flug in f){
+   process <- filter(airport_raw_input, number == flug)
+   head <- head(process, n = 1)
+   print(head$airline)
+   print(flug)
+   print(process[variables])
+}
+```
+
+```{r choose_flights2, echo=FALSE}
+f <- unimportant$linienfluege
+variables <- c("scheduledTime", "actualTime", "aircraft")
+for(flug in f){
+   process <- filter(airport_raw_input, number == flug)
+   head <- head(process, n = 1)
+   print(head$airline)
+   print(flug)
+   print(process[variables])
+}
+```
