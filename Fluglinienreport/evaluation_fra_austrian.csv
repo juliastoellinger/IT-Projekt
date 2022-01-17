@@ -1,0 +1,988 @@
+"";"airline";"number";"scheduledTime";"actualTime";"status";"arrivalAirport";"aircraft";"diffMins"
+"1";"Austrian";"OS 7479";2021-11-19 10:35:00;2021-11-19 10:35:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"2";"Austrian";"OS 7248";2021-12-15 20:30:00;2021-12-15 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"3";"Austrian";"OS 7433";2021-12-15 20:40:00;2021-12-15 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"4";"Austrian";"OS 7443";2021-12-15 20:40:00;2021-12-15 20:40:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"5";"Austrian";"OS 7471";2021-10-30 19:20:00;2021-10-30 19:40:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";20
+"6";"Austrian";"OS 7375";2021-10-30 19:45:00;2021-10-30 19:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"7";"Austrian";"OS 7433";2021-10-30 19:45:00;2021-10-30 19:45:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"8";"Austrian";"OS 7315";2021-10-30 20:05:00;2021-10-30 19:55:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"9";"Austrian";"OS 7246";2021-10-31 08:00:00;2021-10-31 08:00:00;"Departed";"LOWS";"Airbus A320-100/200";0
+"10";"Austrian";"OS 7485";2021-10-31 08:35:00;2021-10-31 08:35:00;"Departed";"ESGG";"Airbus A320";0
+"11";"Austrian";"OS 7327";2021-10-31 08:10:00;2021-10-31 08:45:00;"Departed";"LPPT";"Airbus A321";35
+"12";"Austrian";"OS 7439";2021-10-31 08:45:00;2021-10-31 08:45:00;"Departed";"EFHK";"Airbus A320";0
+"13";"Austrian";"OS 8281";2021-10-31 08:45:00;2021-10-31 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"14";"Austrian";"OS 7469";2021-10-31 08:50:00;2021-10-31 08:50:00;"Departed";"EIDW";"Airbus A320 NEO";0
+"15";"Austrian";"OS 122";2021-10-31 08:50:00;2021-10-31 09:05:00;"Departed";"LOWW";"Airbus A319";15
+"16";"Austrian";"OS 7226";2021-11-19 11:20:00;2021-11-19 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"17";"Austrian";"OS 130";2021-11-19 11:50:00;2021-11-19 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"18";"Austrian";"OS 7305";2022-01-13 14:00:00;2022-01-13 14:00:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"19";"Austrian";"OS 7226";2021-12-12 11:20:00;2021-12-12 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"20";"Austrian";"OS 7327";2021-11-21 08:10:00;2021-11-21 08:10:00;"Departed";"LPPT";"Airbus A320-100/200";0
+"21";"Austrian";"OS 7371";2021-11-21 08:25:00;2021-11-21 08:25:00;"Departed";"EGCC";"Airbus A321";0
+"22";"Austrian";"OS 7371";2021-11-19 08:25:00;2021-11-19 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"23";"Austrian";"OS 7485";2021-11-19 08:35:00;2021-11-19 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"24";"Austrian";"OS 7242";2021-11-13 11:55:00;2021-11-13 12:10:00;"Departed";"LOWS";"Embraer EMB 190";15
+"25";"Austrian";"OS 8207";2021-11-13 12:30:00;2021-11-13 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"26";"Austrian";"OS 7435";2021-11-13 12:30:00;2021-11-13 12:30:00;"Departed";"EFHK";"Airbus A320";0
+"27";"Austrian";"OS 7461";2021-11-13 12:00:00;2021-11-13 12:30:00;"Departed";"LEMD";"Airbus A321-100/200";30
+"28";"Austrian";"OS 132";2021-11-17 16:50:00;2021-11-17 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"29";"Austrian";"OS 7260";2021-10-24 04:50:00;2021-10-24 04:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"30";"Austrian";"OS 7423";2021-11-27 19:35:00;2021-11-27 19:35:00;"Departed";"EETN";"Airbus A320";0
+"31";"Austrian";"OS 7455";2021-11-17 09:10:00;2021-11-17 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"32";"Austrian";"OS 7415";2021-11-17 09:20:00;2021-11-17 09:20:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"33";"Austrian";"OS 7319";2021-11-17 09:25:00;2021-11-17 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"34";"Austrian";"OS 7228";2021-11-24 07:10:00;2021-11-24 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"35";"Austrian";"OS 128";2021-10-23 05:50:00;2021-10-23 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"36";"Austrian";"OS 7228";2021-10-23 06:20:00;2021-10-23 06:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"37";"Austrian";"OS 7435";2021-11-17 12:30:00;2021-11-17 12:30:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"38";"Austrian";"OS 7335";2021-12-13 13:10:00;2021-12-13 13:10:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"39";"Austrian";"OS 7479";2021-12-12 10:35:00;2021-12-12 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"40";"Austrian";"OS 7455";2022-01-16 09:10:00;2022-01-16 09:10:00;"Departed";"LEMD";"Airbus A321";0
+"41";"Austrian";"OS 7319";2022-01-16 09:25:00;2022-01-16 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"42";"Austrian";"OS 7415";2022-01-16 09:20:00;2022-01-16 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"43";"Austrian";"OS 7459";2021-12-17 19:50:00;2021-12-17 20:15:00;"Departed";"LEMD";"Airbus A321 NEO";25
+"44";"Austrian";"OS 7248";2021-12-17 20:30:00;2021-12-17 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"45";"Austrian";"OS 7230";2021-12-17 20:40:00;2021-12-17 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"46";"Austrian";"OS 7433";2021-12-17 20:40:00;2021-12-17 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"47";"Austrian";"OS 7375";2021-12-17 20:50:00;2021-12-17 20:50:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"48";"Austrian";"OS 7371";2021-12-17 08:25:00;2021-12-17 08:25:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"49";"Austrian";"OS 7485";2021-12-17 08:35:00;2021-12-17 08:35:00;"Departed";"ESGG";"Airbus A320";0
+"50";"Austrian";"OS 7469";2021-12-17 08:50:00;2021-12-17 08:50:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";0
+"51";"Austrian";"OS 8281";2022-01-13 08:45:00;2022-01-13 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"52";"Austrian";"OS 7411";2021-10-22 11:25:00;2021-10-22 11:45:00;"Departed";"LEMG";"Airbus A321";20
+"53";"Austrian";"OS 7461";2021-10-22 11:05:00;2021-10-22 11:40:00;"Departed";"LEMD";"Airbus A321-100/200";35
+"54";"Austrian";"OS 7435";2021-10-22 12:15:00;2021-10-22 12:15:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"55";"Austrian";"OS 7323";2021-11-12 08:50:00;2021-11-12 09:15:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";25
+"56";"Austrian";"OS 7325";2021-11-12 09:05:00;2021-11-12 09:25:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";20
+"57";"Austrian";"OS 7415";2021-11-12 09:20:00;2021-11-12 09:35:00;"Departed";"LEBB";"Airbus A320";15
+"58";"Austrian";"OS 7455";2021-11-12 09:10:00;2021-11-12 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"59";"Austrian";"OS 7210";2021-11-11 20:20:00;2021-11-11 20:20:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"60";"Austrian";"OS 7433";2021-11-11 20:45:00;2021-11-11 20:45:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"61";"Austrian";"OS 7479";2021-11-12 10:35:00;2021-11-12 10:35:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"62";"Austrian";"OS 7473";2021-10-30 13:50:00;2021-10-30 14:05:00;"Departed";"EIDW";"Embraer EMB 190";15
+"63";"Austrian";"OS 7206";2021-10-30 14:50:00;2021-10-30 14:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"64";"Austrian";"OS 7242";2021-10-30 15:00:00;2021-10-30 15:00:00;"Departed";"LOWS";"Canadair CRJ 900NG";0
+"65";"Austrian";"OS 7228";2021-11-03 07:10:00;2021-11-03 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"66";"Austrian";"OS 7260";2021-11-03 05:50:00;2021-11-03 05:50:00;"Departed";"LOWW";"Airbus A319";0
+"67";"Austrian";"OS 7473";2021-11-03 14:55:00;2021-11-03 15:15:00;"Departed";"EIDW";"Airbus A320";20
+"68";"Austrian";"OS 7423";2021-11-12 19:35:00;2021-11-12 19:35:00;"Departed";"EETN";"Airbus A320";0
+"69";"Austrian";"OS 7455";2021-11-18 09:10:00;2021-11-18 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"70";"Austrian";"OS 7415";2021-11-18 09:20:00;2021-11-18 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"71";"Austrian";"OS 7319";2021-11-18 09:25:00;2021-11-18 09:40:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";15
+"72";"Austrian";"OS 7371";2021-12-16 08:25:00;2021-12-16 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"73";"Austrian";"OS 7327";2021-12-16 08:10:00;2021-12-16 08:35:00;"Departed";"LPPT";"Airbus A321 NEO";25
+"74";"Austrian";"OS 122";2021-12-16 08:50:00;2021-12-16 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"75";"Austrian";"OS 132";2021-11-12 16:50:00;2021-11-12 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"76";"Austrian";"OS 7423";2021-12-11 19:35:00;2021-12-11 19:35:00;"Departed";"EETN";"Airbus A320";0
+"77";"Austrian";"OS 7395";2021-12-11 19:45:00;2021-12-11 19:45:00;"Departed";"LPPT";"Airbus A320-100/200";0
+"78";"Austrian";"OS 7228";2021-11-15 07:10:00;2021-11-15 07:25:00;"Departed";"LOWG";"Airbus A320-200 (Sharklets)";15
+"79";"Austrian";"OS 7423";2021-12-15 19:35:00;2021-12-15 19:35:00;"Departed";"EETN";"Airbus A320";0
+"80";"Austrian";"OS 8207";2021-12-13 12:30:00;2021-12-13 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"81";"Austrian";"OS 7435";2021-12-13 12:30:00;2021-12-13 12:30:00;"Departed";"EFHK";"Airbus A320";0
+"82";"Austrian";"OS 7393";2021-12-13 12:15:00;2021-12-13 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"83";"Austrian";"OS 7226";2021-12-19 11:20:00;2021-12-19 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"84";"Austrian";"OS 7413";2021-12-19 10:55:00;2021-12-19 11:10:00;"Departed";"LEMG";"Airbus A320";15
+"85";"Austrian";"OS 7204";2021-12-19 10:50:00;2021-12-19 11:20:00;"Departed";"LOWW";"Airbus A320-100/200";30
+"86";"Austrian";"OS 7483";2021-12-15 15:25:00;2021-12-15 15:25:00;"Departed";"ESGG";"Embraer EMB 190";0
+"87";"Austrian";"OS 7309";2021-12-15 15:25:00;2021-12-15 15:25:00;"Departed";"EGPH";"Airbus A319";0
+"88";"Austrian";"OS 126";2021-11-04 19:05:00;2021-11-04 19:05:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"89";"Austrian";"OS 7260";2021-11-02 05:50:00;2021-11-02 05:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"90";"Austrian";"OS 7228";2021-11-02 07:10:00;2021-11-02 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"91";"Austrian";"OS 7307";2021-11-03 09:50:00;2021-11-03 09:50:00;"Departed";"EGPH";"Airbus A320-200 (Sharklets)";0
+"92";"Austrian";"OS 7204";2021-11-03 10:50:00;2021-11-03 10:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"93";"Austrian";"OS 7413";2021-11-03 10:55:00;2021-11-03 10:55:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"94";"Austrian";"OS 7226";2021-11-03 11:20:00;2021-11-03 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"95";"Austrian";"OS 7248";2021-12-12 20:30:00;2021-12-12 21:30:00;"Departed";"LOWS";"Airbus A320-200 (Sharklets)";60
+"96";"Austrian";"OS 7423";2021-12-18 19:35:00;2021-12-18 19:35:00;"Departed";"EETN";"Airbus A321";0
+"97";"Austrian";"OS 7206";2021-11-11 15:50:00;2021-11-11 16:15:00;"Departed";"LOWW";"Airbus A320";25
+"98";"Austrian";"OS 7435";2021-11-22 12:30:00;2021-11-22 12:30:00;"Departed";"EFHK";"Airbus A320";0
+"99";"Austrian";"OS 7393";2021-11-22 12:15:00;2021-11-22 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"100";"Austrian";"OS 7246";2021-11-01 08:00:00;2021-11-01 08:00:00;"Departed";"LOWS";"Airbus A319";0
+"101";"Austrian";"OS 7323";2021-11-01 08:50:00;2021-11-01 08:50:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"102";"Austrian";"OS 7371";2021-11-01 08:25:00;2021-11-01 08:25:00;"Departed";"EGCC";"Airbus A319";0
+"103";"Austrian";"OS 7469";2021-11-01 08:50:00;2021-11-01 09:05:00;"Departed";"EIDW";"Airbus A320";15
+"104";"Austrian";"OS 7485";2021-11-01 08:35:00;2021-11-01 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"105";"Austrian";"OS 7455";2021-11-01 09:10:00;2021-11-01 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"106";"Austrian";"OS 8205";2021-11-01 09:05:00;2021-11-01 09:05:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"107";"Austrian";"OS 8281";2021-11-01 08:45:00;2021-11-01 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"108";"Austrian";"OS 7439";2021-11-01 08:45:00;2021-11-01 08:45:00;"Departed";"EFHK";"Airbus A320";0
+"109";"Austrian";"OS 122";2021-11-01 08:50:00;2021-11-01 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"110";"Austrian";"OS 7307";2021-11-02 09:50:00;2021-11-02 09:50:00;"Departed";"EGPH";"Canadair CRJ 900NG";0
+"111";"Austrian";"OS 7413";2021-11-02 10:55:00;2021-11-02 10:55:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"112";"Austrian";"OS 7479";2021-11-02 10:35:00;2021-11-02 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"113";"Austrian";"OS 7204";2021-11-02 10:50:00;2021-11-02 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"114";"Austrian";"OS 7371";2021-11-18 08:25:00;2021-11-18 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"115";"Austrian";"OS 8281";2021-11-18 08:45:00;2021-11-18 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"116";"Austrian";"OS 7439";2021-11-18 08:45:00;2021-11-18 08:45:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"117";"Austrian";"OS 7327";2021-11-18 08:10:00;2021-11-18 08:10:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"118";"Austrian";"OS 7321";2021-10-21 11:30:00;2021-10-21 11:45:00;"Departed";"MMMX";"Boeing 747-200";15
+"119";"Austrian";"OS 7421";2021-10-21 11:35:00;2021-10-21 12:20:00;"Departed";"EETN";"Airbus A320";45
+"120";"Austrian";"OS 8207";2021-10-21 11:55:00;2021-10-21 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"121";"Austrian";"OS 7435";2021-10-21 12:15:00;2021-10-21 12:35:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";20
+"122";"Austrian";"OS 7305";2021-10-21 13:05:00;2021-10-21 13:05:00;"Departed";"LEBB";"Airbus A321-100/200";0
+"123";"Austrian";"OS 7461";2021-10-21 11:05:00;2021-10-21 11:50:00;"Departed";"LEMD";"Airbus A321-100/200";45
+"124";"Austrian";"OS 7204";2021-10-30 09:50:00;2021-10-30 09:50:00;"Departed";"LOWW";"Canadair CRJ 900NG";0
+"125";"Austrian";"OS 7479";2021-10-30 10:30:00;2021-10-30 10:30:00;"Departed";"ESGG";"Embraer EMB 190";0
+"126";"Austrian";"OS 130";2021-10-30 10:50:00;2021-10-30 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"127";"Austrian";"OS 7423";2021-11-13 19:35:00;2021-11-13 19:35:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"128";"Austrian";"OS 7303";2021-10-29 18:50:00;2021-10-29 18:50:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"129";"Austrian";"OS 7395";2021-10-29 19:00:00;2021-10-29 19:00:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"130";"Austrian";"OS 126";2021-10-29 18:10:00;2021-10-29 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"131";"Austrian";"OS 7439";2021-11-21 08:45:00;2021-11-21 09:30:00;"Departed";"EFHK";"Airbus A320";45
+"132";"Austrian";"OS 7455";2021-11-21 09:10:00;2021-11-21 09:25:00;"Departed";"LEMD";"Airbus A320";15
+"133";"Austrian";"OS 7325";2021-11-23 09:05:00;2021-11-23 09:25:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";20
+"134";"Austrian";"OS 7415";2021-11-23 09:20:00;2021-11-23 09:20:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"135";"Austrian";"OS 7309";2021-10-29 14:00:00;2021-10-29 14:15:00;"Departed";"EGPH";"Airbus A320-200 (Sharklets)";15
+"136";"Austrian";"OS 7242";2021-10-29 15:00:00;2021-10-29 15:00:00;"Departed";"LOWS";"Embraer EMB 190";0
+"137";"Austrian";"OS 7206";2021-12-17 15:50:00;2021-12-17 16:20:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";30
+"138";"Austrian";"OS 7228";2021-11-14 07:10:00;2021-11-14 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"139";"Austrian";"OS 7469";2021-10-26 07:50:00;2021-10-26 08:10:00;"Departed";"EIDW";"Airbus A321-100/200";20
+"140";"Austrian";"OS 7307";2021-10-26 08:10:00;2021-10-26 08:10:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"141";"Austrian";"OS 8205";2021-10-26 08:10:00;2021-10-26 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"142";"Austrian";"OS 8281";2021-10-26 08:15:00;2021-10-26 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"143";"Austrian";"OS 7325";2021-10-26 08:35:00;2021-10-26 08:35:00;"Departed";"KSFO";"Boeing 747-200 Mixed Configuration";0
+"144";"Austrian";"OS 122";2021-10-26 07:50:00;2021-10-26 08:05:00;"Departed";"LOWW";"Airbus A320-100/200";15
+"145";"Austrian";"OS 7226";2021-12-15 11:20:00;2021-12-15 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"146";"Austrian";"OS 130";2021-12-15 11:50:00;2021-12-15 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"147";"Austrian";"OS 7230";2021-12-12 20:40:00;2021-12-12 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"148";"Austrian";"OS 7433";2021-12-12 20:40:00;2021-12-12 20:40:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"149";"Austrian";"OS 7309";2021-11-22 15:25:00;2021-11-22 15:25:00;"Departed";"EGPH";"Airbus A320-200 (Sharklets)";0
+"150";"Austrian";"OS 7206";2021-11-22 15:50:00;2021-11-22 15:50:00;"Departed";"LOWW";"Airbus A319";0
+"151";"Austrian";"OS 7423";2022-01-14 19:35:00;2022-01-14 19:35:00;"Departed";"EETN";"Airbus A320 NEO";0
+"152";"Austrian";"OS 7459";2022-01-14 19:50:00;2022-01-14 19:50:00;"Departed";"LEMD";"Airbus A321";0
+"153";"Austrian";"OS 7395";2022-01-14 19:45:00;2022-01-14 19:45:00;"Departed";"LPPT";"Airbus A320";0
+"154";"Austrian";"OS 128";2021-10-22 05:50:00;2021-10-22 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"155";"Austrian";"OS 7485";2021-10-22 07:15:00;2021-10-22 07:15:00;"Departed";"ESGG";"Embraer EMB 195";0
+"156";"Austrian";"OS 7423";2021-11-23 19:35:00;2021-11-23 19:35:00;"Departed";"EETN";"Airbus A321";0
+"157";"Austrian";"OS 7395";2021-11-23 19:45:00;2021-11-23 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"158";"Austrian";"OS 7242";2021-11-12 11:55:00;2021-11-12 12:10:00;"Departed";"LOWS";"Embraer EMB 190";15
+"159";"Austrian";"OS 7411";2021-11-12 12:30:00;2021-11-12 12:30:00;"Departed";"LEMG";"Airbus A320 NEO";0
+"160";"Austrian";"OS 7435";2021-11-12 12:30:00;2021-11-12 12:30:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"161";"Austrian";"OS 7321";2021-11-12 12:35:00;2021-11-12 12:35:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";0
+"162";"Austrian";"OS 7455";2021-11-22 09:10:00;2021-11-22 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"163";"Austrian";"OS 7415";2021-11-22 09:20:00;2021-11-22 09:45:00;"Departed";"LEBB";"Airbus A321-100/200";25
+"164";"Austrian";"OS 7307";2021-11-22 09:50:00;2021-11-22 09:50:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"165";"Austrian";"OS 7228";2021-11-12 07:10:00;2021-11-12 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"166";"Austrian";"OS 7321";2021-10-29 11:30:00;2021-10-29 11:50:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";20
+"167";"Austrian";"OS 7435";2021-10-29 12:15:00;2021-10-29 12:15:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"168";"Austrian";"OS 7305";2021-10-29 13:05:00;2021-10-29 13:05:00;"Departed";"LEBB";"Airbus A321-100/200";0
+"169";"Austrian";"OS 286";2021-10-29 11:30:00;2021-10-29 11:45:00;"Departed";"LOWI";"Embraer EMB 195";15
+"170";"Austrian";"OS 7210";2021-11-25 20:10:00;2021-11-25 20:10:00;"Departed";"LOWW";"Airbus A319";0
+"171";"Austrian";"OS 7433";2021-11-25 20:40:00;2021-11-25 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"172";"Austrian";"OS 7248";2021-12-18 20:30:00;2021-12-18 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"173";"Austrian";"OS 7443";2021-12-18 20:40:00;2021-12-18 20:40:00;"Departed";"EFHK";"Airbus A321";0
+"174";"Austrian";"OS 7479";2021-11-14 10:35:00;2021-11-14 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"175";"Austrian";"OS 132";2021-10-29 15:50:00;2021-10-29 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"176";"Austrian";"OS 7309";2021-11-26 15:25:00;2021-11-26 15:25:00;"Departed";"EGPH";"Airbus A320";0
+"177";"Austrian";"OS 7206";2021-11-26 15:50:00;2021-11-26 15:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"178";"Austrian";"OS 7327";2021-10-24 07:15:00;2021-10-24 07:15:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"179";"Austrian";"OS 7413";2021-10-24 07:15:00;2021-10-24 07:15:00;"Departed";"LEMG";"Airbus A320";0
+"180";"Austrian";"OS 7485";2021-10-24 07:15:00;2021-10-24 07:15:00;"Departed";"ESGG";"Airbus A319";0
+"181";"Austrian";"OS 128";2021-10-24 05:50:00;2021-10-24 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"182";"Austrian";"OS 7423";2021-11-25 19:35:00;2021-11-25 19:35:00;"Departed";"EETN";"Airbus A321 NEO";0
+"183";"Austrian";"OS 7226";2021-11-22 11:20:00;2021-11-22 11:45:00;"Departed";"LOWG";"Embraer EMB 190";25
+"184";"Austrian";"OS 7327";2022-01-15 08:10:00;2022-01-15 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"185";"Austrian";"OS 7228";2021-11-21 07:10:00;2021-11-21 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"186";"Austrian";"OS 7327";2021-11-25 08:10:00;2021-11-25 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"187";"Austrian";"OS 7371";2021-11-25 08:25:00;2021-11-25 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"188";"Austrian";"OS 7439";2021-11-25 08:45:00;2021-11-25 08:45:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"189";"Austrian";"OS 7479";2021-10-24 10:30:00;2021-10-24 10:30:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"190";"Austrian";"OS 130";2021-10-24 10:50:00;2021-10-24 10:50:00;"Departed";"LOWW";"Airbus A320";0
+"191";"Austrian";"OS 7371";2021-11-16 08:25:00;2021-11-16 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"192";"Austrian";"OS 7327";2021-11-16 08:10:00;2021-11-16 08:10:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"193";"Austrian";"OS 7473";2021-11-12 14:55:00;2021-11-12 15:20:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";25
+"194";"Austrian";"OS 7309";2021-11-12 15:25:00;2021-11-12 15:25:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"195";"Austrian";"OS 7375";2021-10-29 19:45:00;2021-10-29 19:45:00;"Departed";"EGCC";"Airbus A319";0
+"196";"Austrian";"OS 7433";2021-10-29 19:45:00;2021-10-29 19:45:00;"Departed";"ESGG";"Airbus A321";0
+"197";"Austrian";"OS 7315";2021-10-29 20:05:00;2021-10-29 19:55:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"198";"Austrian";"OS 7455";2021-12-18 09:10:00;2021-12-18 09:10:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"199";"Austrian";"OS 7469";2021-12-18 08:50:00;2021-12-18 09:20:00;"Departed";"EIDW";"Airbus A320";30
+"200";"Austrian";"OS 7415";2021-12-18 09:20:00;2021-12-18 09:35:00;"Departed";"LEBB";"Airbus A320-100/200";15
+"201";"Austrian";"OS 7371";2021-12-18 08:25:00;2021-12-18 09:40:00;"Departed";"EGCC";"Airbus A320";75
+"202";"Austrian";"OS 7411";2021-10-24 12:35:00;2021-10-24 12:35:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"203";"Austrian";"OS 7435";2021-10-24 12:15:00;2021-10-24 12:15:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"204";"Austrian";"OS 7305";2021-10-24 13:05:00;2021-10-24 13:05:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"205";"Austrian";"OS 7307";2021-11-04 09:50:00;2021-11-04 09:50:00;"Departed";"EGPH";"Canadair CRJ 900";0
+"206";"Austrian";"OS 7479";2021-11-04 10:35:00;2021-11-04 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"207";"Austrian";"OS 7204";2021-11-04 10:50:00;2021-11-04 10:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"208";"Austrian";"OS 7413";2021-11-04 10:55:00;2021-11-04 10:55:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"209";"Austrian";"OS 7204";2021-10-22 09:50:00;2021-10-22 09:50:00;"Departed";"LOWW";"Canadair CRJ 900NG";0
+"210";"Austrian";"OS 130";2021-10-22 10:50:00;2021-10-22 10:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"211";"Austrian";"OS 7248";2021-10-24 19:30:00;2021-10-24 19:50:00;"Departed";"LOWS";"Embraer EMB 190";20
+"212";"Austrian";"OS 7375";2021-10-24 19:45:00;2021-10-24 19:45:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"213";"Austrian";"OS 7443";2021-10-24 19:30:00;2021-10-24 20:15:00;"Departed";"EFHK";"Airbus A321-100/200";45
+"214";"Austrian";"OS 7315";2021-10-24 20:05:00;2021-10-24 20:05:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";0
+"215";"Austrian";"OS 7479";2021-12-16 10:35:00;2021-12-16 10:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"216";"Austrian";"OS 7228";2021-11-20 07:10:00;2021-11-20 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"217";"Austrian";"OS 7479";2021-11-16 10:35:00;2021-11-16 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"218";"Austrian";"OS 7206";2021-11-05 15:50:00;2021-11-05 15:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"219";"Austrian";"OS 7473";2021-11-05 14:55:00;2021-11-05 15:40:00;"Departed";"EIDW";"Airbus A321-100/200";45
+"220";"Austrian";"OS 7457";2021-11-05 15:50:00;2021-11-05 16:05:00;"Departed";"LEMD";"Airbus A320-100/200";15
+"221";"Austrian";"OS 132";2021-11-05 16:55:00;2021-11-05 16:55:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"222";"Austrian";"OS 126";2021-10-21 18:10:00;2021-10-21 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"223";"Austrian";"OS 7303";2021-10-21 18:50:00;2021-10-21 18:50:00;"Departed";"LEBB";"Airbus A319";0
+"224";"Austrian";"OS 7395";2021-10-21 19:00:00;2021-10-21 19:00:00;"Departed";"LPPT";"Airbus A321";0
+"225";"Austrian";"OS 7459";2021-10-21 19:00:00;2021-10-21 19:00:00;"Departed";"LEMD";"Airbus A320 NEO";0
+"226";"Austrian";"OS 7455";2021-11-20 09:10:00;2021-11-20 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"227";"Austrian";"OS 7309";2021-11-19 15:25:00;2021-11-19 15:25:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"228";"Austrian";"OS 7378";2021-11-16 12:35:00;2021-11-16 12:24:00;"Departed";"EGCC";"Airbus A320";-11
+"229";"Austrian";"OS 7421";2021-11-16 12:50:00;2021-11-16 12:50:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"230";"Austrian";"OS 7423";2021-12-14 19:35:00;2021-12-14 19:35:00;"Departed";"EETN";"Airbus A320";0
+"231";"Austrian";"OS 7395";2021-11-02 19:45:00;2021-11-02 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"232";"Austrian";"OS 7303";2021-11-02 20:00:00;2021-11-02 20:00:00;"Departed";"LEBB";"Airbus A320";0
+"233";"Austrian";"OS 7248";2021-11-02 20:30:00;2021-11-02 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"234";"Austrian";"OS 7230";2021-11-02 20:40:00;2021-11-02 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"235";"Austrian";"OS 7443";2021-11-02 20:40:00;2021-11-02 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"236";"Austrian";"OS 7315";2021-11-02 20:55:00;2021-11-02 20:45:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"237";"Austrian";"OS 7210";2021-11-02 20:50:00;2021-11-02 20:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"238";"Austrian";"OS 7375";2021-11-02 20:50:00;2021-11-02 20:50:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"239";"Austrian";"OS 7471";2021-11-02 20:50:00;2021-11-02 20:50:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";0
+"240";"Austrian";"OS 7433";2021-11-02 20:40:00;2021-11-02 21:00:00;"Departed";"ESGG";"Airbus A320-100/200";20
+"241";"Austrian";"OS 7335";2021-12-12 13:10:00;2021-12-12 13:10:00;"Departed";"EGCC";"Airbus A320";0
+"242";"Austrian";"OS 126";2021-10-23 18:10:00;2021-10-23 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"243";"Austrian";"OS 7303";2021-10-23 18:50:00;2021-10-23 18:50:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"244";"Austrian";"OS 7459";2021-10-23 19:00:00;2021-10-23 19:00:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"245";"Austrian";"OS 7423";2021-10-23 19:15:00;2021-10-23 19:15:00;"Departed";"EETN";"Airbus A320";0
+"246";"Austrian";"OS 7242";2021-11-01 12:00:00;2021-11-01 12:15:00;"Departed";"LOWS";"Embraer EMB 190";15
+"247";"Austrian";"OS 7393";2021-11-01 12:15:00;2021-11-01 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"248";"Austrian";"OS 130";2021-11-01 11:50:00;2021-11-01 12:20:00;"Departed";"LOWW";"Airbus A320-100/200";30
+"249";"Austrian";"OS 7411";2021-11-01 12:30:00;2021-11-01 12:30:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"250";"Austrian";"OS 7461";2021-11-01 12:00:00;2021-11-01 12:30:00;"Departed";"LEMD";"Airbus A320-100/200";30
+"251";"Austrian";"OS 7321";2021-11-01 12:35:00;2021-11-01 12:35:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";0
+"252";"Austrian";"OS 7435";2021-11-01 12:30:00;2021-11-01 12:45:00;"Departed";"EFHK";"Airbus A320 NEO";15
+"253";"Austrian";"OS 7260";2021-11-15 05:50:00;2021-11-15 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"254";"Austrian";"OS 7305";2021-11-05 14:00:00;2021-11-05 14:00:00;"Departed";"LEBB";"Airbus A320";0
+"255";"Austrian";"OS 7321";2021-10-27 11:30:00;2021-10-27 11:45:00;"Departed";"MMMX";"Boeing 747-200";15
+"256";"Austrian";"OS 7327";2021-12-18 08:10:00;2021-12-18 08:30:00;"Departed";"LPPT";"Airbus A321-100/200";20
+"257";"Austrian";"OS 7375";2021-12-13 20:50:00;2021-12-13 20:50:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"258";"Austrian";"OS 7433";2021-12-13 20:40:00;2021-12-13 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"259";"Austrian";"OS 7443";2021-12-13 20:40:00;2021-12-13 20:40:00;"Departed";"EFHK";"Airbus A321";0
+"260";"Austrian";"OS 7393";2021-11-17 12:15:00;2021-11-17 13:10:00;"Departed";"LPPT";"Airbus A321";55
+"261";"Austrian";"OS 7335";2021-11-17 13:10:00;2021-11-17 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"262";"Austrian";"OS 7260";2021-12-17 05:50:00;2021-12-17 05:50:00;"Departed";"LOWW";"Airbus A319";0
+"263";"Austrian";"OS 7457";2021-11-04 15:50:00;2021-11-04 15:50:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"264";"Austrian";"OS 7206";2021-11-04 15:50:00;2021-11-04 15:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"265";"Austrian";"OS 132";2021-11-04 16:50:00;2021-11-04 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"266";"Austrian";"OS 7246";2021-11-03 08:00:00;2021-11-03 08:00:00;"Departed";"LOWS";"Airbus A319";0
+"267";"Austrian";"OS 7371";2021-11-03 08:25:00;2021-11-03 08:25:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"268";"Austrian";"OS 7485";2021-11-03 08:35:00;2021-11-03 08:35:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"269";"Austrian";"OS 7439";2021-11-03 08:45:00;2021-11-03 08:45:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"270";"Austrian";"OS 8281";2021-11-03 08:45:00;2021-11-03 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"271";"Austrian";"OS 122";2021-11-03 08:50:00;2021-11-03 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"272";"Austrian";"OS 7323";2021-11-03 08:50:00;2021-11-03 08:50:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"273";"Austrian";"OS 7393";2021-12-14 12:15:00;2021-12-14 13:35:00;"Departed";"LPPT";"Airbus A321";80
+"274";"Austrian";"OS 8207";2021-10-28 11:55:00;2021-10-28 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"275";"Austrian";"OS 7461";2021-10-28 11:05:00;2021-10-28 12:10:00;"Departed";"LEMD";"Airbus A321-100/200";65
+"276";"Austrian";"OS 7435";2021-10-28 12:15:00;2021-10-28 12:15:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"277";"Austrian";"OS 7305";2021-10-28 13:05:00;2021-10-28 13:05:00;"Departed";"LEBB";"Airbus A320";0
+"278";"Austrian";"OS 7226";2021-11-14 11:20:00;2021-11-14 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"279";"Austrian";"OS 7327";2021-11-14 08:10:00;2021-11-14 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"280";"Austrian";"OS 7371";2021-11-14 08:25:00;2021-11-14 08:25:00;"Departed";"EGCC";"Airbus A319";0
+"281";"Austrian";"OS 7485";2021-11-14 08:15:00;2021-11-14 08:30:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";15
+"282";"Austrian";"OS 7260";2021-12-14 05:50:00;2021-12-14 05:50:00;"Departed";"LOWW";"Airbus A319";0
+"283";"Austrian";"OS 7395";2021-11-27 19:45:00;2021-11-27 20:15:00;"Departed";"LPPT";"Airbus A321-100/200";30
+"284";"Austrian";"OS 7433";2021-11-27 20:40:00;2021-11-27 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"285";"Austrian";"OS 7260";2021-10-23 04:50:00;2021-10-23 04:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"286";"Austrian";"OS 7226";2021-11-17 11:20:00;2021-11-17 11:20:00;"Departed";"LOWG";"Canadair CRJ 900NG";0
+"287";"Austrian";"OS 130";2021-11-17 11:50:00;2021-11-17 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"288";"Austrian";"OS 7321";2021-10-23 11:30:00;2021-10-23 11:45:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";15
+"289";"Austrian";"OS 8207";2021-10-23 11:55:00;2021-10-23 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"290";"Austrian";"OS 7435";2021-10-23 12:15:00;2021-10-23 12:15:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"291";"Austrian";"OS 7411";2021-10-23 12:35:00;2021-10-23 12:35:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"292";"Austrian";"OS 7321";2021-12-18 12:35:00;2021-12-18 13:15:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";40
+"293";"Austrian";"OS 7335";2021-12-18 13:10:00;2021-12-18 13:10:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"294";"Austrian";"OS 7411";2021-11-25 12:30:00;2021-11-25 12:30:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"295";"Austrian";"OS 8207";2021-11-25 12:30:00;2021-11-25 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"296";"Austrian";"OS 7421";2021-11-25 12:50:00;2021-11-25 12:50:00;"Departed";"EETN";"Airbus A321";0
+"297";"Austrian";"OS 7230";2021-11-05 20:40:00;2021-11-05 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"298";"Austrian";"OS 7248";2021-11-05 20:30:00;2021-11-05 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"299";"Austrian";"OS 7303";2021-11-05 20:00:00;2021-11-05 20:15:00;"Departed";"LEBB";"Airbus A321 NEO";15
+"300";"Austrian";"OS 7315";2021-11-05 20:50:00;2021-11-05 20:40:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"301";"Austrian";"OS 7375";2021-11-05 20:50:00;2021-11-05 20:50:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"302";"Austrian";"OS 7433";2021-11-05 20:40:00;2021-11-05 20:40:00;"Departed";"ESGG";"Airbus A321-100/200";0
+"303";"Austrian";"OS 7443";2021-11-05 20:40:00;2021-11-05 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"304";"Austrian";"OS 7471";2021-11-05 20:50:00;2021-11-05 20:50:00;"Departed";"EIDW";"Airbus A321-100/200";0
+"305";"Austrian";"OS 7395";2021-11-05 19:45:00;2021-11-05 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"306";"Austrian";"OS 128";2021-10-29 05:50:00;2021-10-29 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"307";"Austrian";"OS 7413";2021-12-18 10:55:00;2021-12-18 11:20:00;"Departed";"LEMG";"Airbus A320";25
+"308";"Austrian";"OS 7204";2021-12-18 10:50:00;2021-12-18 11:20:00;"Departed";"LOWW";"Airbus A319";30
+"309";"Austrian";"OS 7230";2021-11-25 20:40:00;2021-11-25 21:30:00;"Departed";"LOWG";"Embraer EMB 190";50
+"310";"Austrian";"OS 7483";2021-11-13 15:25:00;2021-11-13 15:25:00;"Departed";"ESGG";"Embraer EMB 190";0
+"311";"Austrian";"OS 7335";2021-11-19 13:10:00;2021-11-19 13:10:00;"Departed";"EGCC";"Airbus A320 NEO";0
+"312";"Austrian";"OS 130";2021-11-03 11:50:00;2021-11-03 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"313";"Austrian";"OS 7242";2021-11-03 11:55:00;2021-11-03 12:15:00;"Departed";"LOWS";"Embraer EMB 190";20
+"314";"Austrian";"OS 7393";2021-11-03 12:15:00;2021-11-03 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"315";"Austrian";"OS 7461";2021-11-03 12:00:00;2021-11-03 12:15:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";15
+"316";"Austrian";"OS 7411";2021-11-03 12:30:00;2021-11-03 12:30:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"317";"Austrian";"OS 7435";2021-11-03 12:30:00;2021-11-03 12:30:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"318";"Austrian";"OS 7421";2021-11-03 12:50:00;2021-11-03 12:50:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"319";"Austrian";"OS 7321";2021-11-03 12:35:00;2021-11-03 13:10:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";35
+"320";"Austrian";"OS 7483";2021-11-27 15:25:00;2021-11-27 15:25:00;"Departed";"ESGG";"Embraer EMB 190";0
+"321";"Austrian";"OS 7415";2021-11-24 09:20:00;2021-11-24 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"322";"Austrian";"OS 7455";2021-11-24 09:10:00;2021-11-24 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"323";"Austrian";"OS 7483";2021-12-17 15:25:00;2021-12-17 15:25:00;"Departed";"ESGG";"Canadair CRJ 900";0
+"324";"Austrian";"OS 7309";2021-12-17 15:25:00;2021-12-17 15:25:00;"Departed";"EGPH";"Airbus A320 NEO";0
+"325";"Austrian";"OS 7423";2021-11-18 19:35:00;2021-11-18 19:35:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"326";"Austrian";"OS 7210";2021-11-15 20:20:00;2021-11-15 20:20:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"327";"Austrian";"OS 8207";2021-11-18 12:30:00;2021-11-18 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"328";"Austrian";"OS 7411";2021-11-18 12:30:00;2021-11-18 12:30:00;"Departed";"LEMG";"Airbus A321";0
+"329";"Austrian";"OS 7479";2021-10-27 10:30:00;2021-10-27 10:30:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"330";"Austrian";"OS 130";2021-10-27 10:50:00;2021-10-27 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"331";"Austrian";"OS 7226";2021-10-27 11:25:00;2021-10-27 11:25:00;"Departed";"LOWG";"Embraer EMB 190";0
+"332";"Austrian";"OS 7411";2021-10-27 11:25:00;2021-10-27 11:25:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"333";"Austrian";"OS 7230";2021-11-17 20:40:00;2021-11-17 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"334";"Austrian";"OS 7248";2021-11-17 20:30:00;2021-11-17 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"335";"Austrian";"OS 7375";2021-11-17 20:50:00;2021-11-17 20:50:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"336";"Austrian";"OS 7433";2021-11-17 20:40:00;2021-11-17 20:40:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"337";"Austrian";"OS 7443";2021-11-17 20:40:00;2021-11-17 20:40:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"338";"Austrian";"OS 7210";2021-11-17 20:20:00;2021-11-17 20:20:00;"Departed";"LOWW";"Airbus A321";0
+"339";"Austrian";"OS 7375";2021-11-20 20:50:00;2021-11-20 21:15:00;"Departed";"EGCC";"Airbus A320";25
+"340";"Austrian";"OS 7433";2022-01-13 20:40:00;2022-01-13 20:40:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"341";"Austrian";"OS 7443";2022-01-13 20:40:00;2022-01-13 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"342";"Austrian";"OS 7395";2022-01-13 19:45:00;2022-01-13 20:15:00;"Departed";"LPPT";"Airbus A320 NEO";30
+"343";"Austrian";"OS 7483";2021-11-20 15:25:00;2021-11-20 15:25:00;"Departed";"ESGG";"Embraer EMB 190";0
+"344";"Austrian";"OS 7455";2021-12-12 09:10:00;2021-12-12 09:10:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"345";"Austrian";"OS 7415";2021-12-12 09:20:00;2021-12-12 09:20:00;"Departed";"LEBB";"Airbus A321-100/200";0
+"346";"Austrian";"OS 7319";2021-12-12 09:25:00;2021-12-12 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"347";"Austrian";"OS 7226";2021-11-23 11:20:00;2021-11-23 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"348";"Austrian";"OS 7443";2022-01-15 20:40:00;2022-01-15 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"349";"Austrian";"OS 7226";2022-01-12 11:20:00;2022-01-12 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"350";"Austrian";"OS 8207";2021-11-23 12:30:00;2021-11-23 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"351";"Austrian";"OS 7393";2021-11-23 12:15:00;2021-11-23 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"352";"Austrian";"OS 7411";2021-11-14 12:30:00;2021-11-14 13:15:00;"Departed";"LEMG";"Airbus A321-100/200";45
+"353";"Austrian";"OS 7335";2021-11-14 13:10:00;2021-11-14 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"354";"Austrian";"OS 7455";2021-11-14 09:10:00;2021-11-14 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"355";"Austrian";"OS 7415";2021-11-14 09:20:00;2021-11-14 09:20:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"356";"Austrian";"OS 7319";2021-11-14 09:25:00;2021-11-14 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"357";"Austrian";"OS 7335";2021-11-21 13:10:00;2021-11-21 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"358";"Austrian";"OS 7371";2021-10-30 07:45:00;2021-10-30 07:45:00;"Departed";"EGCC";"Airbus A319";0
+"359";"Austrian";"OS 7469";2021-10-30 07:50:00;2021-10-30 08:10:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";20
+"360";"Austrian";"OS 8205";2021-10-30 08:10:00;2021-10-30 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"361";"Austrian";"OS 122";2021-10-30 07:50:00;2021-10-30 08:15:00;"Departed";"LOWW";"Airbus A320-100/200";25
+"362";"Austrian";"OS 8281";2021-10-30 08:15:00;2021-10-30 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"363";"Austrian";"OS 7439";2021-10-30 07:25:00;2021-10-30 08:25:00;"Departed";"EFHK";"Airbus A321-100/200";60
+"364";"Austrian";"OS 7307";2021-10-30 08:10:00;2021-10-30 08:25:00;"Departed";"EGPH";"Airbus A320 NEO";15
+"365";"Austrian";"OS 7319";2021-10-30 08:30:00;2021-10-30 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"366";"Austrian";"OS 7325";2021-10-30 08:35:00;2021-10-30 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"367";"Austrian";"OS 7323";2021-10-30 08:45:00;2021-10-30 08:45:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"368";"Austrian";"OS 7423";2021-12-13 19:35:00;2021-12-13 19:35:00;"Departed";"EETN";"Airbus A320";0
+"369";"Austrian";"OS 7260";2021-12-13 05:50:00;2021-12-13 05:50:00;"Departed";"LOWW";"Airbus A319";0
+"370";"Austrian";"OS 7206";2021-10-27 14:50:00;2021-10-27 14:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"371";"Austrian";"OS 7461";2022-01-14 12:00:00;2022-01-14 12:15:00;"Departed";"LEMD";"Airbus A321";15
+"372";"Austrian";"OS 7226";2022-01-13 11:20:00;2022-01-13 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"373";"Austrian";"OS 7325";2021-12-13 09:05:00;2021-12-13 09:20:00;"Departed";"KSFO";"Boeing 747-200";15
+"374";"Austrian";"OS 7415";2021-12-13 09:20:00;2021-12-13 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"375";"Austrian";"OS 7455";2021-12-13 09:10:00;2021-12-13 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"376";"Austrian";"OS 7260";2021-11-16 05:50:00;2021-11-16 05:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"377";"Austrian";"OS 7421";2021-11-26 12:50:00;2021-11-26 13:10:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";20
+"378";"Austrian";"OS 7335";2021-11-26 13:10:00;2021-11-26 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"379";"Austrian";"OS 7307";2021-10-28 08:10:00;2021-10-28 08:10:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"380";"Austrian";"OS 8205";2021-10-28 08:10:00;2021-10-28 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"381";"Austrian";"OS 122";2021-10-28 07:50:00;2021-10-28 08:15:00;"Departed";"LOWW";"Airbus A320-100/200";25
+"382";"Austrian";"OS 8281";2021-10-28 08:15:00;2021-10-28 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"383";"Austrian";"OS 7469";2021-10-28 07:50:00;2021-10-28 08:20:00;"Departed";"EIDW";"Airbus A321-100/200";30
+"384";"Austrian";"OS 7319";2021-10-28 08:30:00;2021-10-28 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"385";"Austrian";"OS 7325";2021-10-28 08:35:00;2021-10-28 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"386";"Austrian";"OS 7415";2021-10-28 09:25:00;2021-10-28 09:25:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"387";"Austrian";"OS 7246";2021-11-12 08:00:00;2021-11-12 08:20:00;"Departed";"LOWS";"Embraer EMB 190";20
+"388";"Austrian";"OS 7344";2021-11-12 08:25:00;2021-11-12 08:44:00;"Departed";"LPPT";"Airbus A321-100/200";19
+"389";"Austrian";"OS 7372";2021-11-12 08:20:00;2021-11-12 08:17:00;"Departed";"EGCC";"Airbus A320-100/200";-3
+"390";"Austrian";"OS 7440";2021-11-12 08:05:00;2021-11-12 08:13:00;"Departed";"EFHK";"Airbus A320";8
+"391";"Austrian";"OS 7260";2021-10-27 04:50:00;2021-10-27 04:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"392";"Austrian";"OS 132";2021-10-24 15:50:00;2021-10-24 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"393";"Austrian";"OS 7260";2021-10-28 04:50:00;2021-10-28 04:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"394";"Austrian";"OS 7228";2021-11-19 07:10:00;2021-11-19 07:10:00;"Departed";"LOWG";"Canadair CRJ 900";0
+"395";"Austrian";"OS 7461";2021-10-31 12:00:00;2021-10-31 14:20:00;"Departed";"LEMD";"Airbus A321-100/200";140
+"396";"Austrian";"OS 7305";2021-10-31 14:00:00;2021-10-31 14:00:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"397";"Austrian";"OS 7413";2022-01-16 10:55:00;2022-01-16 11:10:00;"Departed";"LEMG";"Airbus A321";15
+"398";"Austrian";"OS 7226";2022-01-16 11:20:00;2022-01-16 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"399";"Austrian";"OS 130";2022-01-16 11:50:00;2022-01-16 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"400";"Austrian";"OS 7371";2021-12-19 08:25:00;2021-12-19 08:40:00;"Departed";"EGCC";"Airbus A319";15
+"401";"Austrian";"OS 7485";2021-12-19 08:35:00;2021-12-19 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"402";"Austrian";"OS 7455";2022-01-14 09:10:00;2022-01-14 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"403";"Austrian";"OS 7319";2022-01-14 09:25:00;2022-01-14 09:25:00;"Departed";"KLAX";"Boeing 747-200 Mixed Configuration";0
+"404";"Austrian";"OS 7415";2022-01-14 09:20:00;2022-01-14 09:35:00;"Departed";"LEBB";"Airbus A320 NEO";15
+"405";"Austrian";"OS 7228";2021-12-18 07:10:00;2021-12-18 07:10:00;"Departed";"LOWG";"Canadair CRJ 900";0
+"406";"Austrian";"OS 7423";2022-01-13 19:35:00;2022-01-13 19:35:00;"Departed";"EETN";"Airbus A320 NEO";0
+"407";"Austrian";"OS 7461";2021-12-19 12:00:00;2021-12-19 12:35:00;"Departed";"LEMD";"Airbus A320 NEO";35
+"408";"Austrian";"OS 132";2021-10-27 15:50:00;2021-10-27 15:50:00;"Departed";"LOWW";"Airbus A320";0
+"409";"Austrian";"OS 7423";2021-12-17 19:35:00;2021-12-17 19:35:00;"Departed";"EETN";"Airbus A320";0
+"410";"Austrian";"OS 7246";2021-11-05 08:00:00;2021-11-05 08:00:00;"Departed";"LOWS";"Embraer EMB 190";0
+"411";"Austrian";"OS 7323";2021-11-05 08:50:00;2021-11-05 08:50:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"412";"Austrian";"OS 7371";2021-11-05 08:25:00;2021-11-05 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"413";"Austrian";"OS 7485";2021-11-05 08:35:00;2021-11-05 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"414";"Austrian";"OS 8205";2021-11-05 09:05:00;2021-11-05 09:05:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"415";"Austrian";"OS 8281";2021-11-05 08:45:00;2021-11-05 08:45:00;"Departed";"CYYZ";"Boeing 787-9 Dreamliner";0
+"416";"Austrian";"OS 7439";2021-11-05 08:45:00;2021-11-05 08:45:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"417";"Austrian";"OS 7455";2021-11-05 09:10:00;2021-11-05 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"418";"Austrian";"OS 122";2021-11-05 08:50:00;2021-11-05 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"419";"Austrian";"OS 7323";2021-11-26 08:50:00;2021-11-26 09:30:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";40
+"420";"Austrian";"OS 7469";2021-11-26 08:50:00;2021-11-26 09:20:00;"Departed";"EIDW";"Airbus A320";30
+"421";"Austrian";"OS 7415";2021-11-26 09:20:00;2021-11-26 09:20:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"422";"Austrian";"OS 7455";2021-11-26 09:10:00;2021-11-26 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"423";"Austrian";"OS 7228";2021-11-23 07:10:00;2021-11-23 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"424";"Austrian";"OS 132";2021-10-26 15:50:00;2021-10-26 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"425";"Austrian";"OS 7375";2021-10-26 19:45:00;2021-10-26 19:45:00;"Departed";"EGCC";"Airbus A319";0
+"426";"Austrian";"OS 7443";2021-10-26 19:30:00;2021-10-26 19:45:00;"Departed";"EFHK";"Airbus A320";15
+"427";"Austrian";"OS 7315";2021-10-26 20:05:00;2021-10-26 20:05:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";0
+"428";"Austrian";"OS 7371";2021-12-13 08:25:00;2021-12-13 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"429";"Austrian";"OS 7485";2021-12-13 08:35:00;2021-12-13 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"430";"Austrian";"OS 7479";2021-12-17 10:35:00;2021-12-17 10:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"431";"Austrian";"OS 7260";2021-11-20 05:50:00;2021-11-20 05:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"432";"Austrian";"OS 7423";2021-11-17 19:35:00;2021-11-17 19:35:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"433";"Austrian";"OS 7435";2021-12-15 12:30:00;2021-12-15 12:30:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"434";"Austrian";"OS 7204";2021-10-25 09:50:00;2021-10-25 10:15:00;"Departed";"LOWW";"Canadair CRJ 900NG";25
+"435";"Austrian";"OS 130";2021-10-25 10:50:00;2021-10-25 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"436";"Austrian";"OS 7309";2021-11-24 15:25:00;2021-11-24 15:25:00;"Departed";"EGPH";"Airbus A320";0
+"437";"Austrian";"OS 7204";2021-12-13 10:50:00;2021-12-13 10:50:00;"Departed";"LOWW";"Airbus A319";0
+"438";"Austrian";"OS 7375";2021-10-28 19:45:00;2021-10-28 19:45:00;"Departed";"EGCC";"Airbus A319";0
+"439";"Austrian";"OS 7433";2021-10-28 19:45:00;2021-10-28 19:45:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"440";"Austrian";"OS 7315";2021-10-28 20:05:00;2021-10-28 20:05:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";0
+"441";"Austrian";"OS 7375";2021-10-25 19:45:00;2021-10-25 19:45:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"442";"Austrian";"OS 7471";2021-10-25 19:20:00;2021-10-25 19:50:00;"Departed";"EIDW";"Airbus A321-100/200";30
+"443";"Austrian";"OS 132";2022-01-14 16:50:00;2022-01-14 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"444";"Austrian";"OS 7413";2021-12-13 10:55:00;2021-12-13 11:20:00;"Departed";"LEMG";"Airbus A321-100/200";25
+"445";"Austrian";"OS 7226";2021-12-13 11:20:00;2021-12-13 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"446";"Austrian";"OS 7226";2021-10-21 11:25:00;2021-10-21 11:25:00;"Departed";"LOWG";"Embraer EMB 190";0
+"447";"Austrian";"OS 7321";2021-10-21 11:30:00;2021-10-21 11:45:00;"Departed";"MMMX";"Boeing 747-200";15
+"448";"Austrian";"OS 7335";2021-10-21 11:05:00;2021-10-21 11:30:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";25
+"449";"Austrian";"OS 7393";2021-10-21 11:10:00;2021-10-21 11:10:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"450";"Austrian";"OS 7411";2021-10-21 11:25:00;2021-10-21 11:25:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"451";"Austrian";"OS 8207";2021-10-21 11:55:00;2021-10-21 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"452";"Austrian";"OS 7461";2021-10-21 11:05:00;2021-10-21 11:50:00;"Departed";"LEMD";"Airbus A321-100/200";45
+"453";"Austrian";"OS 286";2021-10-21 11:30:00;2021-10-21 11:30:00;"Departed";"LOWI";"Embraer EMB 195";0
+"454";"Austrian";"OS 130";2021-10-21 10:50:00;2021-10-21 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"455";"Austrian";"OS 7228";2021-12-17 07:10:00;2021-12-17 07:10:00;"Departed";"LOWG";"Canadair CRJ 900NG";0
+"456";"Austrian";"OS 7371";2021-11-24 08:25:00;2021-11-24 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"457";"Austrian";"OS 7485";2021-11-24 08:35:00;2021-11-24 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"458";"Austrian";"OS 7455";2021-11-27 09:10:00;2021-11-27 09:10:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"459";"Austrian";"OS 7439";2021-11-27 08:45:00;2021-11-27 09:20:00;"Departed";"EFHK";"Airbus A320";35
+"460";"Austrian";"OS 130";2021-11-25 11:50:00;2021-11-25 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"461";"Austrian";"OS 128";2021-10-25 05:50:00;2021-10-25 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"462";"Austrian";"OS 7327";2022-01-16 08:10:00;2022-01-16 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"463";"Austrian";"OS 7469";2021-10-24 07:50:00;2021-10-24 08:05:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";15
+"464";"Austrian";"OS 7307";2021-10-24 08:10:00;2021-10-24 08:10:00;"Departed";"EGPH";"Canadair CRJ 900NG";0
+"465";"Austrian";"OS 7319";2021-10-24 08:30:00;2021-10-24 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"466";"Austrian";"OS 7323";2021-10-24 08:45:00;2021-10-24 08:45:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"467";"Austrian";"OS 8205";2021-10-24 08:10:00;2021-10-24 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"468";"Austrian";"OS 8281";2021-10-24 08:15:00;2021-10-24 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"469";"Austrian";"OS 7325";2021-10-24 08:35:00;2021-10-24 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"470";"Austrian";"OS 7455";2021-10-24 07:30:00;2021-10-24 07:45:00;"Departed";"LEMD";"Airbus A319";15
+"471";"Austrian";"OS 122";2021-10-24 07:50:00;2021-10-24 08:05:00;"Departed";"LOWW";"Airbus A320-100/200";15
+"472";"Austrian";"OS 7226";2021-11-16 11:20:00;2021-11-16 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"473";"Austrian";"OS 130";2021-11-16 11:50:00;2021-11-16 11:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"474";"Austrian";"OS 7455";2021-12-16 09:10:00;2021-12-16 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"475";"Austrian";"OS 8281";2021-12-16 08:45:00;2021-12-16 09:15:00;"Departed";"CYYZ";"Boeing 777-300ER";30
+"476";"Austrian";"OS 7323";2021-12-16 08:50:00;2021-12-16 09:20:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";30
+"477";"Austrian";"OS 7415";2021-12-16 09:20:00;2021-12-16 09:20:00;"Departed";"LEBB";"Airbus A321";0
+"478";"Austrian";"OS 7319";2021-12-16 09:25:00;2021-12-16 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"479";"Austrian";"OS 7325";2021-12-16 09:05:00;2021-12-16 09:25:00;"Departed";"KSFO";"Boeing 747-200 Mixed Configuration";20
+"480";"Austrian";"OS 7335";2021-12-19 13:10:00;2021-12-19 13:10:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"481";"Austrian";"OS 7230";2021-11-21 20:40:00;2021-11-21 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"482";"Austrian";"OS 7248";2021-11-21 20:30:00;2021-11-21 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"483";"Austrian";"OS 7433";2021-11-21 20:40:00;2021-11-21 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"484";"Austrian";"OS 7459";2021-11-21 19:50:00;2021-11-21 20:20:00;"Departed";"LEMD";"Airbus A321";30
+"485";"Austrian";"OS 7210";2021-11-21 20:20:00;2021-11-21 20:20:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"486";"Austrian";"OS 7230";2021-10-21 19:35:00;2021-10-21 20:00:00;"Departed";"LOWG";"Embraer EMB 190";25
+"487";"Austrian";"OS 7248";2021-10-21 19:30:00;2021-10-21 20:10:00;"Departed";"LOWS";"Embraer EMB 190";40
+"488";"Austrian";"OS 7375";2021-10-21 19:45:00;2021-10-21 20:15:00;"Departed";"EGCC";"Airbus A320-100/200";30
+"489";"Austrian";"OS 7433";2021-10-21 19:45:00;2021-10-21 19:45:00;"Departed";"ESGG";"Airbus A320";0
+"490";"Austrian";"OS 7315";2021-10-21 20:05:00;2021-10-21 19:55:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"491";"Austrian";"OS 7443";2021-10-21 19:30:00;2021-10-21 19:45:00;"Departed";"EFHK";"Airbus A320 NEO";15
+"492";"Austrian";"OS 7393";2021-11-19 12:15:00;2021-11-19 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"493";"Austrian";"OS 7226";2021-11-04 11:20:00;2021-11-04 11:40:00;"Departed";"LOWG";"Embraer EMB 190";20
+"494";"Austrian";"OS 130";2021-11-04 11:50:00;2021-11-04 11:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"495";"Austrian";"OS 7461";2021-11-04 12:00:00;2021-11-04 12:00:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"496";"Austrian";"OS 7242";2021-11-04 11:55:00;2021-11-04 12:10:00;"Departed";"LOWS";"Embraer EMB 190";15
+"497";"Austrian";"OS 7411";2021-11-04 12:30:00;2021-11-04 12:30:00;"Departed";"LEMG";"Airbus A320-200 (Sharklets)";0
+"498";"Austrian";"OS 8207";2021-11-04 12:30:00;2021-11-04 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"499";"Austrian";"OS 7321";2021-11-04 12:35:00;2021-11-04 12:35:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";0
+"500";"Austrian";"OS 7421";2021-11-04 12:50:00;2021-11-04 12:50:00;"Departed";"EETN";"Airbus A320";0
+"501";"Austrian";"OS 7395";2021-10-24 19:00:00;2021-10-24 19:00:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"502";"Austrian";"OS 7459";2021-10-24 19:00:00;2021-10-24 19:00:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"503";"Austrian";"OS 126";2021-10-24 18:10:00;2021-10-24 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"504";"Austrian";"OS 8207";2021-11-16 12:30:00;2021-11-16 13:20:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";50
+"505";"Austrian";"OS 7471";2021-10-22 19:20:00;2021-10-22 19:40:00;"Departed";"EIDW";"Airbus A320";20
+"506";"Austrian";"OS 7375";2021-10-22 19:45:00;2021-10-22 19:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"507";"Austrian";"OS 7443";2021-10-22 19:30:00;2021-10-22 19:45:00;"Departed";"EFHK";"Airbus A321-100/200";15
+"508";"Austrian";"OS 7315";2021-10-22 20:05:00;2021-10-22 19:55:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"509";"Austrian";"OS 7433";2021-10-22 19:45:00;2021-10-22 20:00:00;"Departed";"ESGG";"Airbus A320 NEO";15
+"510";"Austrian";"OS 7423";2022-01-11 19:35:00;2022-01-11 19:35:00;"Departed";"EETN";"Airbus A320-100/200";0
+"511";"Austrian";"OS 7395";2022-01-11 19:45:00;2022-01-11 19:45:00;"Departed";"LPPT";"Airbus A320";0
+"512";"Austrian";"OS 132";2021-10-21 15:50:00;2021-10-21 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"513";"Austrian";"OS 7210";2021-11-19 20:20:00;2021-11-19 20:20:00;"Departed";"LOWW";"Airbus A320";0
+"514";"Austrian";"OS 7230";2021-11-19 20:40:00;2021-11-19 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"515";"Austrian";"OS 7433";2021-11-19 20:40:00;2021-11-19 20:40:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"516";"Austrian";"OS 7443";2021-11-19 20:40:00;2021-11-19 20:40:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"517";"Austrian";"OS 7248";2021-11-19 20:45:00;2021-11-19 20:45:00;"Departed";"LOWS";"Embraer EMB 190";0
+"518";"Austrian";"OS 7483";2021-11-25 15:25:00;2021-11-25 15:25:00;"Departed";"ESGG";"Canadair CRJ 900NG";0
+"519";"Austrian";"OS 7423";2021-11-19 19:35:00;2021-11-19 19:35:00;"Departed";"EETN";"Airbus A321";0
+"520";"Austrian";"OS 7226";2021-11-18 11:20:00;2021-11-18 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"521";"Austrian";"OS 7483";2021-11-16 15:25:00;2021-11-16 15:25:00;"Departed";"ESGG";"Canadair CRJ 900NG";0
+"522";"Austrian";"OS 7206";2021-11-16 15:50:00;2021-11-16 15:50:00;"Departed";"LOWW";"Airbus A320";0
+"523";"Austrian";"OS 126";2021-11-11 19:05:00;2021-11-11 19:20:00;"Departed";"LOWW";"Airbus A321-100/200";15
+"524";"Austrian";"OS 7393";2021-11-14 12:15:00;2021-11-14 12:15:00;"Departed";"LPPT";"Airbus A321 NEO";0
+"525";"Austrian";"OS 7435";2021-11-14 12:30:00;2021-11-14 12:30:00;"Departed";"EFHK";"Airbus A320";0
+"526";"Austrian";"OS 132";2021-11-24 16:50:00;2021-11-24 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"527";"Austrian";"OS 7325";2021-12-14 09:05:00;2021-12-14 09:25:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";20
+"528";"Austrian";"OS 7455";2021-12-14 09:10:00;2021-12-14 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"529";"Austrian";"OS 7479";2021-11-13 10:35:00;2021-11-13 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"530";"Austrian";"OS 7230";2021-11-24 20:40:00;2021-11-24 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"531";"Austrian";"OS 7248";2021-11-24 20:30:00;2021-11-24 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"532";"Austrian";"OS 7433";2021-11-24 20:40:00;2021-11-24 20:40:00;"Departed";"ESGG";"Airbus A320";0
+"533";"Austrian";"OS 7443";2021-11-24 20:40:00;2021-11-24 20:40:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"534";"Austrian";"OS 7210";2021-11-24 20:20:00;2021-11-24 20:20:00;"Departed";"LOWW";"Airbus A319";0
+"535";"Austrian";"OS 7414";2021-11-20 17:40:00;2021-11-20 17:59:00;"Departed";"LEMG";"Airbus A320";19
+"536";"Austrian";"OS 125";2021-11-20 18:05:00;2021-11-20 17:51:00;"Departed";"LOWW";"Airbus A319";-14
+"537";"Austrian";"OS 7335";2022-01-14 13:10:00;2022-01-14 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"538";"Austrian";"OS 7321";2022-01-14 12:35:00;2022-01-14 13:15:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";40
+"539";"Austrian";"OS 7421";2021-11-20 12:50:00;2021-11-20 12:50:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"540";"Austrian";"OS 8207";2021-11-20 12:30:00;2021-11-20 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"541";"Austrian";"OS 7435";2021-11-20 12:30:00;2021-11-20 12:30:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"542";"Austrian";"OS 7411";2021-11-20 12:30:00;2021-11-20 12:30:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"543";"Austrian";"OS 7230";2021-12-16 20:40:00;2021-12-16 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"544";"Austrian";"OS 7248";2021-12-16 20:30:00;2021-12-16 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"545";"Austrian";"OS 7375";2021-12-16 20:50:00;2021-12-16 20:50:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"546";"Austrian";"OS 7433";2021-12-16 20:40:00;2021-12-16 20:40:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"547";"Austrian";"OS 7443";2021-12-16 20:40:00;2021-12-16 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"548";"Austrian";"OS 7335";2021-10-26 11:05:00;2021-10-26 11:40:00;"Departed";"EGCC";"Airbus A320-100/200";35
+"549";"Austrian";"OS 7461";2021-10-26 11:05:00;2021-10-26 11:40:00;"Departed";"LEMD";"Airbus A321-100/200";35
+"550";"Austrian";"OS 7321";2021-10-26 11:30:00;2021-10-26 11:45:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";15
+"551";"Austrian";"OS 8207";2021-10-26 11:55:00;2021-10-26 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"552";"Austrian";"OS 7435";2021-10-26 12:15:00;2021-10-26 12:15:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"553";"Austrian";"OS 7327";2021-11-27 08:10:00;2021-11-27 08:10:00;"Departed";"LPPT";"Airbus A320-100/200";0
+"554";"Austrian";"OS 7371";2021-11-27 08:25:00;2021-11-27 08:25:00;"Departed";"EGCC";"Airbus A319";0
+"555";"Austrian";"OS 7206";2021-10-31 15:50:00;2021-10-31 15:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"556";"Austrian";"OS 132";2021-10-31 16:50:00;2021-10-31 16:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"557";"Austrian";"OS 130";2021-10-31 11:50:00;2021-10-31 11:50:00;"Departed";"LOWW";"Airbus A319";0
+"558";"Austrian";"OS 7242";2021-11-26 11:55:00;2021-11-26 12:10:00;"Departed";"LOWS";"Embraer EMB 190";15
+"559";"Austrian";"OS 7435";2021-11-26 12:30:00;2021-11-26 12:30:00;"Departed";"EFHK";"Airbus A321-100/200";0
+"560";"Austrian";"OS 7393";2021-10-25 11:10:00;2021-10-25 11:45:00;"Departed";"LPPT";"Airbus A321-100/200";35
+"561";"Austrian";"OS 8207";2021-10-25 11:55:00;2021-10-25 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"562";"Austrian";"OS 7421";2021-10-25 11:35:00;2021-10-25 12:00:00;"Departed";"EETN";"Airbus A319";25
+"563";"Austrian";"OS 7461";2021-10-25 11:05:00;2021-10-25 12:10:00;"Departed";"LEMD";"Airbus A321-100/200";65
+"564";"Austrian";"OS 7305";2021-10-25 13:05:00;2021-10-25 13:05:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"565";"Austrian";"OS 7303";2021-11-03 20:00:00;2021-11-03 20:00:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"566";"Austrian";"OS 7248";2021-11-03 20:30:00;2021-11-03 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"567";"Austrian";"OS 7230";2021-11-03 20:40:00;2021-11-03 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"568";"Austrian";"OS 7433";2021-11-03 20:40:00;2021-11-03 20:40:00;"Departed";"ESGG";"Airbus A321";0
+"569";"Austrian";"OS 7443";2021-11-03 20:40:00;2021-11-03 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"570";"Austrian";"OS 7315";2021-11-03 20:55:00;2021-11-03 20:45:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"571";"Austrian";"OS 7210";2021-11-03 20:50:00;2021-11-03 20:50:00;"Departed";"LOWW";"Airbus A319";0
+"572";"Austrian";"OS 7375";2021-11-03 20:50:00;2021-11-03 20:50:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"573";"Austrian";"OS 7471";2021-11-03 20:50:00;2021-11-03 21:05:00;"Departed";"EIDW";"Airbus A320";15
+"574";"Austrian";"OS 7479";2021-10-29 10:30:00;2021-10-29 10:30:00;"Departed";"ESGG";"Airbus A320";0
+"575";"Austrian";"OS 7204";2021-10-29 09:50:00;2021-10-29 09:50:00;"Departed";"LOWW";"Canadair CRJ 900NG";0
+"576";"Austrian";"OS 130";2021-10-29 10:50:00;2021-10-29 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"577";"Austrian";"OS 7423";2021-11-22 19:35:00;2021-11-22 19:35:00;"Departed";"EETN";"Airbus A321 NEO";0
+"578";"Austrian";"OS 7230";2021-11-26 20:40:00;2021-11-26 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"579";"Austrian";"OS 7248";2021-11-26 20:45:00;2021-11-26 20:45:00;"Departed";"LOWS";"Embraer EMB 190";0
+"580";"Austrian";"OS 7433";2021-11-26 20:40:00;2021-11-26 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"581";"Austrian";"OS 7443";2021-11-26 20:40:00;2021-11-26 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"582";"Austrian";"OS 7210";2021-11-26 20:20:00;2021-11-26 20:20:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"583";"Austrian";"OS 126";2021-10-22 18:10:00;2021-10-22 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"584";"Austrian";"OS 7303";2021-10-22 18:50:00;2021-10-22 18:50:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"585";"Austrian";"OS 7395";2021-10-22 19:00:00;2021-10-22 19:00:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"586";"Austrian";"OS 7459";2021-10-22 19:00:00;2021-10-22 19:00:00;"Departed";"LEMD";"Airbus A320";0
+"587";"Austrian";"OS 7226";2021-11-21 11:20:00;2021-11-21 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"588";"Austrian";"OS 7226";2022-01-15 11:20:00;2022-01-15 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"589";"Austrian";"OS 130";2022-01-15 11:50:00;2022-01-15 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"590";"Austrian";"OS 7479";2022-01-13 10:35:00;2022-01-13 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"591";"Austrian";"OS 7371";2021-11-23 08:25:00;2021-11-23 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"592";"Austrian";"OS 7439";2021-11-23 08:45:00;2021-11-23 08:45:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"593";"Austrian";"OS 7457";2021-11-26 15:50:00;2021-11-26 16:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";20
+"594";"Austrian";"OS 126";2021-11-03 19:05:00;2021-11-03 19:05:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"595";"Austrian";"OS 7323";2021-11-16 08:50:00;2021-11-16 09:10:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";20
+"596";"Austrian";"OS 7319";2021-11-16 09:25:00;2021-11-16 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"597";"Austrian";"OS 7415";2021-11-16 09:20:00;2021-11-16 09:35:00;"Departed";"LEBB";"Airbus A320 NEO";15
+"598";"Austrian";"OS 7455";2021-11-16 09:10:00;2021-11-16 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"599";"Austrian";"OS 126";2021-11-05 19:05:00;2021-11-05 19:05:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"600";"Austrian";"OS 7321";2021-10-30 11:30:00;2021-10-30 11:50:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";20
+"601";"Austrian";"OS 8207";2021-10-30 11:55:00;2021-10-30 11:55:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"602";"Austrian";"OS 7411";2021-10-30 12:35:00;2021-10-30 13:20:00;"Departed";"LEMG";"Airbus A321-100/200";45
+"603";"Austrian";"OS 7435";2021-10-30 12:15:00;2021-10-30 12:15:00;"Departed";"EFHK";"Canadair CRJ 900NG";0
+"604";"Austrian";"OS 286";2021-10-30 11:30:00;2021-10-30 12:15:00;"Departed";"LOWI";"Embraer EMB 195";45
+"605";"Austrian";"OS 7309";2021-12-19 15:25:00;2021-12-19 15:25:00;"Departed";"EGPH";"Airbus A319";0
+"606";"Austrian";"OS 7483";2021-12-19 15:25:00;2021-12-19 15:25:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"607";"Austrian";"OS 7455";2022-01-13 09:10:00;2022-01-13 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"608";"Austrian";"OS 7415";2022-01-13 09:20:00;2022-01-13 09:20:00;"Departed";"LEBB";"Airbus A319";0
+"609";"Austrian";"OS 7319";2022-01-13 09:25:00;2022-01-13 09:25:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"610";"Austrian";"OS 7206";2021-11-02 15:50:00;2021-11-02 15:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"611";"Austrian";"OS 7457";2021-11-02 15:50:00;2021-11-02 15:50:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"612";"Austrian";"OS 7309";2021-11-15 15:25:00;2021-11-15 15:25:00;"Departed";"EGPH";"Airbus A319";0
+"613";"Austrian";"OS 7309";2021-12-13 15:25:00;2021-12-13 15:25:00;"Departed";"EGPH";"Embraer EMB 190";0
+"614";"Austrian";"OS 7483";2021-12-13 15:25:00;2021-12-13 15:25:00;"Departed";"ESGG";"Airbus A320";0
+"615";"Austrian";"OS 7228";2021-11-16 07:10:00;2021-11-16 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"616";"Austrian";"OS 7309";2021-11-17 15:25:00;2021-11-17 15:25:00;"Departed";"EGPH";"Airbus A320";0
+"617";"Austrian";"OS 7206";2021-10-25 14:50:00;2021-10-25 14:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"618";"Austrian";"OS 7242";2021-10-25 15:00:00;2021-10-25 15:00:00;"Departed";"LOWS";"Embraer EMB 190";0
+"619";"Austrian";"OS 7230";2022-01-11 20:40:00;2022-01-11 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"620";"Austrian";"OS 7248";2022-01-11 20:30:00;2022-01-11 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"621";"Austrian";"OS 7433";2022-01-11 20:40:00;2022-01-11 20:40:00;"Departed";"ESGG";"Airbus A320-100/200";0
+"622";"Austrian";"OS 7443";2022-01-11 20:40:00;2022-01-11 20:40:00;"Departed";"EFHK";"Airbus A319";0
+"623";"Austrian";"OS 7455";2021-12-15 09:10:00;2021-12-15 09:10:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"624";"Austrian";"OS 7415";2021-12-15 09:20:00;2021-12-15 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"625";"Austrian";"OS 7473";2021-11-02 14:55:00;2021-11-02 14:55:00;"Departed";"EIDW";"Canadair CRJ 900NG";0
+"626";"Austrian";"OS 7483";2021-11-02 15:25:00;2021-11-02 15:25:00;"Departed";"ESGG";"Canadair CRJ 900NG";0
+"627";"Austrian";"OS 7226";2021-11-11 11:20:00;2021-11-11 11:20:00;"Departed";"LOWG";"Embraer EMB 195";0
+"628";"Austrian";"OS 7371";2021-10-25 07:45:00;2021-10-25 07:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"629";"Austrian";"OS 122";2021-10-25 07:50:00;2021-10-25 08:05:00;"Departed";"LOWW";"Airbus A320-100/200";15
+"630";"Austrian";"OS 7469";2021-10-25 07:50:00;2021-10-25 08:05:00;"Departed";"EIDW";"Airbus A321-100/200";15
+"631";"Austrian";"OS 8205";2021-10-25 08:10:00;2021-10-25 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"632";"Austrian";"OS 8281";2021-10-25 08:15:00;2021-10-25 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"633";"Austrian";"OS 7319";2021-10-25 08:30:00;2021-10-25 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"634";"Austrian";"OS 7307";2021-10-25 08:10:00;2021-10-25 08:35:00;"Departed";"EGPH";"Airbus A320";25
+"635";"Austrian";"OS 7325";2021-10-25 08:35:00;2021-10-25 08:55:00;"Departed";"KSFO";"Boeing 747-200";20
+"636";"Austrian";"OS 7423";2021-11-15 19:35:00;2021-11-15 19:35:00;"Departed";"EETN";"Airbus A320-100/200";0
+"637";"Austrian";"OS 7226";2021-12-14 11:20:00;2021-12-14 11:20:00;"Departed";"LOWG";"Canadair CRJ 900NG";0
+"638";"Austrian";"OS 7260";2021-10-22 04:50:00;2021-10-22 04:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"639";"Austrian";"OS 7439";2021-12-14 08:45:00;2021-12-14 08:45:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"640";"Austrian";"OS 7423";2021-12-12 19:35:00;2021-12-12 19:35:00;"Departed";"EETN";"Airbus A320-100/200";0
+"641";"Austrian";"OS 7371";2021-10-29 07:45:00;2021-10-29 07:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"642";"Austrian";"OS 7469";2021-10-29 07:50:00;2021-10-29 07:50:00;"Departed";"EIDW";"Airbus A320";0
+"643";"Austrian";"OS 7307";2021-10-29 08:10:00;2021-10-29 08:30:00;"Departed";"EGPH";"Airbus A320-100/200";20
+"644";"Austrian";"OS 7323";2021-10-29 08:45:00;2021-10-29 08:45:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"645";"Austrian";"OS 8205";2021-10-29 08:10:00;2021-10-29 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"646";"Austrian";"OS 8281";2021-10-29 08:15:00;2021-10-29 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"647";"Austrian";"OS 122";2021-10-29 07:50:00;2021-10-29 07:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"648";"Austrian";"OS 7325";2021-10-29 08:35:00;2021-10-29 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"649";"Austrian";"OS 7483";2021-11-11 15:25:00;2021-11-11 15:25:00;"Departed";"ESGG";"Canadair CRJ 900";0
+"650";"Austrian";"OS 7395";2021-12-14 19:45:00;2021-12-14 20:15:00;"Departed";"LPPT";"Airbus A320";30
+"651";"Austrian";"OS 7433";2021-12-14 20:40:00;2021-12-14 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"652";"Austrian";"OS 7443";2021-12-14 20:40:00;2021-12-14 20:40:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"653";"Austrian";"OS 7375";2021-12-14 20:50:00;2021-12-14 20:50:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"654";"Austrian";"OS 7226";2021-11-24 11:20:00;2021-11-24 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"655";"Austrian";"OS 130";2021-11-24 11:50:00;2021-11-24 11:50:00;"Departed";"LOWW";"Airbus A320";0
+"656";"Austrian";"OS 7210";2021-11-18 20:10:00;2021-11-18 20:10:00;"Departed";"LOWW";"Airbus A319";0
+"657";"Austrian";"OS 7248";2021-11-18 20:30:00;2021-11-18 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"658";"Austrian";"OS 7230";2021-11-18 20:40:00;2021-11-18 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"659";"Austrian";"OS 7443";2021-11-18 20:40:00;2021-11-18 20:40:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"660";"Austrian";"OS 7335";2021-12-15 13:10:00;2021-12-15 13:10:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"661";"Austrian";"OS 7393";2021-12-15 12:15:00;2021-12-15 13:20:00;"Departed";"LPPT";"Airbus A321";65
+"662";"Austrian";"OS 7423";2021-11-26 19:35:00;2021-11-26 19:35:00;"Departed";"EETN";"Airbus A321";0
+"663";"Austrian";"OS 7230";2021-12-19 20:40:00;2021-12-19 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"664";"Austrian";"OS 7248";2021-12-19 20:30:00;2021-12-19 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"665";"Austrian";"OS 7433";2021-12-19 20:40:00;2021-12-19 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"666";"Austrian";"OS 7395";2021-12-19 19:45:00;2021-12-19 20:20:00;"Departed";"LPPT";"Airbus A321-100/200";35
+"667";"Austrian";"OS 132";2021-10-22 15:50:00;2021-10-22 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"668";"Austrian";"OS 7443";2021-11-13 20:40:00;2021-11-13 20:40:00;"Departed";"EFHK";"Airbus A321";0
+"669";"Austrian";"OS 7210";2021-11-13 20:20:00;2021-11-13 20:20:00;"Departed";"LOWW";"Airbus A320";0
+"670";"Austrian";"OS 7260";2021-10-31 05:50:00;2021-10-31 05:50:00;"Departed";"LOWW";"Airbus A319";0
+"671";"Austrian";"OS 7335";2021-11-15 13:10:00;2021-11-15 13:10:00;"Departed";"EGCC";"Canadair CRJ 900NG";0
+"672";"Austrian";"OS 7242";2022-01-16 11:55:00;2022-01-16 12:15:00;"Departed";"LOWS";"Airbus A320-200 (Sharklets)";20
+"673";"Austrian";"OS 7393";2022-01-16 12:15:00;2022-01-16 12:15:00;"Departed";"LPPT";"Airbus A320";0
+"674";"Austrian";"OS 8207";2022-01-16 12:30:00;2022-01-16 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"675";"Austrian";"OS 7461";2021-12-16 12:00:00;2021-12-16 12:30:00;"Departed";"LEMD";"Airbus A320";30
+"676";"Austrian";"OS 7434";2021-10-25 13:05:00;2021-10-25 18:17:00;"Delayed";"EFHK";"Airbus A321-100/200";312
+"677";"Austrian";"OS 7303";2021-10-25 18:50:00;2021-10-25 18:50:00;"Departed";"LEBB";"Airbus A319";0
+"678";"Austrian";"OS 7459";2021-10-25 19:00:00;2021-10-25 19:00:00;"Departed";"LEMD";"Airbus A320";0
+"679";"Austrian";"OS 126";2021-10-25 18:10:00;2021-10-25 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"680";"Austrian";"OS 7321";2021-11-11 12:35:00;2021-11-11 12:35:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";0
+"681";"Austrian";"OS 8207";2021-11-11 12:30:00;2021-11-11 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"682";"Austrian";"OS 7461";2021-11-11 12:00:00;2021-11-11 12:15:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";15
+"683";"Austrian";"OS 7483";2021-11-18 15:25:00;2021-11-18 15:25:00;"Departed";"ESGG";"Canadair CRJ 900NG";0
+"684";"Austrian";"OS 7206";2021-11-03 15:50:00;2021-11-03 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"685";"Austrian";"OS 7309";2021-11-03 15:25:00;2021-11-03 15:50:00;"Departed";"EGPH";"Airbus A320";25
+"686";"Austrian";"OS 7457";2021-11-03 15:50:00;2021-11-03 15:50:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"687";"Austrian";"OS 132";2021-11-03 16:50:00;2021-11-03 16:50:00;"Departed";"LOWW";"Airbus A320";0
+"688";"Austrian";"OS 7335";2022-01-12 13:10:00;2022-01-12 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"689";"Austrian";"OS 7228";2021-11-18 07:10:00;2021-11-18 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"690";"Austrian";"OS 7413";2021-10-27 07:15:00;2021-10-27 07:15:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"691";"Austrian";"OS 7305";2021-11-04 14:00:00;2021-11-04 14:00:00;"Departed";"LEBB";"Airbus A320";0
+"692";"Austrian";"OS 7321";2021-12-17 12:35:00;2021-12-17 13:10:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";35
+"693";"Austrian";"OS 7335";2021-12-17 13:10:00;2021-12-17 13:10:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"694";"Austrian";"OS 7423";2022-01-12 19:35:00;2022-01-12 19:35:00;"Departed";"EETN";"Airbus A320";0
+"695";"Austrian";"OS 7371";2021-11-22 08:25:00;2021-11-22 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"696";"Austrian";"OS 7485";2021-11-22 08:35:00;2021-11-22 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"697";"Austrian";"OS 7439";2021-11-22 08:45:00;2021-11-22 08:45:00;"Departed";"EFHK";"Airbus A321 NEO";0
+"698";"Austrian";"OS 7206";2021-11-19 15:50:00;2021-11-19 16:10:00;"Departed";"LOWW";"Airbus A320-100/200";20
+"699";"Austrian";"OS 126";2021-10-30 18:10:00;2021-10-30 18:10:00;"Departed";"LOWW";"Airbus A319";0
+"700";"Austrian";"OS 7303";2021-10-30 18:50:00;2021-10-30 18:50:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"701";"Austrian";"OS 7423";2021-10-30 19:15:00;2021-10-30 19:15:00;"Departed";"EETN";"Airbus A321-100/200";0
+"702";"Austrian";"OS 7230";2021-11-04 20:40:00;2021-11-04 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"703";"Austrian";"OS 7248";2021-11-04 20:30:00;2021-11-04 20:55:00;"Departed";"LOWS";"Embraer EMB 190";25
+"704";"Austrian";"OS 7375";2021-11-04 20:50:00;2021-11-04 20:50:00;"Departed";"EGCC";"Airbus A319";0
+"705";"Austrian";"OS 7433";2021-11-04 20:40:00;2021-11-04 20:40:00;"Departed";"ESGG";"Airbus A320";0
+"706";"Austrian";"OS 7471";2021-11-04 20:50:00;2021-11-04 20:50:00;"Departed";"EIDW";"Airbus A320";0
+"707";"Austrian";"OS 7443";2021-11-04 20:30:00;2021-11-04 20:30:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"708";"Austrian";"OS 7210";2021-11-04 20:50:00;2021-11-04 20:50:00;"Departed";"LOWW";"Airbus A320";0
+"709";"Austrian";"OS 7395";2021-11-04 19:45:00;2021-11-04 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"710";"Austrian";"OS 7260";2021-10-26 04:50:00;2021-10-26 04:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"711";"Austrian";"OS 7473";2021-10-23 13:50:00;2021-10-23 14:05:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";15
+"712";"Austrian";"OS 7242";2021-10-23 15:00:00;2021-10-23 15:00:00;"Departed";"LOWS";"Canadair CRJ 900NG";0
+"713";"Austrian";"OS 7307";2021-11-26 09:50:00;2021-11-26 10:15:00;"Departed";"EGPH";"Airbus A320";25
+"714";"Austrian";"OS 7479";2021-11-26 10:35:00;2021-11-26 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"715";"Austrian";"OS 7371";2021-11-13 08:25:00;2021-11-13 09:10:00;"Departed";"EGCC";"Airbus A319";45
+"716";"Austrian";"OS 7469";2021-11-13 08:50:00;2021-11-13 09:10:00;"Departed";"EIDW";"Airbus A321-100/200";20
+"717";"Austrian";"OS 7455";2021-11-13 09:10:00;2021-11-13 09:10:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";0
+"718";"Austrian";"OS 7415";2021-11-13 09:20:00;2021-11-13 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"719";"Austrian";"OS 7303";2021-10-26 18:50:00;2021-10-26 18:50:00;"Departed";"LEBB";"Airbus A319";0
+"720";"Austrian";"OS 7459";2021-10-26 19:00:00;2021-10-26 19:00:00;"Departed";"LEMD";"Airbus A320 NEO";0
+"721";"Austrian";"OS 126";2021-10-26 18:10:00;2021-10-26 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"722";"Austrian";"OS 7210";2021-11-16 20:20:00;2021-11-16 20:20:00;"Departed";"LOWW";"Airbus A319";0
+"723";"Austrian";"OS 7433";2021-11-16 20:40:00;2021-11-16 20:40:00;"Departed";"ESGG";"Airbus A320";0
+"724";"Austrian";"OS 7443";2021-11-16 20:40:00;2021-11-16 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"725";"Austrian";"OS 7415";2022-01-12 09:20:00;2022-01-12 09:20:00;"Departed";"LEBB";"Airbus A320 NEO";0
+"726";"Austrian";"OS 7325";2022-01-12 09:05:00;2022-01-12 09:25:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";20
+"727";"Austrian";"OS 7371";2021-11-26 08:25:00;2021-11-26 08:25:00;"Departed";"EGCC";"Airbus A320 NEO";0
+"728";"Austrian";"OS 7485";2021-11-26 08:35:00;2021-11-26 08:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"729";"Austrian";"OS 122";2021-11-26 08:50:00;2021-11-26 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"730";"Austrian";"OS 7260";2021-10-25 04:50:00;2021-10-25 04:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"731";"Austrian";"OS 7455";2022-01-15 09:10:00;2022-01-15 09:10:00;"Departed";"LEMD";"Airbus A319";0
+"732";"Austrian";"OS 7259";2022-01-15 09:40:00;2022-01-15 09:33:00;"Departed";"LOWW";"Airbus A320 NEO";-7
+"733";"Austrian";"OS 7326";2022-01-15 09:30:00;2022-01-15 09:31:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";1
+"734";"Austrian";"OS 7320";2022-01-15 10:00:00;2022-01-15 09:42:00;"Departed";"KLAX";"Boeing 747-200 Mixed Configuration";-18
+"735";"Austrian";"OS 7415";2022-01-15 09:20:00;2022-01-15 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"736";"Austrian";"OS 7344";2021-11-15 08:25:00;2021-11-15 08:13:00;"Departed";"LPPT";"Airbus A321-100/200";-12
+"737";"Austrian";"OS 7371";2021-11-15 08:25:00;2021-11-15 08:25:00;"Departed";"EGCC";"Airbus A320";0
+"738";"Austrian";"OS 7335";2021-11-22 13:10:00;2021-11-22 13:10:00;"Departed";"EGCC";"Canadair CRJ 900NG";0
+"739";"Austrian";"OS 7228";2021-12-15 07:10:00;2021-12-15 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"740";"Austrian";"OS 7455";2021-11-15 09:10:00;2021-11-15 09:10:00;"Departed";"LEMD";"Airbus A320";0
+"741";"Austrian";"OS 7415";2021-11-15 09:20:00;2021-11-15 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"742";"Austrian";"OS 8202";2021-11-23 05:30:00;2021-11-23 05:27:00;"Departed";"CYYZ";"Boeing 777-300ER";-3
+"743";"Austrian";"OS 7226";2021-11-20 11:20:00;2021-11-20 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"744";"Austrian";"OS 7413";2021-11-20 10:55:00;2021-11-20 11:10:00;"Departed";"LEMG";"Airbus A320";15
+"745";"Austrian";"OS 7204";2021-11-20 10:50:00;2021-11-20 11:20:00;"Departed";"LOWW";"Airbus A320 NEO";30
+"746";"Austrian";"OS 130";2021-10-26 10:50:00;2021-10-26 11:05:00;"Departed";"LOWW";"Airbus A320-100/200";15
+"747";"Austrian";"OS 7461";2021-11-15 12:00:00;2021-11-15 12:25:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";25
+"748";"Austrian";"OS 7393";2021-11-15 12:15:00;2021-11-15 12:30:00;"Departed";"LPPT";"Airbus A321";15
+"749";"Austrian";"OS 7435";2021-11-15 12:30:00;2021-11-15 12:30:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"750";"Austrian";"OS 8207";2021-11-15 12:30:00;2021-11-15 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"751";"Austrian";"OS 7423";2021-11-16 19:35:00;2021-11-16 19:35:00;"Departed";"EETN";"Airbus A320-200 (Sharklets)";0
+"752";"Austrian";"OS 7228";2021-11-04 07:10:00;2021-11-04 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"753";"Austrian";"OS 7260";2021-11-04 05:50:00;2021-11-04 05:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"754";"Austrian";"OS 7228";2021-11-26 07:10:00;2021-11-26 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"755";"Austrian";"OS 7443";2021-11-20 20:40:00;2021-11-20 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"756";"Austrian";"OS 7210";2021-11-20 20:20:00;2021-11-20 20:20:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"757";"Austrian";"OS 7393";2021-11-24 12:15:00;2021-11-24 12:15:00;"Departed";"LPPT";"Airbus A321 NEO";0
+"758";"Austrian";"OS 7435";2021-11-24 12:30:00;2021-11-24 12:30:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"759";"Austrian";"OS 7421";2021-11-24 12:50:00;2021-11-24 12:50:00;"Departed";"EETN";"Airbus A320-100/200";0
+"760";"Austrian";"OS 7375";2021-11-19 20:50:00;2021-11-19 21:10:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";20
+"761";"Austrian";"OS 7315";2021-11-19 20:50:00;2021-11-19 21:25:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";35
+"762";"Austrian";"OS 7413";2021-11-15 10:55:00;2021-11-15 11:10:00;"Departed";"LEMG";"Airbus A321-100/200";15
+"763";"Austrian";"OS 7226";2021-11-15 11:20:00;2021-11-15 11:35:00;"Departed";"LOWG";"Embraer EMB 190";15
+"764";"Austrian";"OS 7228";2021-12-16 07:10:00;2021-12-16 07:10:00;"Departed";"LOWG";"Canadair CRJ 900NG";0
+"765";"Austrian";"OS 7479";2021-11-25 10:35:00;2021-11-25 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"766";"Austrian";"OS 7242";2021-11-27 11:55:00;2021-11-27 12:15:00;"Departed";"LOWS";"Embraer EMB 190";20
+"767";"Austrian";"OS 8207";2021-11-27 12:30:00;2021-11-27 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"768";"Austrian";"OS 7371";2021-11-17 08:25:00;2021-11-17 08:25:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"769";"Austrian";"OS 7485";2021-11-17 08:35:00;2021-11-17 08:35:00;"Departed";"ESGG";"Airbus A320";0
+"770";"Austrian";"OS 7439";2021-11-17 08:45:00;2021-11-17 08:45:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"771";"Austrian";"OS 7439";2021-12-15 08:45:00;2021-12-15 08:45:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"772";"Austrian";"OS 7485";2021-12-15 08:35:00;2021-12-15 08:35:00;"Departed";"ESGG";"Airbus A319";0
+"773";"Austrian";"OS 7248";2021-10-31 19:55:00;2021-10-31 19:55:00;"Departed";"LOWS";"Embraer EMB 190";0
+"774";"Austrian";"OS 7459";2021-10-31 19:50:00;2021-10-31 20:05:00;"Departed";"LEMD";"Airbus A321 NEO";15
+"775";"Austrian";"OS 7230";2021-10-31 20:40:00;2021-10-31 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"776";"Austrian";"OS 7303";2021-10-31 20:00:00;2021-10-31 20:00:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"777";"Austrian";"OS 7375";2021-10-31 20:50:00;2021-10-31 20:50:00;"Departed";"EGCC";"Airbus A320";0
+"778";"Austrian";"OS 7433";2021-10-31 20:40:00;2021-10-31 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"779";"Austrian";"OS 7443";2021-10-31 20:40:00;2021-10-31 20:40:00;"Departed";"EFHK";"Airbus A320-100/200";0
+"780";"Austrian";"OS 7471";2021-10-31 20:50:00;2021-10-31 20:50:00;"Departed";"EIDW";"Airbus A320";0
+"781";"Austrian";"OS 7210";2021-10-31 20:50:00;2021-10-31 20:50:00;"Departed";"LOWW";"Airbus A319";0
+"782";"Austrian";"OS 7395";2021-10-31 19:45:00;2021-10-31 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"783";"Austrian";"OS 7228";2021-11-05 07:10:00;2021-11-05 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"784";"Austrian";"OS 7260";2021-11-05 05:50:00;2021-11-05 05:50:00;"Departed";"LOWW";"Airbus A320";0
+"785";"Austrian";"OS 128";2021-11-05 06:50:00;2021-11-05 06:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"786";"Austrian";"OS 7204";2021-11-17 10:50:00;2021-11-17 10:50:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"787";"Austrian";"OS 126";2021-11-02 19:05:00;2021-11-02 19:05:00;"Departed";"LOWW";"Airbus A320";0
+"788";"Austrian";"OS 7433";2021-12-11 20:40:00;2021-12-11 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"789";"Austrian";"OS 7443";2021-12-11 20:40:00;2021-12-11 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"790";"Austrian";"OS 7309";2021-11-01 15:25:00;2021-11-01 15:45:00;"Departed";"EGPH";"Airbus A320";20
+"791";"Austrian";"OS 7206";2021-11-01 15:50:00;2021-11-01 15:50:00;"Departed";"LOWW";"Airbus A320";0
+"792";"Austrian";"OS 7457";2021-11-01 15:50:00;2021-11-01 15:50:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"793";"Austrian";"OS 7246";2021-10-27 07:25:00;2021-10-27 07:40:00;"Departed";"LOWS";"Embraer EMB 190";15
+"794";"Austrian";"OS 7371";2021-10-27 07:45:00;2021-10-27 07:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"795";"Austrian";"OS 7439";2021-10-27 07:25:00;2021-10-27 07:45:00;"Departed";"EFHK";"Airbus A320 NEO";20
+"796";"Austrian";"OS 7455";2021-10-27 07:30:00;2021-10-27 07:55:00;"Departed";"LEMD";"Airbus A321-100/200";25
+"797";"Austrian";"OS 7469";2021-10-27 07:50:00;2021-10-27 08:20:00;"Departed";"EIDW";"Airbus A321-100/200";30
+"798";"Austrian";"OS 7307";2021-10-27 08:10:00;2021-10-27 08:10:00;"Departed";"EGPH";"Airbus A320 NEO";0
+"799";"Austrian";"OS 7319";2021-10-27 08:30:00;2021-10-27 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"800";"Austrian";"OS 7323";2021-10-27 08:45:00;2021-10-27 08:45:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"801";"Austrian";"OS 8205";2021-10-27 08:10:00;2021-10-27 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"802";"Austrian";"OS 7325";2021-10-27 08:35:00;2021-10-27 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"803";"Austrian";"OS 122";2021-10-27 07:50:00;2021-10-27 07:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"804";"Austrian";"OS 7210";2021-11-14 20:20:00;2021-11-14 20:20:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"805";"Austrian";"OS 7248";2021-11-14 20:30:00;2021-11-14 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"806";"Austrian";"OS 7230";2021-11-14 20:40:00;2021-11-14 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"807";"Austrian";"OS 126";2021-11-01 19:05:00;2021-11-01 19:05:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"808";"Austrian";"OS 7483";2021-11-23 15:25:00;2021-11-23 15:25:00;"Departed";"ESGG";"Canadair CRJ 900";0
+"809";"Austrian";"OS 7303";2021-10-28 18:50:00;2021-10-28 18:50:00;"Departed";"LEBB";"Airbus A319";0
+"810";"Austrian";"OS 7395";2021-10-28 19:00:00;2021-10-28 19:00:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"811";"Austrian";"OS 7459";2021-10-28 19:00:00;2021-10-28 19:00:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"812";"Austrian";"OS 126";2021-10-28 18:10:00;2021-10-28 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"813";"Austrian";"OS 7321";2022-01-15 12:35:00;2022-01-15 12:35:00;"Departed";"MMMX";"Boeing 747-200 Mixed Configuration";0
+"814";"Austrian";"OS 7421";2022-01-15 12:50:00;2022-01-15 12:50:00;"Departed";"EETN";"Airbus A319";0
+"815";"Austrian";"OS 7443";2022-01-12 20:40:00;2022-01-12 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"816";"Austrian";"OS 7230";2021-11-12 20:40:00;2021-11-12 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"817";"Austrian";"OS 7248";2021-11-12 20:30:00;2021-11-12 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"818";"Austrian";"OS 7210";2021-11-12 20:20:00;2021-11-12 20:20:00;"Departed";"LOWW";"Airbus A320 NEO";0
+"819";"Austrian";"OS 7305";2021-11-01 14:00:00;2021-11-01 14:00:00;"Departed";"LEBB";"Airbus A321-100/200";0
+"820";"Austrian";"OS 7371";2021-10-23 07:45:00;2021-10-23 07:45:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"821";"Austrian";"OS 122";2021-10-23 07:50:00;2021-10-23 08:10:00;"Departed";"LOWW";"Airbus A320-100/200";20
+"822";"Austrian";"OS 7469";2021-10-23 07:50:00;2021-10-23 08:10:00;"Departed";"EIDW";"Airbus A320 NEO";20
+"823";"Austrian";"OS 7307";2021-10-23 08:10:00;2021-10-23 08:10:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"824";"Austrian";"OS 8205";2021-10-23 08:10:00;2021-10-23 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"825";"Austrian";"OS 8281";2021-10-23 08:15:00;2021-10-23 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"826";"Austrian";"OS 7319";2021-10-23 08:30:00;2021-10-23 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"827";"Austrian";"OS 7323";2021-10-23 08:45:00;2021-10-23 08:45:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"828";"Austrian";"OS 7325";2021-10-23 08:35:00;2021-10-23 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"829";"Austrian";"OS 7230";2021-11-01 20:40:00;2021-11-01 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"830";"Austrian";"OS 7248";2021-11-01 20:30:00;2021-11-01 20:30:00;"Departed";"LOWS";"Embraer EMB 190";0
+"831";"Austrian";"OS 7315";2021-11-01 20:55:00;2021-11-01 20:55:00;"Departed";"FAOR";"Boeing 747-200";0
+"832";"Austrian";"OS 7375";2021-11-01 20:50:00;2021-11-01 20:50:00;"Departed";"EGCC";"Airbus A320";0
+"833";"Austrian";"OS 7433";2021-11-01 20:40:00;2021-11-01 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"834";"Austrian";"OS 7443";2021-11-01 20:40:00;2021-11-01 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"835";"Austrian";"OS 7210";2021-11-01 20:50:00;2021-11-01 20:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"836";"Austrian";"OS 128";2021-10-30 05:50:00;2021-10-30 05:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"837";"Austrian";"OS 7485";2021-10-30 07:15:00;2021-10-30 07:15:00;"Departed";"ESGG";"Airbus A321-100/200";0
+"838";"Austrian";"OS 7228";2021-12-13 07:10:00;2021-12-13 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"839";"Austrian";"OS 7327";2021-12-13 07:40:00;2021-12-13 07:40:00;"Departed";"LPPT";"Airbus A319";0
+"840";"Austrian";"OS 7479";2021-11-18 10:35:00;2021-11-18 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"841";"Austrian";"OS 7204";2021-10-28 09:50:00;2021-10-28 09:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"842";"Austrian";"OS 7479";2021-10-28 10:30:00;2021-10-28 10:30:00;"Departed";"ESGG";"Airbus A320";0
+"843";"Austrian";"OS 130";2021-10-28 10:50:00;2021-10-28 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"844";"Austrian";"OS 7335";2021-10-28 11:05:00;2021-10-28 11:05:00;"Departed";"EGCC";"Airbus A319";0
+"845";"Austrian";"OS 7309";2021-12-12 15:25:00;2021-12-12 15:25:00;"Departed";"EGPH";"Airbus A319";0
+"846";"Austrian";"OS 7483";2021-12-12 15:25:00;2021-12-12 15:25:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"847";"Austrian";"OS 7226";2021-12-17 11:20:00;2021-12-17 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"848";"Austrian";"OS 7307";2021-11-05 09:50:00;2021-11-05 09:50:00;"Departed";"EGPH";"Airbus A320";0
+"849";"Austrian";"OS 7479";2021-11-05 10:35:00;2021-11-05 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"850";"Austrian";"OS 7204";2021-11-05 10:50:00;2021-11-05 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"851";"Austrian";"OS 7413";2021-11-05 10:55:00;2021-11-05 10:55:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"852";"Austrian";"OS 7226";2021-11-05 11:20:00;2021-11-05 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"853";"Austrian";"OS 7423";2021-11-20 19:35:00;2021-11-20 19:35:00;"Departed";"EETN";"Airbus A320 NEO";0
+"854";"Austrian";"OS 7207";2022-01-15 19:35:00;2022-01-15 19:17:00;"Departed";"LOWW";"Airbus A319";-18
+"855";"Austrian";"OS 7472";2022-01-15 19:45:00;2022-01-15 19:22:00;"Departed";"EIDW";"Airbus A320-200 (Sharklets)";-23
+"856";"Austrian";"OS 7423";2022-01-15 19:35:00;2022-01-15 19:35:00;"Departed";"EETN";"Airbus A320-100/200";0
+"857";"Austrian";"OS 7459";2022-01-15 19:50:00;2022-01-15 19:50:00;"Departed";"LEMD";"Airbus A320";0
+"858";"Austrian";"OS 7344";2021-11-20 08:25:00;2021-11-20 08:16:00;"Departed";"LPPT";"Airbus A321-100/200";-9
+"859";"Austrian";"OS 7371";2021-11-20 08:25:00;2021-11-20 08:25:00;"Departed";"EGCC";"Airbus A319";0
+"860";"Austrian";"OS 7372";2021-11-20 08:20:00;2021-11-20 08:22:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";2
+"861";"Austrian";"OS 7439";2021-11-20 08:45:00;2021-11-20 08:45:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"862";"Austrian";"OS 7327";2021-11-20 08:10:00;2021-11-20 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"863";"Austrian";"OS 128";2021-11-27 06:50:00;2021-11-27 06:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"864";"Austrian";"OS 7307";2021-11-01 09:50:00;2021-11-01 09:50:00;"Departed";"EGPH";"Airbus A320-100/200";0
+"865";"Austrian";"OS 7479";2021-11-01 10:35:00;2021-11-01 10:35:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"866";"Austrian";"OS 7204";2021-11-01 10:50:00;2021-11-01 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"867";"Austrian";"OS 7226";2021-11-01 11:20:00;2021-11-01 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"868";"Austrian";"OS 7435";2021-11-21 12:30:00;2021-11-21 12:30:00;"Departed";"EFHK";"Airbus A320";0
+"869";"Austrian";"OS 7461";2021-11-21 12:00:00;2021-11-21 12:25:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";25
+"870";"Austrian";"OS 7393";2021-11-21 12:15:00;2021-11-21 12:15:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"871";"Austrian";"OS 7479";2021-12-14 10:35:00;2021-12-14 10:35:00;"Departed";"ESGG";"Airbus A320";0
+"872";"Austrian";"OS 7335";2021-11-24 13:10:00;2021-11-24 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"873";"Austrian";"OS 132";2021-10-28 15:50:00;2021-10-28 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"874";"Austrian";"OS 126";2021-10-27 18:10:00;2021-10-27 18:10:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"875";"Austrian";"OS 7303";2021-10-27 18:50:00;2021-10-27 18:50:00;"Departed";"LEBB";"Airbus A319";0
+"876";"Austrian";"OS 7395";2021-10-27 19:00:00;2021-10-27 19:00:00;"Departed";"LPPT";"Airbus A321 NEO";0
+"877";"Austrian";"OS 7459";2021-10-27 19:00:00;2021-10-27 19:00:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"878";"Austrian";"OS 7246";2021-11-02 08:00:00;2021-11-02 08:00:00;"Departed";"LOWS";"Airbus A320-100/200";0
+"879";"Austrian";"OS 7323";2021-11-02 08:50:00;2021-11-02 08:50:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"880";"Austrian";"OS 7371";2021-11-02 08:25:00;2021-11-02 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"881";"Austrian";"OS 7439";2021-11-02 08:45:00;2021-11-02 08:45:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"882";"Austrian";"OS 7469";2021-11-02 08:50:00;2021-11-02 08:50:00;"Departed";"EIDW";"Airbus A320";0
+"883";"Austrian";"OS 8205";2021-11-02 09:05:00;2021-11-02 09:05:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"884";"Austrian";"OS 8281";2021-11-02 08:45:00;2021-11-02 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"885";"Austrian";"OS 122";2021-11-02 08:50:00;2021-11-02 08:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"886";"Austrian";"OS 7327";2021-11-02 08:10:00;2021-11-02 08:10:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"887";"Austrian";"OS 8207";2022-01-12 12:30:00;2022-01-12 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"888";"Austrian";"OS 7393";2022-01-12 12:15:00;2022-01-12 12:15:00;"Departed";"LPPT";"Airbus A319";0
+"889";"Austrian";"OS 7443";2021-11-23 20:40:00;2021-11-23 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"890";"Austrian";"OS 7210";2021-11-23 20:20:00;2021-11-23 20:20:00;"Departed";"LOWW";"Airbus A319";0
+"891";"Austrian";"OS 7413";2021-10-22 07:15:00;2021-10-22 07:40:00;"Departed";"LEMG";"Airbus A321-100/200";25
+"892";"Austrian";"OS 7371";2021-10-22 07:45:00;2021-10-22 07:45:00;"Departed";"EGCC";"Airbus A320-200 (Sharklets)";0
+"893";"Austrian";"OS 122";2021-10-22 07:50:00;2021-10-22 07:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"894";"Austrian";"OS 7469";2021-10-22 07:50:00;2021-10-22 08:10:00;"Departed";"EIDW";"Airbus A321-100/200";20
+"895";"Austrian";"OS 8205";2021-10-22 08:10:00;2021-10-22 08:10:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"896";"Austrian";"OS 8281";2021-10-22 08:15:00;2021-10-22 08:15:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"897";"Austrian";"OS 7319";2021-10-22 08:30:00;2021-10-22 08:30:00;"Departed";"KLAX";"Boeing 747-8 Intercontinental";0
+"898";"Austrian";"OS 7325";2021-10-22 08:35:00;2021-10-22 08:35:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"899";"Austrian";"OS 7307";2021-10-22 08:10:00;2021-10-22 08:50:00;"Departed";"EGPH";"Airbus A320-200 (Sharklets)";40
+"900";"Austrian";"OS 7395";2021-11-14 19:45:00;2021-11-14 19:45:00;"Departed";"LPPT";"Airbus A321-100/200";0
+"901";"Austrian";"OS 7485";2021-12-12 08:35:00;2021-12-12 08:35:00;"Departed";"ESGG";"Airbus A319";0
+"902";"Austrian";"OS 7242";2021-11-05 11:55:00;2021-11-05 11:55:00;"Departed";"LOWS";"Embraer EMB 190";0
+"903";"Austrian";"OS 7411";2021-11-05 12:55:00;2021-11-05 13:10:00;"Departed";"LEMG";"Airbus A321-100/200";15
+"904";"Austrian";"OS 7421";2021-11-05 12:50:00;2021-11-05 12:50:00;"Departed";"EETN";"Airbus A320-100/200";0
+"905";"Austrian";"OS 7435";2021-11-05 12:30:00;2021-11-05 12:30:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"906";"Austrian";"OS 7335";2021-11-05 13:10:00;2021-11-05 13:10:00;"Departed";"EGCC";"Airbus A319";0
+"907";"Austrian";"OS 7461";2021-11-05 12:00:00;2021-11-05 12:25:00;"Departed";"LEMD";"Airbus A320-200 (Sharklets)";25
+"908";"Austrian";"OS 130";2021-11-05 11:50:00;2021-11-05 11:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"909";"Austrian";"OS 7393";2021-11-05 12:15:00;2021-11-05 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"910";"Austrian";"OS 7246";2021-11-04 08:00:00;2021-11-04 08:00:00;"Departed";"LOWS";"Airbus A319";0
+"911";"Austrian";"OS 7323";2021-11-04 08:50:00;2021-11-04 08:50:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";0
+"912";"Austrian";"OS 7469";2021-11-04 08:50:00;2021-11-04 08:50:00;"Departed";"EIDW";"Airbus A320";0
+"913";"Austrian";"OS 7371";2021-11-04 08:25:00;2021-11-04 08:25:00;"Departed";"EGCC";"Airbus A320-100/200";0
+"914";"Austrian";"OS 7415";2021-11-04 09:20:00;2021-11-04 09:20:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"915";"Austrian";"OS 8205";2021-11-04 09:05:00;2021-11-04 09:05:00;"Departed";"CYUL";"Boeing 777-300ER";0
+"916";"Austrian";"OS 8281";2021-11-04 08:45:00;2021-11-04 08:45:00;"Departed";"CYYZ";"Boeing 777-300ER";0
+"917";"Austrian";"OS 7439";2021-11-04 08:45:00;2021-11-04 08:45:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"918";"Austrian";"OS 7325";2021-11-04 09:05:00;2021-11-04 09:05:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";0
+"919";"Austrian";"OS 122";2021-11-04 08:50:00;2021-11-04 08:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"920";"Austrian";"OS 7327";2021-11-04 08:10:00;2021-11-04 08:30:00;"Departed";"LPPT";"Airbus A321-100/200";20
+"921";"Austrian";"OS 7242";2021-12-18 11:55:00;2021-12-18 12:20:00;"Departed";"LOWS";"Airbus A319";25
+"922";"Austrian";"OS 8207";2021-12-18 12:30:00;2021-12-18 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"923";"Austrian";"OS 7226";2021-12-16 11:20:00;2021-12-16 11:40:00;"Departed";"LOWG";"Embraer EMB 190";20
+"924";"Austrian";"OS 7204";2021-12-16 10:50:00;2021-12-16 11:50:00;"Departed";"LOWW";"Airbus A319";60
+"925";"Austrian";"OS 7415";2021-12-19 09:20:00;2021-12-19 09:20:00;"Departed";"LEBB";"Airbus A321";0
+"926";"Austrian";"OS 7455";2021-12-19 09:10:00;2021-12-19 09:10:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"927";"Austrian";"OS 7226";2021-11-02 11:20:00;2021-11-02 11:45:00;"Departed";"LOWG";"Embraer EMB 190";25
+"928";"Austrian";"OS 7242";2021-11-02 11:55:00;2021-11-02 12:20:00;"Departed";"LOWS";"Embraer EMB 190";25
+"929";"Austrian";"OS 7321";2021-11-02 12:35:00;2021-11-02 12:35:00;"Departed";"MMMX";"Boeing 747-8 Intercontinental";0
+"930";"Austrian";"OS 7411";2021-11-02 12:30:00;2021-11-02 12:30:00;"Departed";"LEMG";"Airbus A321-100/200";0
+"931";"Austrian";"OS 7421";2021-11-02 12:50:00;2021-11-02 12:50:00;"Departed";"EETN";"Airbus A320";0
+"932";"Austrian";"OS 7461";2021-11-02 12:00:00;2021-11-02 12:00:00;"Departed";"LEMD";"Airbus A321-100/200";0
+"933";"Austrian";"OS 8207";2021-11-02 12:30:00;2021-11-02 12:30:00;"Departed";"CYYC";"Boeing 787-9 Dreamliner";0
+"934";"Austrian";"OS 130";2021-11-02 11:50:00;2021-11-02 11:50:00;"Departed";"LOWW";"Embraer EMB 195";0
+"935";"Austrian";"OS 7393";2021-11-02 12:15:00;2021-11-02 12:15:00;"Departed";"LPPT";"Airbus A321";0
+"936";"Austrian";"OS 7248";2022-01-14 20:30:00;2022-01-14 20:30:00;"Departed";"LOWS";"Airbus A319";0
+"937";"Austrian";"OS 7230";2022-01-14 20:40:00;2022-01-14 20:40:00;"Departed";"LOWG";"Embraer EMB 190";0
+"938";"Austrian";"OS 7443";2022-01-14 20:40:00;2022-01-14 20:40:00;"Departed";"EFHK";"Airbus A320 NEO";0
+"939";"Austrian";"OS 7226";2022-01-14 11:20:00;2022-01-14 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"940";"Austrian";"OS 7309";2021-10-22 14:00:00;2021-10-22 14:00:00;"Departed";"EGPH";"Airbus A319";0
+"941";"Austrian";"OS 7455";2021-11-25 09:10:00;2021-11-25 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"942";"Austrian";"OS 7323";2021-11-25 08:50:00;2021-11-25 09:15:00;"Departed";"KMIA";"Boeing 747-8 Intercontinental";25
+"943";"Austrian";"OS 7415";2021-11-25 09:20:00;2021-11-25 09:20:00;"Departed";"LEBB";"Airbus A320-100/200";0
+"944";"Austrian";"OS 7309";2021-11-14 15:25:00;2021-11-14 15:25:00;"Departed";"EGPH";"Airbus A320 NEO";0
+"945";"Austrian";"OS 7210";2021-11-22 20:20:00;2021-11-22 20:20:00;"Departed";"LOWW";"Airbus A320";0
+"946";"Austrian";"OS 7433";2021-11-22 20:40:00;2021-11-22 20:40:00;"Departed";"ESGG";"Airbus A320-200 (Sharklets)";0
+"947";"Austrian";"OS 7443";2021-11-22 20:40:00;2021-11-22 20:40:00;"Departed";"EFHK";"Airbus A320";0
+"948";"Austrian";"OS 7479";2021-11-21 10:35:00;2021-11-21 10:35:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"949";"Austrian";"OS 7423";2021-12-19 19:35:00;2021-12-19 19:35:00;"Departed";"EETN";"Airbus A320 NEO";0
+"950";"Austrian";"OS 7260";2021-10-30 04:50:00;2021-10-30 04:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"951";"Austrian";"OS 7228";2021-12-19 07:10:00;2021-12-19 07:10:00;"Departed";"LOWG";"Canadair CRJ 900NG";0
+"952";"Austrian";"OS 132";2021-10-25 15:50:00;2021-10-25 15:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"953";"Austrian";"OS 7206";2021-10-26 14:50:00;2021-10-26 14:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"954";"Austrian";"OS 7423";2021-11-21 19:35:00;2021-11-21 19:35:00;"Departed";"EETN";"Airbus A321 NEO";0
+"955";"Austrian";"OS 7415";2021-10-23 09:25:00;2021-10-23 09:40:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";15
+"956";"Austrian";"OS 7204";2021-10-23 09:50:00;2021-10-23 09:50:00;"Departed";"LOWW";"Embraer EMB 190";0
+"957";"Austrian";"OS 130";2021-10-23 10:50:00;2021-10-23 10:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"958";"Austrian";"OS 7375";2021-10-23 19:45:00;2021-10-23 19:45:00;"Departed";"EGCC";"Airbus A319";0
+"959";"Austrian";"OS 7433";2021-10-23 19:45:00;2021-10-23 19:45:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"960";"Austrian";"OS 7315";2021-10-23 20:05:00;2021-10-23 19:55:00;"Departed";"FAOR";"Boeing 747-8 Intercontinental";-10
+"961";"Austrian";"OS 7443";2021-10-23 19:35:00;2021-10-23 19:55:00;"Departed";"EFHK";"Airbus A321";20
+"962";"Austrian";"OS 7455";2021-11-19 09:10:00;2021-11-19 09:10:00;"Departed";"LEMD";"Airbus A320-100/200";0
+"963";"Austrian";"OS 7325";2021-11-19 09:05:00;2021-11-19 09:20:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";15
+"964";"Austrian";"OS 7415";2021-11-19 09:20:00;2021-11-19 09:20:00;"Departed";"LEBB";"Airbus A320";0
+"965";"Austrian";"OS 7413";2021-11-13 10:55:00;2021-11-13 11:30:00;"Departed";"LEMG";"Airbus A321-100/200";35
+"966";"Austrian";"OS 7228";2021-11-27 07:10:00;2021-11-27 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"967";"Austrian";"OS 7415";2021-12-17 09:20:00;2021-12-17 09:20:00;"Departed";"LEBB";"Airbus A320-200 (Sharklets)";0
+"968";"Austrian";"OS 7325";2021-12-17 09:05:00;2021-12-17 09:25:00;"Departed";"KSFO";"Boeing 747-8 Intercontinental";20
+"969";"Austrian";"OS 7455";2021-12-17 09:10:00;2021-12-17 09:25:00;"Departed";"LEMD";"Airbus A321-100/200";15
+"970";"Austrian";"OS 7327";2021-11-13 08:10:00;2021-11-13 08:10:00;"Departed";"LPPT";"Airbus A320-200 (Sharklets)";0
+"971";"Austrian";"OS 7439";2021-11-13 08:45:00;2021-11-13 08:45:00;"Departed";"EFHK";"Airbus A320-200 (Sharklets)";0
+"972";"Austrian";"OS 7228";2021-11-13 07:10:00;2021-11-13 07:10:00;"Departed";"LOWG";"Airbus A320-200 (Sharklets)";0
+"973";"Austrian";"OS 7413";2021-11-12 10:55:00;2021-11-12 11:10:00;"Departed";"LEMG";"Airbus A320-100/200";15
+"974";"Austrian";"OS 7226";2021-11-12 11:20:00;2021-11-12 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"975";"Austrian";"OS 7439";2022-01-12 08:45:00;2022-01-12 08:45:00;"Departed";"EFHK";"Airbus A320";0
+"976";"Austrian";"OS 7228";2021-11-22 07:10:00;2021-11-22 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"977";"Austrian";"OS 7228";2021-11-17 07:10:00;2021-11-17 07:10:00;"Departed";"LOWG";"Embraer EMB 190";0
+"978";"Austrian";"OS 7260";2021-11-01 05:50:00;2021-11-01 05:50:00;"Departed";"LOWW";"Airbus A320-200 (Sharklets)";0
+"979";"Austrian";"OS 128";2021-11-01 06:50:00;2021-11-01 06:50:00;"Departed";"LOWW";"Airbus A320-100/200";0
+"980";"Austrian";"OS 7228";2021-11-01 07:10:00;2021-11-01 07:10:00;"Departed";"LOWG";"Airbus A319";0
+"981";"Austrian";"OS 7226";2021-11-26 11:20:00;2021-11-26 11:20:00;"Departed";"LOWG";"Embraer EMB 190";0
+"982";"Austrian";"OS 7473";2021-10-24 13:50:00;2021-10-24 14:15:00;"Departed";"EIDW";"Embraer EMB 190";25
+"983";"Austrian";"OS 7309";2021-10-24 14:00:00;2021-10-24 14:00:00;"Departed";"EGPH";"Airbus A320-200 (Sharklets)";0
+"984";"Austrian";"OS 7206";2021-10-24 14:50:00;2021-10-24 14:50:00;"Departed";"LOWW";"Airbus A321-100/200";0
+"985";"Austrian";"OS 7479";2021-11-23 10:35:00;2021-11-23 10:35:00;"Departed";"ESGG";"Airbus A320 NEO";0
+"986";"Austrian";"OS 7423";2021-11-24 19:35:00;2021-11-24 19:35:00;"Departed";"EETN";"Airbus A321";0
+"987";"Austrian";"OS 7461";2021-12-12 12:00:00;2021-12-12 12:35:00;"Departed";"LEMD";"Airbus A321-100/200";35
