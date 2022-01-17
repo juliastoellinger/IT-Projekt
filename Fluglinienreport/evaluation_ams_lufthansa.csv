@@ -1,0 +1,238 @@
+"";"airline";"number";"scheduledTime";"actualTime";"status";"arrivalAirport";"aircraft";"diffMins"
+"1";"Lufthansa";"LH 2309";2021-12-28 17:50:00;2021-12-28 17:42:00;"Departed";"EDDM";"Canadair CRJ 900NG";-8
+"2";"Lufthansa";"LH 1003";2021-10-20 06:05:00;2021-10-20 06:07:00;"Departed";"EDDF";"Airbus A319";2
+"3";"Lufthansa";"LH 2301";2021-10-14 06:50:00;2021-10-14 07:27:00;"Departed";"EDDM";"Canadair CRJ 900NG";37
+"4";"Lufthansa";"LH 999";2021-11-01 18:35:00;2021-11-01 18:35:00;"Departed";"EDDF";"Canadair CRJ 900NG";0
+"5";"Lufthansa";"LH 2309";2021-11-01 17:50:00;2021-11-01 17:46:00;"Departed";"EDDM";"Embraer EMB 195";-4
+"6";"Lufthansa";"LH 2307";2021-10-18 15:35:00;2021-10-18 15:45:00;"Departed";"EDDM";"Canadair CRJ 900NG";10
+"7";"Lufthansa";"LH 2309";2021-12-31 17:50:00;2021-12-31 17:54:00;"Departed";"EDDM";"Canadair CRJ 900NG";4
+"8";"Lufthansa";"LH 2311";2021-11-10 06:00:00;2021-11-10 06:22:00;"Departed";"EDDM";"Airbus A319";22
+"9";"Lufthansa";"LH 1003";2021-11-10 06:40:00;2021-11-10 06:49:00;"Departed";"EDDF";"Airbus A319";9
+"10";"Lufthansa";"LH 989";2021-12-30 09:55:00;2021-12-30 10:11:00;"Departed";"EDDF";"Airbus A320 NEO";16
+"11";"Lufthansa";"LH 2303";2021-12-30 10:00:00;2021-12-30 10:21:00;"Departed";"EDDM";"Airbus A319";21
+"12";"Lufthansa";"LH 1003";2021-11-06 06:40:00;2021-11-06 06:38:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";-2
+"13";"Lufthansa";"LH 2305";2021-10-27 13:40:00;2021-10-27 13:43:00;"Departed";"EDDM";"Canadair CRJ 900NG";3
+"14";"Lufthansa";"LH 2301";2022-01-12 12:25:00;2022-01-12 12:36:00;"Departed";"EDDM";"Canadair CRJ 900NG";11
+"15";"Lufthansa";"LH 2305";2021-10-11 13:40:00;2021-10-11 13:41:00;"Departed";"EDDM";"Airbus A320-100/200";1
+"16";"Lufthansa";"LH 2307";2021-10-30 15:35:00;2021-10-30 15:58:00;"Departed";"EDDM";"Canadair CRJ 900NG";23
+"17";"Lufthansa";"LH 2309";2021-10-31 17:50:00;2021-10-31 17:52:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"18";"Lufthansa";"LH 999";2021-10-31 18:35:00;2021-10-31 18:37:00;"Departed";"EDDF";"Airbus A319";2
+"19";"Lufthansa";"LH 1003";2021-10-26 06:05:00;2021-10-26 06:06:00;"Departed";"EDDF";"Airbus A319";1
+"20";"Lufthansa";"LH 2301";2021-10-26 06:50:00;2021-10-26 06:47:00;"Departed";"EDDM";"Canadair CRJ 900NG";-3
+"21";"Lufthansa";"LH 2309";2021-12-27 17:50:00;2021-12-27 17:54:00;"Departed";"EDDM";"Canadair CRJ 900NG";4
+"22";"Lufthansa";"LH 2305";2021-11-08 12:40:00;2021-11-08 12:34:00;"Departed";"EDDM";"Canadair CRJ 900NG";-6
+"23";"Lufthansa";"LH 987";2021-11-11 09:55:00;2021-11-11 10:03:00;"Departed";"EDDF";"Embraer EMB 190";8
+"24";"Lufthansa";"LH 1003";2021-10-19 06:05:00;2021-10-19 06:16:00;"Departed";"EDDF";"Airbus A319";11
+"25";"Lufthansa";"LH 2301";2021-10-19 06:50:00;2021-10-19 06:54:00;"Departed";"EDDM";"Canadair CRJ 900NG";4
+"26";"Lufthansa";"LH 993";2021-11-02 13:45:00;2021-11-02 13:48:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";3
+"27";"Lufthansa";"LH 2303";2022-01-01 07:50:00;2022-01-01 08:08:00;"Departed";"EDDM";"Airbus A320-100/200";18
+"28";"Lufthansa";"LH 2301";2021-10-27 06:50:00;2021-10-27 06:45:00;"Departed";"EDDM";"Canadair CRJ 900NG";-5
+"29";"Lufthansa";"LH 987";2021-11-04 09:55:00;2021-11-04 09:59:00;"Departed";"EDDF";"Embraer EMB 195";4
+"30";"Lufthansa";"LH 2303";2021-11-04 10:00:00;2021-11-04 10:02:00;"Departed";"EDDM";"Embraer EMB 195";2
+"31";"Lufthansa";"LH 2305";2022-01-14 12:25:00;2022-01-14 12:22:00;"Departed";"EDDM";"Canadair CRJ 900NG";-3
+"32";"Lufthansa";"LH 1003";2021-11-02 06:40:00;2021-11-02 06:44:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";4
+"33";"Lufthansa";"LH 2311";2021-11-02 06:00:00;2021-11-02 05:57:00;"Departed";"EDDM";"Airbus A319";-3
+"34";"Lufthansa";"LH 997";2021-10-17 16:30:00;2021-10-17 16:41:00;"Departed";"EDDF";"Airbus A319";11
+"35";"Lufthansa";"LH 2307";2021-10-17 15:35:00;2021-10-17 15:57:00;"Departed";"EDDM";"Canadair CRJ 900NG";22
+"36";"Lufthansa";"LH 2305";2021-11-01 12:25:00;2021-11-01 12:43:00;"Departed";"EDDM";"Embraer EMB 195";18
+"37";"Lufthansa";"LH 989";2021-10-27 09:15:00;2021-10-27 09:19:00;"Departed";"EDDF";"Airbus A319";4
+"38";"Lufthansa";"LH 2305";2021-11-06 12:25:00;2021-11-06 12:43:00;"Departed";"EDDM";"Canadair CRJ 900NG";18
+"39";"Lufthansa";"LH 2305";2022-01-09 12:25:00;2022-01-09 12:27:00;"Departed";"EDDM";"Airbus A319";2
+"40";"Lufthansa";"LH 999";2021-11-11 18:35:00;2021-11-11 18:35:00;"Departed";"EDDF";"Canadair CRJ 900NG";0
+"41";"Lufthansa";"LH 2309";2022-01-01 17:50:00;2022-01-01 18:13:00;"Departed";"EDDM";"Canadair CRJ 900NG";23
+"42";"Lufthansa";"LH 1003";2022-01-14 06:40:00;2022-01-14 06:39:00;"Departed";"EDDF";"Airbus A319";-1
+"43";"Lufthansa";"LH 989";2021-10-11 09:15:00;2021-10-11 09:19:00;"Departed";"EDDF";"Airbus A319";4
+"44";"Lufthansa";"LH 2307";2021-10-16 15:35:00;2021-10-16 15:51:00;"Departed";"EDDM";"Canadair CRJ 900NG";16
+"45";"Lufthansa";"LH 997";2021-10-16 16:10:00;2021-10-16 16:14:00;"Departed";"EDDF";"Canadair CRJ 900NG";4
+"46";"Lufthansa";"LH 2311";2021-11-01 06:00:00;2021-11-01 06:13:00;"Departed";"EDDM";"Airbus A319";13
+"47";"Lufthansa";"LH 1003";2021-11-01 06:40:00;2021-11-01 06:45:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";5
+"48";"Lufthansa";"LH 993";2021-11-08 13:45:00;2021-11-08 13:46:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";1
+"49";"Lufthansa";"LH 989";2021-10-14 09:15:00;2021-10-14 09:27:00;"Departed";"EDDF";"Airbus A319";12
+"50";"Lufthansa";"LH 1003";2021-11-12 06:40:00;2021-11-12 06:40:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";0
+"51";"Lufthansa";"LH 989";2021-10-25 09:15:00;2021-10-25 09:38:00;"Departed";"EDDF";"Airbus A319";23
+"52";"Lufthansa";"LH 989";2021-10-17 09:15:00;2021-10-17 09:26:00;"Departed";"EDDF";"Airbus A320-100/200";11
+"53";"Lufthansa";"LH 2303";2021-10-17 09:15:00;2021-10-17 09:46:00;"Departed";"EDDM";"Airbus A320-100/200";31
+"54";"Lufthansa";"LH 2307";2021-10-20 15:35:00;2021-10-20 16:11:00;"Departed";"EDDM";"Canadair CRJ 900NG";36
+"55";"Lufthansa";"LH 993";2021-11-10 13:45:00;2021-11-10 13:46:00;"Departed";"EDDF";"Airbus A320-100/200";1
+"56";"Lufthansa";"LH 2305";2021-11-07 12:25:00;2021-11-07 12:32:00;"Departed";"EDDM";"Canadair CRJ 900NG";7
+"57";"Lufthansa";"LH 989";2022-01-01 09:55:00;2022-01-01 09:57:00;"Departed";"EDDF";"Airbus A319";2
+"58";"Lufthansa";"LH 2309";2022-01-09 17:50:00;2022-01-09 18:05:00;"Departed";"EDDM";"Embraer EMB 195";15
+"59";"Lufthansa";"LH 2305";2022-01-01 12:25:00;2022-01-01 12:31:00;"Departed";"EDDM";"Canadair CRJ 900NG";6
+"60";"Lufthansa";"LH 2303";2021-11-10 09:50:00;2021-11-10 10:06:00;"Departed";"EDDM";"Canadair CRJ 900NG";16
+"61";"Lufthansa";"LH 987";2021-11-10 09:55:00;2021-11-10 10:08:00;"Departed";"EDDF";"Embraer EMB 195";13
+"62";"Lufthansa";"LH 993";2021-11-12 13:45:00;2021-11-12 13:41:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";-4
+"63";"Lufthansa";"LH 1003";2021-10-13 06:05:00;2021-10-13 06:09:00;"Departed";"EDDF";"Airbus A319";4
+"64";"Lufthansa";"LH 2301";2021-10-13 06:50:00;2021-10-13 06:49:00;"Departed";"EDDM";"Canadair CRJ 900NG";-1
+"65";"Lufthansa";"LH 2301";2022-01-09 07:50:00;2022-01-09 07:51:00;"Departed";"EDDM";"Airbus A320-100/200";1
+"66";"Lufthansa";"LH 987";2021-11-02 09:55:00;2021-11-02 10:18:00;"Departed";"EDDF";"Embraer EMB 195";23
+"67";"Lufthansa";"LH 2303";2021-11-02 09:50:00;2021-11-02 09:51:00;"Departed";"EDDM";"Canadair CRJ 900NG";1
+"68";"Lufthansa";"LH 989";2021-10-16 09:15:00;2021-10-16 09:40:00;"Departed";"EDDF";"Airbus A320";25
+"69";"Lufthansa";"LH 997";2021-10-14 16:30:00;2021-10-14 16:38:00;"Departed";"EDDF";"Airbus A319";8
+"70";"Lufthansa";"LH 2307";2021-10-14 15:35:00;2021-10-14 15:45:00;"Departed";"EDDM";"Canadair CRJ 900";10
+"71";"Lufthansa";"LH 2303";2021-10-31 07:50:00;2021-10-31 07:43:00;"Departed";"EDDM";"Canadair CRJ 900NG";-7
+"72";"Lufthansa";"LH 989";2021-10-30 09:15:00;2021-10-30 09:39:00;"Departed";"EDDF";"Airbus A319";24
+"73";"Lufthansa";"LH 2305";2021-11-11 12:25:00;2021-11-11 12:44:00;"Departed";"EDDM";"Canadair CRJ 900NG";19
+"74";"Lufthansa";"LH 989";2021-11-06 09:55:00;2021-11-06 10:08:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";13
+"75";"Lufthansa";"LH 2307";2021-10-13 15:35:00;2021-10-13 15:38:00;"Departed";"EDDM";"Canadair CRJ 900NG";3
+"76";"Lufthansa";"LH 2309";2021-11-02 17:50:00;2021-11-02 17:51:00;"Departed";"EDDM";"Canadair CRJ 900NG";1
+"77";"Lufthansa";"LH 999";2021-11-02 18:35:00;2021-11-02 18:21:00;"Departed";"EDDF";"Canadair CRJ 900NG";-14
+"78";"Lufthansa";"LH 989";2022-01-02 09:55:00;2022-01-02 10:22:00;"Departed";"EDDF";"Airbus A320-100/200";27
+"79";"Lufthansa";"LH 2305";2021-11-05 12:25:00;2021-11-05 12:35:00;"Departed";"EDDM";"Airbus A320-100/200";10
+"80";"Lufthansa";"LH 993";2021-12-27 13:45:00;2021-12-27 14:00:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";15
+"81";"Lufthansa";"LH 989";2021-10-19 09:15:00;2021-10-19 09:39:00;"Departed";"EDDF";"Airbus A319";24
+"82";"Lufthansa";"LH 2307";2021-10-12 15:35:00;2021-10-12 15:42:00;"Departed";"EDDM";"Canadair CRJ 900NG";7
+"83";"Lufthansa";"LH 997";2021-10-12 16:30:00;2021-10-12 16:32:00;"Departed";"EDDF";"Airbus A319";2
+"84";"Lufthansa";"LH 2309";2022-01-10 17:50:00;2022-01-10 17:53:00;"Departed";"EDDM";"Canadair CRJ 900NG";3
+"85";"Lufthansa";"LH 993";2021-11-05 13:45:00;2021-11-05 13:51:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";6
+"86";"Lufthansa";"LH 993";2021-12-29 13:45:00;2021-12-29 13:48:00;"Departed";"EDDF";"Airbus A319";3
+"87";"Lufthansa";"LH 997";2021-11-06 17:35:00;2021-11-06 17:42:00;"Departed";"EDDF";"Airbus A319";7
+"88";"Lufthansa";"LH 2309";2021-11-06 17:50:00;2021-11-06 18:04:00;"Departed";"EDDM";"Canadair CRJ 900NG";14
+"89";"Lufthansa";"LH 2305";2021-10-14 13:40:00;2021-10-14 13:54:00;"Departed";"EDDM";"Canadair CRJ 900NG";14
+"90";"Lufthansa";"LH 997";2022-01-13 17:35:00;2022-01-13 17:36:00;"Departed";"EDDF";"Embraer EMB 190";1
+"91";"Lufthansa";"LH 2305";2021-10-28 13:40:00;2021-10-28 13:46:00;"Departed";"EDDM";"Canadair CRJ 900NG";6
+"92";"Lufthansa";"LH 989";2021-11-13 09:55:00;2021-11-13 10:11:00;"Departed";"EDDF";"Airbus A319";16
+"93";"Lufthansa";"LH 2311";2021-11-11 06:00:00;2021-11-11 06:12:00;"Departed";"EDDM";"Airbus A319";12
+"94";"Lufthansa";"LH 2305";2021-10-13 13:40:00;2021-10-13 13:47:00;"Departed";"EDDM";"Canadair CRJ 900NG";7
+"95";"Lufthansa";"LH 2307";2022-01-09 16:15:00;2022-01-09 16:26:00;"Departed";"EDDM";"Canadair CRJ 900NG";11
+"96";"Lufthansa";"LH 2309";2021-11-10 17:50:00;2021-11-10 17:49:00;"Departed";"EDDM";"Canadair CRJ 900NG";-1
+"97";"Lufthansa";"LH 993";2021-11-09 13:45:00;2021-11-09 13:46:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";1
+"98";"Lufthansa";"LH 989";2021-12-28 09:55:00;2021-12-28 10:06:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";11
+"99";"Lufthansa";"LH 2303";2021-12-28 09:50:00;2021-12-28 09:49:00;"Departed";"EDDM";"Airbus A319";-1
+"100";"Lufthansa";"LH 997";2021-12-29 17:35:00;2021-12-29 17:50:00;"Departed";"EDDF";"Embraer EMB 190";15
+"101";"Lufthansa";"LH 2309";2021-12-29 17:50:00;2021-12-29 17:51:00;"Departed";"EDDM";"Airbus A319";1
+"102";"Lufthansa";"LH 2305";2021-10-31 12:25:00;2021-10-31 12:33:00;"Departed";"EDDM";"Embraer EMB 195";8
+"103";"Lufthansa";"LH 987";2021-10-31 09:55:00;2021-10-31 10:01:00;"Departed";"EDDF";"Airbus A319";6
+"104";"Lufthansa";"LH 989";2022-01-10 09:55:00;2022-01-10 10:13:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";18
+"105";"Lufthansa";"LH 2303";2022-01-10 10:05:00;2022-01-10 10:15:00;"Departed";"EDDM";"Airbus A320";10
+"106";"Lufthansa";"LH 993";2021-11-13 13:45:00;2021-11-13 13:43:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";-2
+"107";"Lufthansa";"LH 989";2022-01-08 09:55:00;2022-01-08 10:22:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";27
+"108";"Lufthansa";"LH 997";2021-11-13 17:35:00;2021-11-13 17:28:00;"Departed";"EDDF";"Airbus A319";-7
+"109";"Lufthansa";"LH 997";2021-12-28 17:35:00;2021-12-28 17:14:00;"Departed";"EDDF";"Canadair CRJ 900NG";-21
+"110";"Lufthansa";"LH 989";2021-10-28 09:15:00;2021-10-28 09:31:00;"Departed";"EDDF";"Airbus A319";16
+"111";"Lufthansa";"LH 2305";2021-11-13 12:25:00;2021-11-13 12:20:00;"Departed";"EDDM";"Canadair CRJ 900NG";-5
+"112";"Lufthansa";"LH 2305";2021-12-29 12:25:00;2021-12-29 12:27:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"113";"Lufthansa";"LH 993";2021-11-07 13:45:00;2021-11-07 13:47:00;"Departed";"EDDF";"Canadair CRJ 900";2
+"114";"Lufthansa";"LH 1003";2021-12-28 06:40:00;2021-12-28 06:47:00;"Departed";"EDDF";"Airbus A320-100/200";7
+"115";"Lufthansa";"LH 2307";2021-10-19 15:35:00;2021-10-19 15:48:00;"Departed";"EDDM";"Canadair CRJ 900NG";13
+"116";"Lufthansa";"LH 987";2021-11-07 09:55:00;2021-11-07 09:59:00;"Departed";"EDDF";"Embraer EMB 190";4
+"117";"Lufthansa";"LH 2309";2021-12-30 17:50:00;2021-12-30 18:02:00;"Departed";"EDDM";"Canadair CRJ 900";12
+"118";"Lufthansa";"LH 997";2022-01-11 17:35:00;2022-01-11 17:32:00;"Departed";"EDDF";"Embraer EMB 190";-3
+"119";"Lufthansa";"LH 1003";2021-11-14 06:40:00;2021-11-14 06:45:00;"Departed";"EDDF";"Airbus A320-100/200";5
+"120";"Lufthansa";"LH 2305";2021-11-02 12:25:00;2021-11-02 12:24:00;"Departed";"EDDM";"Canadair CRJ 900NG";-1
+"121";"Lufthansa";"LH 993";2021-11-04 13:45:00;2021-11-04 14:05:00;"Departed";"EDDF";"Airbus A319";20
+"122";"Lufthansa";"LH 989";2021-10-11 09:15:00;2021-10-11 09:19:00;"Departed";"EDDF";"Airbus A319";4
+"123";"Lufthansa";"LH 989";2022-01-09 09:55:00;2022-01-09 10:05:00;"Departed";"EDDF";"Airbus A320";10
+"124";"Lufthansa";"LH 2303";2021-11-08 09:55:00;2021-11-08 10:05:00;"Departed";"EDDM";"Embraer EMB 195";10
+"125";"Lufthansa";"LH 987";2021-11-08 09:55:00;2021-11-08 10:16:00;"Departed";"EDDF";"Embraer EMB 195";21
+"126";"Lufthansa";"LH 2309";2022-01-11 17:50:00;2022-01-11 17:52:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"127";"Lufthansa";"LH 989";2022-01-11 09:55:00;2022-01-11 10:20:00;"Departed";"EDDF";"Airbus A320-100/200";25
+"128";"Lufthansa";"LH 2305";2021-12-30 12:25:00;2021-12-30 12:30:00;"Departed";"EDDM";"Canadair CRJ 900NG";5
+"129";"Lufthansa";"LH 999";2021-11-09 18:35:00;2021-11-09 18:37:00;"Departed";"EDDF";"Canadair CRJ 900NG";2
+"130";"Lufthansa";"LH 989";2021-10-13 09:15:00;2021-10-13 09:22:00;"Departed";"EDDF";"Airbus A319";7
+"131";"Lufthansa";"LH 997";2022-01-10 17:35:00;2022-01-10 17:31:00;"Departed";"EDDF";"Canadair CRJ 900NG";-4
+"132";"Lufthansa";"LH 2301";2022-01-02 07:50:00;2022-01-02 07:58:00;"Departed";"EDDM";"Airbus A319";8
+"133";"Lufthansa";"LH 1003";2021-10-17 06:05:00;2021-10-17 06:11:00;"Departed";"EDDF";"Airbus A319";6
+"134";"Lufthansa";"LH 2301";2021-10-17 06:50:00;2021-10-17 06:52:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"135";"Lufthansa";"LH 2305";2021-11-09 12:25:00;2021-11-09 12:23:00;"Departed";"EDDM";"Canadair CRJ 900NG";-2
+"136";"Lufthansa";"LH 2311";2021-12-30 06:00:00;2021-12-30 05:58:00;"Departed";"EDDM";"Airbus A319";-2
+"137";"Lufthansa";"LH 997";2021-10-26 16:30:00;2021-10-26 16:58:00;"Departed";"EDDF";"Airbus A319";28
+"138";"Lufthansa";"LH 2307";2021-10-26 15:35:00;2021-10-26 15:59:00;"Departed";"EDDM";"Canadair CRJ 900NG";24
+"139";"Lufthansa";"LH 2303";2021-11-03 09:50:00;2021-11-03 09:50:00;"Departed";"EDDM";"Canadair CRJ 900NG";0
+"140";"Lufthansa";"LH 987";2021-11-03 09:55:00;2021-11-03 10:36:00;"Departed";"EDDF";"Embraer EMB 195";41
+"141";"Lufthansa";"LH 2311";2022-01-10 06:10:00;2022-01-10 06:04:00;"Departed";"EDDM";"Airbus A320-100/200";-6
+"142";"Lufthansa";"LH 2303";2021-11-07 07:50:00;2021-11-07 07:53:00;"Departed";"EDDM";"Airbus A319";3
+"143";"Lufthansa";"LH 2307";2021-10-10 15:35:00;2021-10-10 15:37:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"144";"Lufthansa";"LH 997";2021-10-10 16:30:00;2021-10-10 16:30:00;"Departed";"EDDF";"Airbus A320-100/200";0
+"145";"Lufthansa";"LH 2305";2021-11-12 12:25:00;2021-11-12 12:36:00;"Departed";"EDDM";"Airbus A320";11
+"146";"Lufthansa";"LH 2305";2021-12-27 12:40:00;2021-12-27 13:09:00;"Departed";"EDDM";"Canadair CRJ 900NG";29
+"147";"Lufthansa";"LH 999";2021-11-07 18:35:00;2021-11-07 18:34:00;"Departed";"EDDF";"Canadair CRJ 900NG";-1
+"148";"Lufthansa";"LH 2309";2021-11-07 17:50:00;2021-11-07 17:51:00;"Departed";"EDDM";"Canadair CRJ 900NG";1
+"149";"Lufthansa";"LH 1003";2021-10-10 06:05:00;2021-10-10 06:07:00;"Departed";"EDDF";"Airbus A319";2
+"150";"Lufthansa";"LH 2301";2021-10-10 06:50:00;2021-10-10 06:47:00;"Departed";"EDDM";"Canadair CRJ 900NG";-3
+"151";"Lufthansa";"LH 2309";2022-01-12 17:50:00;2022-01-12 17:49:00;"Departed";"EDDM";"Canadair CRJ 900";-1
+"152";"Lufthansa";"LH 2307";2021-11-01 15:55:00;2021-11-01 16:06:00;"Departed";"EDDM";"Airbus A320-100/200";11
+"153";"Lufthansa";"LH 2309";2021-11-08 17:50:00;2021-11-08 17:48:00;"Departed";"EDDM";"Canadair CRJ 900NG";-2
+"154";"Lufthansa";"LH 1003";2021-11-05 06:40:00;2021-11-05 06:40:00;"Departed";"EDDF";"Airbus A320-100/200";0
+"155";"Lufthansa";"LH 2311";2021-11-05 06:00:00;2021-11-05 05:58:00;"Departed";"EDDM";"Airbus A320-100/200";-2
+"156";"Lufthansa";"LH 2305";2021-10-18 13:40:00;2021-10-18 13:52:00;"Departed";"EDDM";"Canadair CRJ 900";12
+"157";"Lufthansa";"LH 993";2021-11-01 13:45:00;2021-11-01 13:48:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";3
+"158";"Lufthansa";"LH 987";2021-11-01 09:55:00;2021-11-01 10:29:00;"Departed";"EDDF";"Embraer EMB 195";34
+"159";"Lufthansa";"LH 2303";2021-11-01 09:55:00;2021-11-01 10:11:00;"Departed";"EDDM";"Embraer 195";16
+"160";"Lufthansa";"LH 989";2021-10-29 09:15:00;2021-10-29 09:30:00;"Departed";"EDDF";"Airbus A320 NEO";15
+"161";"Lufthansa";"LH 2309";2021-11-05 17:50:00;2021-11-05 17:51:00;"Departed";"EDDM";"Canadair CRJ 900NG";1
+"162";"Lufthansa";"LH 999";2021-11-05 18:35:00;2021-11-05 18:29:00;"Departed";"EDDF";"Canadair CRJ 900NG";-6
+"163";"Lufthansa";"LH 2303";2021-12-29 09:50:00;2021-12-29 09:48:00;"Departed";"EDDM";"Airbus A320-100/200";-2
+"164";"Lufthansa";"LH 989";2021-12-29 09:55:00;2021-12-29 10:02:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";7
+"165";"Lufthansa";"LH 2305";2021-10-25 13:40:00;2021-10-25 13:56:00;"Departed";"EDDM";"Canadair CRJ 900NG";16
+"166";"Lufthansa";"LH 2311";2022-01-11 06:10:00;2022-01-11 06:09:00;"Departed";"EDDM";"Airbus A320-100/200";-1
+"167";"Lufthansa";"LH 2305";2021-10-20 13:40:00;2021-10-20 14:01:00;"Departed";"EDDM";"Airbus A319";21
+"168";"Lufthansa";"LH 2311";2021-12-28 06:00:00;2021-12-28 05:56:00;"Departed";"EDDM";"Airbus A320-100/200";-4
+"169";"Lufthansa";"LH 2305";2021-12-28 12:25:00;2021-12-28 12:28:00;"Departed";"EDDM";"Canadair CRJ 900NG";3
+"170";"Lufthansa";"LH 2307";2021-10-27 15:35:00;2021-10-27 15:48:00;"Departed";"EDDM";"Canadair CRJ 900NG";13
+"171";"Lufthansa";"LH 999";2021-11-10 18:35:00;2021-11-10 18:29:00;"Departed";"EDDF";"Canadair CRJ 900";-6
+"172";"Lufthansa";"LH 2309";2021-11-03 17:50:00;2021-11-03 17:52:00;"Departed";"EDDM";"Canadair CRJ 900NG";2
+"173";"Lufthansa";"LH 999";2021-11-03 18:35:00;2021-11-03 18:41:00;"Departed";"EDDF";"Canadair CRJ 900NG";6
+"174";"Lufthansa";"LH 989";2021-10-20 09:15:00;2021-10-20 09:20:00;"Departed";"EDDF";"Airbus A319";5
+"175";"Lufthansa";"LH 993";2021-10-31 13:45:00;2021-10-31 13:39:00;"Departed";"EDDF";"Airbus A319";-6
+"176";"Lufthansa";"LH 997";2021-12-30 17:35:00;2021-12-30 17:24:00;"Departed";"EDDF";"Airbus A319";-11
+"177";"Lufthansa";"LH 1003";2021-11-09 06:40:00;2021-11-09 06:54:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";14
+"178";"Lufthansa";"LH 2311";2021-11-09 06:00:00;2021-11-09 06:01:00;"Departed";"EDDM";"Airbus A320-100/200";1
+"179";"Lufthansa";"LH 989";2021-10-18 09:15:00;2021-10-18 09:52:00;"Departed";"EDDF";"Airbus A320 NEO";37
+"180";"Lufthansa";"LH 987";2021-11-09 09:55:00;2021-11-09 10:22:00;"Departed";"EDDF";"Canadair CRJ 900NG";27
+"181";"Lufthansa";"LH 987";2021-11-05 09:55:00;2021-11-05 10:01:00;"Departed";"EDDF";"Embraer EMB 195";6
+"182";"Lufthansa";"LH 2303";2021-11-05 09:50:00;2021-11-05 09:49:00;"Departed";"EDDM";"Embraer EMB 195";-1
+"183";"Lufthansa";"LH 2305";2021-10-26 13:40:00;2021-10-26 14:04:00;"Departed";"EDDM";"Airbus A319";24
+"184";"Lufthansa";"LH 993";2022-01-10 13:45:00;2022-01-10 13:42:00;"Departed";"EDDF";"Airbus A320-100/200";-3
+"185";"Lufthansa";"LH 2307";2021-10-15 15:35:00;2021-10-15 15:42:00;"Departed";"EDDM";"Canadair CRJ 900";7
+"186";"Lufthansa";"LH 997";2021-10-15 16:30:00;2021-10-15 16:35:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";5
+"187";"Lufthansa";"LH 989";2021-12-27 09:55:00;2021-12-27 10:18:00;"Departed";"EDDF";"Airbus A320-100/200";23
+"188";"Lufthansa";"LH 2303";2021-12-27 09:55:00;2021-12-27 09:54:00;"Departed";"EDDM";"Airbus A320";-1
+"189";"Lufthansa";"LH 989";2022-01-13 09:55:00;2022-01-13 10:17:00;"Departed";"EDDF";"Airbus A319";22
+"190";"Lufthansa";"LH 2303";2021-11-13 07:50:00;2021-11-13 07:51:00;"Departed";"EDDM";"Airbus A320-100/200";1
+"191";"Lufthansa";"LH 2307";2021-10-28 15:35:00;2021-10-28 15:56:00;"Departed";"EDDM";"Canadair CRJ 900NG";21
+"192";"Lufthansa";"LH 1003";2021-10-12 06:05:00;2021-10-12 06:06:00;"Departed";"EDDF";"Airbus A320-100/200";1
+"193";"Lufthansa";"LH 2301";2021-10-12 06:50:00;2021-10-12 06:54:00;"Departed";"EDDM";"Canadair CRJ 900NG";4
+"194";"Lufthansa";"LH 993";2021-11-03 13:45:00;2021-11-03 13:45:00;"Departed";"EDDF";"Airbus A319";0
+"195";"Lufthansa";"LH 1003";2022-01-10 06:40:00;2022-01-10 06:53:00;"Departed";"EDDF";"Airbus A319";13
+"196";"Lufthansa";"LH 989";2021-10-10 09:15:00;2021-10-10 09:25:00;"Departed";"EDDF";"Airbus A319";10
+"197";"Lufthansa";"LH 2303";2021-10-10 09:15:00;2021-10-10 09:34:00;"Departed";"EDDM";"Airbus A321-100/200";19
+"198";"Lufthansa";"LH 997";2022-01-08 17:35:00;2022-01-08 17:47:00;"Departed";"EDDF";"Airbus A319";12
+"199";"Lufthansa";"LH 2309";2022-01-08 17:50:00;2022-01-08 17:49:00;"Departed";"EDDM";"Airbus A319";-1
+"200";"Lufthansa";"LH 1003";2021-11-08 06:40:00;2021-11-08 06:45:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";5
+"201";"Lufthansa";"LH 2311";2021-11-08 06:00:00;2021-11-08 06:06:00;"Departed";"EDDM";"Airbus A320-100/200";6
+"202";"Lufthansa";"LH 1003";2021-11-03 06:40:00;2021-11-03 06:51:00;"Departed";"EDDF";"Airbus A320-100/200";11
+"203";"Lufthansa";"LH 2311";2021-11-03 06:00:00;2021-11-03 06:15:00;"Departed";"EDDM";"Airbus A320-100/200";15
+"204";"Lufthansa";"LH 989";2021-12-31 09:55:00;2021-12-31 09:55:00;"Departed";"EDDF";"Airbus A319";0
+"205";"Lufthansa";"LH 2303";2021-12-31 09:50:00;2021-12-31 09:52:00;"Departed";"EDDM";"Airbus A319";2
+"206";"Lufthansa";"LH 2305";2021-11-03 12:25:00;2021-11-03 12:38:00;"Departed";"EDDM";"Canadair CRJ 900NG";13
+"207";"Lufthansa";"LH 987";2021-11-12 09:55:00;2021-11-12 10:14:00;"Departed";"EDDF";"Embraer EMB 190";19
+"208";"Lufthansa";"LH 2303";2021-11-12 10:05:00;2021-11-12 10:18:00;"Departed";"EDDM";"Embraer EMB 195";13
+"209";"Lufthansa";"LH 999";2021-11-12 18:35:00;2021-11-12 18:30:00;"Departed";"EDDF";"Canadair CRJ 900";-5
+"210";"Lufthansa";"LH 2309";2021-11-12 17:50:00;2021-11-12 18:12:00;"Departed";"EDDM";"Canadair CRJ 900NG";22
+"211";"Lufthansa";"LH 2307";2021-10-11 15:35:00;2021-10-11 15:43:00;"Departed";"EDDM";"Canadair CRJ 900NG";8
+"212";"Lufthansa";"LH 2305";2022-01-13 12:25:00;2022-01-13 12:22:00;"Departed";"EDDM";"Canadair CRJ 900NG";-3
+"213";"Lufthansa";"LH 2305";2021-10-12 13:40:00;2021-10-12 13:42:00;"Departed";"EDDM";"Airbus A319";2
+"214";"Lufthansa";"LH 2307";2021-10-09 15:35:00;2021-10-09 15:44:00;"Departed";"EDDM";"Canadair CRJ 900NG";9
+"215";"Lufthansa";"LH 993";2021-11-06 13:45:00;2021-11-06 13:42:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";-3
+"216";"Lufthansa";"LH 2305";2021-11-10 12:25:00;2021-11-10 12:17:00;"Departed";"EDDM";"Canadair CRJ 900NG";-8
+"217";"Lufthansa";"LH 993";2021-11-11 13:45:00;2021-11-11 13:41:00;"Departed";"EDDF";"Airbus A319";-4
+"218";"Lufthansa";"LH 997";2022-01-01 17:35:00;2022-01-01 17:33:00;"Departed";"EDDF";"Airbus A319";-2
+"219";"Lufthansa";"LH 2309";2022-01-13 17:50:00;2022-01-13 17:45:00;"Departed";"EDDM";"Canadair CRJ 900NG";-5
+"220";"Lufthansa";"LH 2303";2021-11-09 09:50:00;2021-11-09 09:49:00;"Departed";"EDDM";"Embraer EMB 195";-1
+"221";"Lufthansa";"LH 997";2022-01-12 17:35:00;2022-01-12 17:33:00;"Departed";"EDDF";"Canadair CRJ 900NG";-2
+"222";"Lufthansa";"LH 2309";2021-11-13 17:50:00;2021-11-13 18:01:00;"Departed";"EDDM";"Canadair CRJ 900";11
+"223";"Lufthansa";"LH 2309";2021-11-09 17:50:00;2021-11-09 17:56:00;"Departed";"EDDM";"Canadair CRJ 900NG";6
+"224";"Lufthansa";"LH 2305";2021-10-19 13:40:00;2021-10-19 13:43:00;"Departed";"EDDM";"Airbus A320-100/200";3
+"225";"Lufthansa";"LH 2305";2021-11-04 12:25:00;2021-11-04 12:16:00;"Departed";"EDDM";"Canadair CRJ 900NG";-9
+"226";"Lufthansa";"LH 2311";2022-01-13 06:00:00;2022-01-13 06:05:00;"Departed";"EDDM";"Canadair CRJ 900NG";5
+"227";"Lufthansa";"LH 1003";2021-10-31 06:40:00;2021-10-31 06:39:00;"Departed";"EDDF";"Airbus A320-200 (Sharklets)";-1
+"228";"Lufthansa";"LH 2301";2022-01-10 12:25:00;2022-01-10 12:35:00;"Departed";"EDDM";"Canadair CRJ 900NG";10
+"229";"Lufthansa";"LH 999";2021-11-08 18:35:00;2021-11-08 18:19:00;"Departed";"EDDF";"Canadair CRJ 900NG";-16
+"230";"Lufthansa";"LH 1003";2021-11-07 06:40:00;2021-11-07 06:44:00;"Departed";"EDDF";"Airbus A320-100/200";4
+"231";"Lufthansa";"LH 997";2021-10-25 16:30:00;2021-10-25 16:57:00;"Departed";"EDDF";"Airbus A319";27
+"232";"Lufthansa";"LH 2307";2021-10-25 15:35:00;2021-10-25 15:35:00;"Departed";"EDDM";"Canadair CRJ 900NG";0
+"233";"Lufthansa";"LH 2307";2021-10-29 15:35:00;2021-10-29 15:48:00;"Departed";"EDDM";"Canadair CRJ 900NG";13
+"234";"Lufthansa";"LH 997";2021-10-29 16:30:00;2021-10-29 16:30:00;"Departed";"EDDF";"Airbus A319";0
+"235";"Lufthansa";"LH 2309";2021-11-04 17:50:00;2021-11-04 17:41:00;"Departed";"EDDM";"Canadair CRJ 900NG";-9
+"236";"Lufthansa";"LH 999";2021-11-04 18:35:00;2021-11-04 18:34:00;"Departed";"EDDF";"Canadair CRJ 900NG";-1
+"237";"Lufthansa";"LH 997";2021-12-27 17:35:00;2021-12-27 17:33:00;"Departed";"EDDF";"Embraer EMB 190";-2
