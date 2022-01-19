@@ -3,21 +3,23 @@
 
 # install.packages("dplyr")
 # install.packages("geosphere")
+# install.packages("plotrix")
 
 
 ############# SETUP ###############
 # Libraries
 library(dplyr)
 library(geosphere)
+library(plotrix)
 
 # Path
 setwd("/Users/tobiasleitner/Desktop/IT-Projekt/Aerodatabox_API/AerodataboxDataExtraction")
 rm(list = ls())
 
 # Variables
-input <- "aerodata_flughafen_frankfurt.csv"
+input <- "aerodata_flughafen_amsterdam.csv"
 limit <- 20
-airport <- "EDDF"
+airport <- "EHAM"
 ###################################
 
 # read data
@@ -29,11 +31,13 @@ airport_raw_input$scheduledTime <- as.POSIXct(as.numeric(as.character(airport_ra
 airport_raw_input$actualTime <- as.POSIXct(as.numeric(as.character(airport_raw_input$actualTime)), origin="1970-01-01", tz="UTC")
 
 # difference between scheduled and real departure
-difftime_diff <- difftime(airport_raw_input$scheduledTime, airport_raw_input$actualTime)
+difftime_diff <- abs(difftime(airport_raw_input$scheduledTime, airport_raw_input$actualTime))
 airport_raw_input$diff <- as.numeric(difftime_diff, units = "mins")
 
 # code sharing duplicate handling
 airport_raw_input <- airport_raw_input %>% distinct(scheduledTime, actualTime, arrivalAirport, aircraft, diff, .keep_all = TRUE)
+
+mean(airport_raw_input$diff)
 
 # Group by by number, arrivalAirport and count flights
 airport_group <- group_by(airport_raw_input, number, arrivalAirport)
@@ -100,7 +104,7 @@ mean <- flights[["mean"]]
 distance <- flights[["relevant_distances"]]
 
 relation <- lm(mean~distance)
-plot(distance, mean)
+plot(distance, mean, main = "Regression")
 abline(relation, col = "red")
 
 cor.test(distance, mean)
@@ -125,12 +129,32 @@ cor.test(distance, median)
 kurz <- filter(flights, relevant_distances < 1500)
 lang <- filter(flights, relevant_distances > 1500)
 
+m <- median(flights$mean)
+
 kurz_late <- filter(kurz, mean > m)
 kurz_ok <- filter(kurz, mean< m)
 
-lang_late <- filter(lang, mean > 2)
-lang_ok <- filter(lang, mean < 2)
+lang_late <- filter(lang, mean > m)
+lang_ok <- filter(lang, mean < m)
 
+anteil_kurz_late <- count(kurz_late)/count(kurz)
+anteil_lang_late <- count(lang_late)/count(lang)
+anteil_kurz_ok <- count(kurz_ok)/count(kurz)
+anteil_lang_ok <- count(lang_ok)/count(lang)
+
+a <- anteil_kurz_late[1,1]
+b <- anteil_kurz_ok[1,1]
+c <- anteil_lang_late[1,1]
+d <- anteil_lang_ok[1,1]
+
+
+slices <- c(a,b)
+lbls <- c("Verspätet", "Pünktlich")
+pie(slices, labels = lbls, main="Kurzstreckenflüge")
+
+slices <- c(c,d)
+lbls <- c("Verspätet", "Pünktlich")
+pie(slices, labels = lbls, main="Langstreckenflüge")
 
 # nach median sortieren
 

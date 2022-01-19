@@ -4,19 +4,24 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.width=12, fig.height=8) 
 library(dplyr)
 library(geosphere)
+library(plotrix)
 
-setwd("/Users/tobiasleitner/Desktop/IT-Projekt/Aerodatabox_API/AerodataboxDataExtraction")
+setwd("../Aerodatabox_API/AerodataboxDataExtraction")
 rm(list = ls())
 
 limit <- 20 #only flights where more than 20 observations are available
-airport <- "EDDF"
+airport <- "EHAM"
 
 if(airport == "EDDF"){
   input <- "aerodata_flughafen_frankfurt.csv"
+} else if (airport == "LOWW"){
+  input <- "aerodata_flughafen_wien.csv"
+} else if (airport == "EHAM"){
+  input <- "aerodata_flughafen_amsterdam.csv"
 }
-# TODO: else if, else
 
 airport_raw_input <- read.csv2(input)
 airports <- read.csv("https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat", header = F)
@@ -27,7 +32,7 @@ airport_raw_input$scheduledTime <- as.POSIXct(as.numeric(as.character(airport_ra
 airport_raw_input$actualTime <- as.POSIXct(as.numeric(as.character(airport_raw_input$actualTime)), origin="1970-01-01", tz="UTC")
 
 # difference between scheduled and real departure
-difftime_diff <- difftime(airport_raw_input$scheduledTime, airport_raw_input$actualTime)
+difftime_diff <- abs(difftime(airport_raw_input$scheduledTime, airport_raw_input$actualTime))
 airport_raw_input$diff <- as.numeric(difftime_diff, units = "mins")
 
 # code sharing duplicate handling
@@ -78,7 +83,7 @@ head(flights)
 ```
 ## Verteilung der arith. Mittel über alle Linienflüge
 
-Um einen Gesamtüberblick über alle Flüge zu erhalten, werden im folgenden die arith. Mittel der Verspätung von allen Linienflügen dargestellt.
+Um einen Gesamtüberblick über alle Flüge zu erhalten, werden im Folgenden die arith. Mittel der Verspätung von allen Linienflügen dargestellt.
 
 ```{r boxplot, echo=TRUE}
 boxplot(flights$mean)
@@ -128,7 +133,8 @@ abline(relation, col = "red")
 
 ## Gruppierung der Linienflüge (1500 km)
 
-Weiters werden die Linienflüge aufgeteilt auf zwei Gruppen (über und unter 1500 km Distanz). Desweiteren wird definiert, dass ein Flug als versptätet gilt, wenn er mehr als `r m` Minuten (Median, der durchschnittlichen Verspätung) verspätet ist.
+Weiters werden die Linienflüge aufgeteilt auf zwei Gruppen (über und unter 1500 km Distanz). Desweiteren wird definiert, dass ein Flug als verspätet gilt, wenn er mehr als `r m` Minuten (Median, der durchschnittlichen Verspätung) verspätet ist.
+
 ```{r grouping, echo=FALSE}
 kurz <- filter(flights, relevant_distances < 1500)
 lang <- filter(flights, relevant_distances > 1500)
@@ -141,8 +147,24 @@ lang_ok <- filter(lang, mean < m)
 
 anteil_kurz_late <- count(kurz_late)/count(kurz)
 anteil_lang_late <- count(lang_late)/count(lang)
+anteil_kurz_ok <- count(kurz_ok)/count(kurz)
+anteil_lang_ok <- count(lang_ok)/count(lang)
+
+a <- anteil_kurz_late[1,1]
+b <- anteil_kurz_ok[1,1]
+c <- anteil_lang_late[1,1]
+d <- anteil_lang_ok[1,1]
+
+
+slices <- c(a,b)
+lbls <- c("Verspätet", "Pünktlich")
+pie3D(slices, labels = lbls, main="Kurzstreckenflüge - Verspätet / Pünktlich", explode = 0.1)
+
+slices <- c(c,d)
+lbls <- c("Verspätet", "Pünktlich")
+pie3D(slices, labels = lbls, main="Langstreckenflüge - Verspätet / Pünktlich", explode = 0.1)
 ```
-Insgesamt sind auf Basis dieser Annahmen `r round(anteil_kurz_late*100, 2)` Prozent der Kurztreckenflüge verspätet. Von den Langstreckenflügen sind es `r round(anteil_lang_late*100, 2)` Prozent.
+Insgesamt sind auf Basis dieser Annahmen `r round(anteil_kurz_late*100, 2)` Prozent der Kurzstreckenflüge verspätet. Von den Langstreckenflügen sind es `r round(anteil_lang_late*100, 2)` Prozent.
 
 ## Bewertung der Relevanz eines Flugs
 
